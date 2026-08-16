@@ -1,0 +1,26 @@
+{
+  "name": "su2qc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "test": "node --test tests/*.test.mjs",
+    "verify": "npm test && npm run build",
+    "check:layout": "node scripts/check-stacked-headings.mjs"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.6.1",
+    "@supabase/supabase-js": "^2.112.3",
+    "lucide-react": "^0.468.0",
+    "next": "^16.3.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.22.0",
+    "eslint-config-next": "^16.3.0"
+  }
+}

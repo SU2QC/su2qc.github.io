@@ -1,0 +1,6 @@
+"use client";
+import Link from "next/link";
+import Image from "next/image";
+import { usePathname } from "next/navigation";
+const links = [["/research","Research"],["/people","People"],["/library","Library"]];
+export function SiteHeader(){ const path=usePathname()?.replace(/\/$/,"") || "/"; const link=(href,label)=><Link className={path===href?"current":""} aria-current={path===href?"page":undefined} key={href} href={href}>{label}</Link>; return <header className="site-header"><div className="shell nav"><Link className="brand" href="/" aria-label="SU2QC home"><Image className="brand-logo" src="/images/su2qc-logo.png" alt="SU2QC" width={2172} height={724} sizes="(max-width: 560px) 148px, 180px" priority /></Link><nav className="desktop-nav" aria-label="Primary">{links.map(([href,label])=>link(href,label))}<Link className={path === "/upload" ? "nav-upload current" : "nav-upload"} aria-current={path === "/upload" ? "page" : undefined} href="/upload">Member upload</Link></nav><details className="mobile-menu"><summary>Menu</summary><nav className="mobile-links" aria-label="Mobile">{link("/","Home")}{links.map(([href,label])=>link(href,label))}{link("/upload","Member upload")}</nav></details></div></header> }
