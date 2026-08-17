@@ -2,10 +2,10 @@
   "schema": "su2qc-backup-manifest-v1",
   "generated_at_utc": "2026-08-17T19:30:18Z",
   "organization_source_repository": "SU2QC/su2qc.github.io",
-  "organization_source_commit": "PENDING_SOURCE_COMMIT",
-  "organization_gh_pages_commit": "7bb768760ac5b8a76e22c3ffd8574996a7969a33",
+  "organization_source_commit": "7433354612c28b33d562f03e9a08ab5ddd77a362",
+  "organization_gh_pages_commit": "f8c65670bf6c75e6447903ff3307905334884ef7",
   "personal_backup_repository": "digonto10602/su2qc-website-backup",
-  "personal_backup_commit": "PENDING_BACKUP_COMMIT",
+  "personal_backup_commit": "689db25d11bec79a6dc499cffa210b4103540216",
   "included": {
     "application_source": "app/, components/, data/, lib/, public/",
     "tests_and_scripts": "tests/, scripts/",
@@ -14,7 +14,9 @@
     "graph": "docs/codebase-graph/",
     "obsidian_vault": "docs/obsidian-vault/",
     "tracked_file_count_before_finalization": 298,
-    "tracked_bytes_before_finalization": 2693601
+    "tracked_bytes_before_finalization": 2693601,
+    "backup_tracked_file_count": 402,
+    "backup_tracked_bytes": 2855772
   },
   "excluded": {
     "secrets": ".env*, credentials, tokens, cookies, keys, signed URLs",
@@ -37,11 +39,11 @@
     "manifest": "docs/BACKUP_MANIFEST_v1.8.2.json"
   },
   "verification": {
-    "secret_scan": "PENDING_FINAL_SNAPSHOT",
-    "important_paths": "PENDING_BACKUP_RESTORE_CHECK",
-    "restore_check": "PENDING_BACKUP_RESTORE_CHECK",
-    "organization_push": "PENDING_SOURCE_COMMIT",
-    "pages_deployment": "PENDING_DEPLOYMENT",
-    "safe_to_restore": false
+    "secret_scan": "PASS; no credential or private-artifact values found",
+    "important_paths": "PASS; fresh clone contained all required paths",
+    "restore_check": "PASS; manifest parsed and no LFS files were present",
+    "organization_push": "PASS; source/artifact commit 7433354 pushed to origin/main",
+    "pages_deployment": "PASS; Pages build 1157613457 built commit f8c6567",
+    "safe_to_restore": true
   }
 }

@@ -11,8 +11,9 @@ This is a standalone handoff for the SU2QC academic collaboration website. It is
 - Supabase project URL: `https://zvhachktcgnkxwtdxucj.supabase.co`.
 - Supabase project ref: `zvhachktcgnkxwtdxucj`.
 - Content/source commit used to generate the final graph: `44845fd7b50baf7f794edcb89ba908c4dd0ae8dd`.
+- Organization source/artifact commit: `7433354612c28b33d562f03e9a08ab5ddd77a362`.
 - Current organization `gh-pages`: `7bb768760ac5b8a76e22c3ffd8574996a7969a33`.
-- Personal-backup commit is recorded during finalization of this gate.
+- Personal-backup content commit: `689db25d11bec79a6dc499cffa210b4103540216`.
 
 ## Repository structure
 
@@ -123,7 +124,7 @@ Graphify is static extraction plus local semantic model output. It cannot prove 
 
 The established deployment is local `npm run build`, source push to organization `main`, then publication of only `out/` and `.nojekyll` to organization `gh-pages`. Verify the Pages deployment run in GitHub, then check public HTTP 200, asset hashes, route rendering, console errors, unhandled rejections, and LFS-pointer absence. The current Pages output is approximately 3.1 MiB and has no file near GitHub limits.
 
-The personal backup is a curated private repository owned by `digonto10602`, not a Pages source. It includes secret-free source, tests, migrations, Edge Functions, public assets, graph, vault, and documentation; it excludes dependencies, builds, caches, private uploads, database dumps, credentials, profiles, and temporary evidence. Git LFS is not needed because no necessary file is near 50 MiB. Restore by cloning its `main` into `.codex-tmp/backup-restore-check/`, checking the manifest and important paths, then removing only that exact disposable clone.
+The personal backup is a curated private repository owned by `digonto10602`, not a Pages source. It includes secret-free source, tests, migrations, Edge Functions, public assets, graph, vault, and documentation; it excludes dependencies, builds, caches, private uploads, database dumps, credentials, profiles, and temporary evidence. Git LFS is not needed because no necessary file is near 50 MiB. Restore by cloning its `main` into `.codex-tmp/backup-restore-check/`, checking the manifest and important paths, then removing only that exact disposable clone. The initial content commit is `689db25d11bec79a6dc499cffa210b4103540216`; a post-report synchronization is performed separately.
 
 ## Current verification inventory
 

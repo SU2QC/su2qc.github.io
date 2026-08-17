@@ -91,14 +91,14 @@ All source files exist, mappings are unique, formats are supported, names/titles
 
 ## Organization source, Pages, and personal backup
 
-These fields are intentionally pending until the final deterministic sequence completes:
+Verified finalization values before the report-only commit:
 
-- Organization source content commit: pending.
-- Organization final report-only commit: pending.
-- Organization `main` remote match: pending.
-- Organization `gh-pages` commit/deployment run: pending; local export differs from remote and is eligible for publication.
-- Personal backup repository/commit/push: pending; repository creation is permitted only under `digonto10602` and must remain private.
-- Fresh backup clone/restore check: pending.
+- Organization content/artifact commit: `7433354612c28b33d562f03e9a08ab5ddd77a362`, pushed to and matched by `origin/main` before this report-only update.
+- Organization `gh-pages`: `f8c65670bf6c75e6447903ff3307905334884ef7`, pushed to the approved remote.
+- GitHub Pages build: `1157613457`, status `built`, source `gh-pages:/`, commit `f8c6567`.
+- Personal backup: private `digonto10602/su2qc-website-backup`, content commit `689db25d11bec79a6dc499cffa210b4103540216`, pushed to `main`.
+- Fresh backup clone/restore check: PASS; required paths present, manifest readable, no LFS files.
+- Final report-only commit is the remote `main` commit created by this documentation update; its exact hash is reported in the final handoff to avoid self-referential hash rewriting.
 
 ## Cleanup and shutdown readiness
 
