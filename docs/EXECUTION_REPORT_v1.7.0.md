@@ -131,7 +131,7 @@ The member password was consumed only from `SU2QC_MEMBER_PASSWORD` in the inheri
 ## Deployment identifiers
 
 - Baseline main: `4a703bd6b6f76fd12a35e12b55a872dcc43b4bfc`.
-- Implementation main: `017f80f` (`Polish v1.7.0 production security gate`).
+- Implementation main: `017f80fdbd6b2c3b6565dfa4252d1270b66acca8` (`Polish v1.7.0 production security gate`).
 - Baseline gh-pages: `d36c2a0863d4eccd426fa96463d1c5460c14372b`.
 - Final gh-pages: `b173a8fa1638512b7888ee60b1eda7ea840d7d05` (`Publish v1.7.0 favicon and upload fix`).
 - Baseline Pages run: `31990210789`, success.
