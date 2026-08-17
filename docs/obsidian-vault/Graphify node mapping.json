@@ -1,12 +1,26 @@
 {
   "graphify_version": "0.9.45",
-  "source_commit": "7af95d6140552c38f19a61714e95298cc081689b",
+  "source_commit": "776681b80d961b73d4a8071ecf7429fed52bc793",
   "mapping": [
     {
       "graphify_node_id": "base-out::lib_supabase_config_supabaseconfigurationerror",
       "source_object": "SupabaseConfigurationError",
       "source_file": "lib/supabase/config.js",
       "obsidian_note": "base-out_lib_supabase_config_supabaseconfigurationerror.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::supabase_functions_material_download_index_adminclient",
+      "source_object": "adminClient()",
+      "source_file": "supabase/functions/material-download/index.js",
+      "obsidian_note": "base-out_supabase_functions_material_download_index_adminclient.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::supabase_functions_material_download_index_publicclient",
+      "source_object": "publicClient()",
+      "source_file": "supabase/functions/material-download/index.js",
+      "obsidian_note": "base-out_supabase_functions_material_download_index_publicclient.md",
       "heading": null
     },
     {
@@ -143,6 +157,195 @@
       "heading": null
     },
     {
+      "graphify_node_id": "base-out::scripts_docs_graph_build",
+      "source_object": "build()",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_build.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::scripts_docs_graph_createsemanticretry",
+      "source_object": "createSemanticRetry()",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_createsemanticretry.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::scripts_docs_graph_generatevault",
+      "source_object": "generateVault()",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_generatevault.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::scripts_docs_graph_graphsources",
+      "source_object": "graphSources()",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_graphsources.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::scripts_docs_graph_includedfiles",
+      "source_object": "includedFiles()",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_includedfiles.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::scripts_docs_graph_normalizeandfilter",
+      "source_object": "normalizeAndFilter()",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_normalizeandfilter.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::scripts_docs_graph_readjson",
+      "source_object": "readJson()",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_readjson.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::scripts_docs_graph_run",
+      "source_object": "run()",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_run.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::scripts_docs_graph_safename",
+      "source_object": "safeName()",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_safename.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::scripts_docs_graph_semanticfiles",
+      "source_object": "semanticFiles()",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_semanticfiles.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::scripts_docs_graph_stagehead",
+      "source_object": "stageHead()",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_stagehead.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::scripts_docs_graph_trackedfiles",
+      "source_object": "trackedFiles()",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_trackedfiles.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::scripts_docs_graph_validate",
+      "source_object": "validate()",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_validate.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::scripts_docs_graph_wiki",
+      "source_object": "wiki()",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_wiki.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::scripts_docs_graph_writegraphreport",
+      "source_object": "writeGraphReport()",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_writegraphreport.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::scripts_docs_graph_writejson",
+      "source_object": "writeJson()",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_writejson.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::scripts_docs_graph_writemanifests",
+      "source_object": "writeManifests()",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_writemanifests.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::lib_bibtex_clean",
+      "source_object": "clean()",
+      "source_file": "lib/bibtex.mjs",
+      "obsidian_note": "base-out_lib_bibtex_clean.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::lib_bibtex_formatcitation",
+      "source_object": "formatCitation()",
+      "source_file": "lib/bibtex.mjs",
+      "obsidian_note": "base-out_lib_bibtex_formatcitation.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::lib_bibtex_parsebibtex",
+      "source_object": "parseBibTeX()",
+      "source_file": "lib/bibtex.mjs",
+      "obsidian_note": "base-out_lib_bibtex_parsebibtex.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::lib_bibtex_readvalue",
+      "source_object": "readValue()",
+      "source_file": "lib/bibtex.mjs",
+      "obsidian_note": "base-out_lib_bibtex_readvalue.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::scripts_check_stacked_headings_availableport",
+      "source_object": "availablePort()",
+      "source_file": "scripts/check-stacked-headings.mjs",
+      "obsidian_note": "base-out_scripts_check_stacked_headings_availableport.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::scripts_check_stacked_headings_waitfor",
+      "source_object": "waitFor()",
+      "source_file": "scripts/check-stacked-headings.mjs",
+      "obsidian_note": "base-out_scripts_check_stacked_headings_waitfor.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::supabase_functions_materials_upload_index_adminclient",
+      "source_object": "adminClient()",
+      "source_file": "supabase/functions/materials-upload/index.js",
+      "obsidian_note": "base-out_supabase_functions_materials_upload_index_adminclient.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::supabase_functions_materials_upload_index_userclient",
+      "source_object": "userClient()",
+      "source_file": "supabase/functions/materials-upload/index.js",
+      "obsidian_note": "base-out_supabase_functions_materials_upload_index_userclient.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::lib_rate_limit_allowrequest",
+      "source_object": "allowRequest()",
+      "source_file": "lib/rate-limit.mjs",
+      "obsidian_note": "base-out_lib_rate_limit_allowrequest.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::tests_repository_test_text",
+      "source_object": "text()",
+      "source_file": "tests/repository.test.mjs",
+      "obsidian_note": "base-out_tests_repository_test_text.md",
+      "heading": null
+    },
+    {
       "graphify_node_id": "base-out::app_upload_page_uploadpage",
       "source_object": "UploadPage()",
       "source_file": "app/upload/page.js",
@@ -231,83 +434,6 @@
       "source_object": "messageForUploadResponse()",
       "source_file": "lib/upload-status.mjs",
       "obsidian_note": "base-out_lib_upload_status_messageforuploadresponse.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::lib_bibtex_clean",
-      "source_object": "clean()",
-      "source_file": "lib/bibtex.mjs",
-      "obsidian_note": "base-out_lib_bibtex_clean.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::lib_bibtex_formatcitation",
-      "source_object": "formatCitation()",
-      "source_file": "lib/bibtex.mjs",
-      "obsidian_note": "base-out_lib_bibtex_formatcitation.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::lib_bibtex_parsebibtex",
-      "source_object": "parseBibTeX()",
-      "source_file": "lib/bibtex.mjs",
-      "obsidian_note": "base-out_lib_bibtex_parsebibtex.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::lib_bibtex_readvalue",
-      "source_object": "readValue()",
-      "source_file": "lib/bibtex.mjs",
-      "obsidian_note": "base-out_lib_bibtex_readvalue.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::supabase_functions_material_download_index_adminclient",
-      "source_object": "adminClient()",
-      "source_file": "supabase/functions/material-download/index.js",
-      "obsidian_note": "base-out_supabase_functions_material_download_index_adminclient.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::supabase_functions_material_download_index_publicclient",
-      "source_object": "publicClient()",
-      "source_file": "supabase/functions/material-download/index.js",
-      "obsidian_note": "base-out_supabase_functions_material_download_index_publicclient.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::supabase_functions_materials_upload_index_adminclient",
-      "source_object": "adminClient()",
-      "source_file": "supabase/functions/materials-upload/index.js",
-      "obsidian_note": "base-out_supabase_functions_materials_upload_index_adminclient.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::supabase_functions_materials_upload_index_userclient",
-      "source_object": "userClient()",
-      "source_file": "supabase/functions/materials-upload/index.js",
-      "obsidian_note": "base-out_supabase_functions_materials_upload_index_userclient.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::scripts_check_stacked_headings_waitfor",
-      "source_object": "waitFor()",
-      "source_file": "scripts/check-stacked-headings.mjs",
-      "obsidian_note": "base-out_scripts_check_stacked_headings_waitfor.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::lib_rate_limit_allowrequest",
-      "source_object": "allowRequest()",
-      "source_file": "lib/rate-limit.mjs",
-      "obsidian_note": "base-out_lib_rate_limit_allowrequest.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::tests_repository_test_text",
-      "source_object": "text()",
-      "source_file": "tests/repository.test.mjs",
-      "obsidian_note": "base-out_tests_repository_test_text.md",
       "heading": null
     },
     {
@@ -416,6 +542,34 @@
       "heading": null
     },
     {
+      "graphify_node_id": "base-out::supabase_functions_material_download_index",
+      "source_object": "material-download/index.js",
+      "source_file": "supabase/functions/material-download/index.js",
+      "obsidian_note": "base-out_supabase_functions_material_download_index.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::supabase_functions_material_download_index_anonkey",
+      "source_object": "anonKey",
+      "source_file": "supabase/functions/material-download/index.js",
+      "obsidian_note": "base-out_supabase_functions_material_download_index_anonkey.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::supabase_functions_material_download_index_servicekey",
+      "source_object": "serviceKey",
+      "source_file": "supabase/functions/material-download/index.js",
+      "obsidian_note": "base-out_supabase_functions_material_download_index_servicekey.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::supabase_functions_material_download_index_url",
+      "source_object": "url",
+      "source_file": "supabase/functions/material-download/index.js",
+      "obsidian_note": "base-out_supabase_functions_material_download_index_url.md",
+      "heading": null
+    },
+    {
       "graphify_node_id": "base-out::supabase_functions_shared_bibtex",
       "source_object": "bibtex.js",
       "source_file": "supabase/functions/_shared/bibtex.js",
@@ -507,66 +661,59 @@
       "heading": null
     },
     {
-      "graphify_node_id": "base-out::app_upload_page",
-      "source_object": "upload/page.js",
-      "source_file": "app/upload/page.js",
-      "obsidian_note": "base-out_app_upload_page.md",
+      "graphify_node_id": "base-out::scripts_docs_graph",
+      "source_object": "docs-graph.mjs",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph.md",
       "heading": null
     },
     {
-      "graphify_node_id": "base-out::components_library_list",
-      "source_object": "library-list.js",
-      "source_file": "components/library-list.js",
-      "obsidian_note": "base-out_components_library_list.md",
+      "graphify_node_id": "base-out::scripts_docs_graph_exclusions",
+      "source_object": "exclusions",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_exclusions.md",
       "heading": null
     },
     {
-      "graphify_node_id": "base-out::components_upload_form",
-      "source_object": "upload-form.js",
-      "source_file": "components/upload-form.js",
-      "obsidian_note": "base-out_components_upload_form.md",
+      "graphify_node_id": "base-out::scripts_docs_graph_graphdir",
+      "source_object": "graphDir",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_graphdir.md",
       "heading": null
     },
     {
-      "graphify_node_id": "base-out::lib_supabase_auth",
-      "source_object": "auth.js",
-      "source_file": "lib/supabase/auth.js",
-      "obsidian_note": "base-out_lib_supabase_auth.md",
+      "graphify_node_id": "base-out::scripts_docs_graph_graphpath",
+      "source_object": "graphPath",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_graphpath.md",
       "heading": null
     },
     {
-      "graphify_node_id": "base-out::lib_supabase_client",
-      "source_object": "client.js",
-      "source_file": "lib/supabase/client.js",
-      "obsidian_note": "base-out_lib_supabase_client.md",
+      "graphify_node_id": "base-out::scripts_docs_graph_majornotes",
+      "source_object": "majorNotes",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_majornotes.md",
       "heading": null
     },
     {
-      "graphify_node_id": "base-out::lib_supabase_config",
-      "source_object": "config.js",
-      "source_file": "lib/supabase/config.js",
-      "obsidian_note": "base-out_lib_supabase_config.md",
+      "graphify_node_id": "base-out::scripts_docs_graph_root",
+      "source_object": "root",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_root.md",
       "heading": null
     },
     {
-      "graphify_node_id": "base-out::lib_upload_status",
-      "source_object": "upload-status.mjs",
-      "source_file": "lib/upload-status.mjs",
-      "obsidian_note": "base-out_lib_upload_status.md",
+      "graphify_node_id": "base-out::scripts_docs_graph_tmp",
+      "source_object": "tmp",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_tmp.md",
       "heading": null
     },
     {
-      "graphify_node_id": "base-out::tests_supabase_config_test",
-      "source_object": "supabase-config.test.mjs",
-      "source_file": "tests/supabase-config.test.mjs",
-      "obsidian_note": "base-out_tests_supabase_config_test.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::tests_upload_status_test",
-      "source_object": "upload-status.test.mjs",
-      "source_file": "tests/upload-status.test.mjs",
-      "obsidian_note": "base-out_tests_upload_status_test.md",
+      "graphify_node_id": "base-out::scripts_docs_graph_vaultdir",
+      "source_object": "vaultDir",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_vaultdir.md",
       "heading": null
     },
     {
@@ -581,62 +728,6 @@
       "source_object": "bibtex.test.mjs",
       "source_file": "tests/bibtex.test.mjs",
       "obsidian_note": "base-out_tests_bibtex_test.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::supabase_functions_material_download_index",
-      "source_object": "material-download/index.js",
-      "source_file": "supabase/functions/material-download/index.js",
-      "obsidian_note": "base-out_supabase_functions_material_download_index.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::supabase_functions_material_download_index_anonkey",
-      "source_object": "anonKey",
-      "source_file": "supabase/functions/material-download/index.js",
-      "obsidian_note": "base-out_supabase_functions_material_download_index_anonkey.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::supabase_functions_material_download_index_servicekey",
-      "source_object": "serviceKey",
-      "source_file": "supabase/functions/material-download/index.js",
-      "obsidian_note": "base-out_supabase_functions_material_download_index_servicekey.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::supabase_functions_material_download_index_url",
-      "source_object": "url",
-      "source_file": "supabase/functions/material-download/index.js",
-      "obsidian_note": "base-out_supabase_functions_material_download_index_url.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::supabase_functions_materials_upload_index",
-      "source_object": "materials-upload/index.js",
-      "source_file": "supabase/functions/materials-upload/index.js",
-      "obsidian_note": "base-out_supabase_functions_materials_upload_index.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::supabase_functions_materials_upload_index_anonkey",
-      "source_object": "anonKey",
-      "source_file": "supabase/functions/materials-upload/index.js",
-      "obsidian_note": "base-out_supabase_functions_materials_upload_index_anonkey.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::supabase_functions_materials_upload_index_servicekey",
-      "source_object": "serviceKey",
-      "source_file": "supabase/functions/materials-upload/index.js",
-      "obsidian_note": "base-out_supabase_functions_materials_upload_index_servicekey.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::supabase_functions_materials_upload_index_url",
-      "source_object": "url",
-      "source_file": "supabase/functions/materials-upload/index.js",
-      "obsidian_note": "base-out_supabase_functions_materials_upload_index_url.md",
       "heading": null
     },
     {
@@ -665,6 +756,34 @@
       "source_object": "widths",
       "source_file": "scripts/check-stacked-headings.mjs",
       "obsidian_note": "base-out_scripts_check_stacked_headings_widths.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::supabase_functions_materials_upload_index",
+      "source_object": "materials-upload/index.js",
+      "source_file": "supabase/functions/materials-upload/index.js",
+      "obsidian_note": "base-out_supabase_functions_materials_upload_index.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::supabase_functions_materials_upload_index_anonkey",
+      "source_object": "anonKey",
+      "source_file": "supabase/functions/materials-upload/index.js",
+      "obsidian_note": "base-out_supabase_functions_materials_upload_index_anonkey.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::supabase_functions_materials_upload_index_servicekey",
+      "source_object": "serviceKey",
+      "source_file": "supabase/functions/materials-upload/index.js",
+      "obsidian_note": "base-out_supabase_functions_materials_upload_index_servicekey.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::supabase_functions_materials_upload_index_url",
+      "source_object": "url",
+      "source_file": "supabase/functions/materials-upload/index.js",
+      "obsidian_note": "base-out_supabase_functions_materials_upload_index_url.md",
       "heading": null
     },
     {
@@ -728,6 +847,83 @@
       "source_object": "nextConfig",
       "source_file": "next.config.mjs",
       "obsidian_note": "base-out_next_config_nextconfig.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::tests_repository_test",
+      "source_object": "repository.test.mjs",
+      "source_file": "tests/repository.test.mjs",
+      "obsidian_note": "base-out_tests_repository_test.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::app_upload_page",
+      "source_object": "upload/page.js",
+      "source_file": "app/upload/page.js",
+      "obsidian_note": "base-out_app_upload_page.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::components_library_list",
+      "source_object": "library-list.js",
+      "source_file": "components/library-list.js",
+      "obsidian_note": "base-out_components_library_list.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::components_upload_form",
+      "source_object": "upload-form.js",
+      "source_file": "components/upload-form.js",
+      "obsidian_note": "base-out_components_upload_form.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::lib_supabase_auth",
+      "source_object": "auth.js",
+      "source_file": "lib/supabase/auth.js",
+      "obsidian_note": "base-out_lib_supabase_auth.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::lib_supabase_client",
+      "source_object": "client.js",
+      "source_file": "lib/supabase/client.js",
+      "obsidian_note": "base-out_lib_supabase_client.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::lib_supabase_config",
+      "source_object": "config.js",
+      "source_file": "lib/supabase/config.js",
+      "obsidian_note": "base-out_lib_supabase_config.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::lib_upload_status",
+      "source_object": "upload-status.mjs",
+      "source_file": "lib/upload-status.mjs",
+      "obsidian_note": "base-out_lib_upload_status.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::tests_supabase_config_test",
+      "source_object": "supabase-config.test.mjs",
+      "source_file": "tests/supabase-config.test.mjs",
+      "obsidian_note": "base-out_tests_supabase_config_test.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::tests_upload_status_test",
+      "source_object": "upload-status.test.mjs",
+      "source_file": "tests/upload-status.test.mjs",
+      "obsidian_note": "base-out_tests_upload_status_test.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::eslint_config",
+      "source_object": "eslint.config.mjs",
+      "source_file": "eslint.config.mjs",
+      "obsidian_note": "base-out_eslint_config.md",
       "heading": null
     },
     {
@@ -822,108 +1018,10 @@
       "heading": null
     },
     {
-      "graphify_node_id": "base-out::tests_repository_test",
-      "source_object": "repository.test.mjs",
-      "source_file": "tests/repository.test.mjs",
-      "obsidian_note": "base-out_tests_repository_test.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::eslint_config",
-      "source_object": "eslint.config.mjs",
-      "source_file": "eslint.config.mjs",
-      "obsidian_note": "base-out_eslint_config.md",
-      "heading": null
-    },
-    {
       "graphify_node_id": "base-out::supabase_migrations_003_v1_4_0_live_supabase_grant_hardening",
       "source_object": "003_v1_4_0_live_supabase_grant_hardening.sql",
       "source_file": "supabase/migrations/003_v1_4_0_live_supabase_grant_hardening.sql",
       "obsidian_note": "base-out_supabase_migrations_003_v1_4_0_live_supabase_grant_hardening.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::app_library_page",
-      "source_object": "library/page.js",
-      "source_file": "app/library/page.js",
-      "obsidian_note": "base-out_app_library_page.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::app_library_page_metadata",
-      "source_object": "metadata",
-      "source_file": "app/library/page.js",
-      "obsidian_note": "base-out_app_library_page_metadata.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::app_page",
-      "source_object": "app/page.js",
-      "source_file": "app/page.js",
-      "obsidian_note": "base-out_app_page.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::app_page_themes",
-      "source_object": "themes",
-      "source_file": "app/page.js",
-      "obsidian_note": "base-out_app_page_themes.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::app_people_page",
-      "source_object": "people/page.js",
-      "source_file": "app/people/page.js",
-      "obsidian_note": "base-out_app_people_page.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::app_people_page_metadata",
-      "source_object": "metadata",
-      "source_file": "app/people/page.js",
-      "obsidian_note": "base-out_app_people_page_metadata.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::app_research_page",
-      "source_object": "research/page.js",
-      "source_file": "app/research/page.js",
-      "obsidian_note": "base-out_app_research_page.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::app_research_page_metadata",
-      "source_object": "metadata",
-      "source_file": "app/research/page.js",
-      "obsidian_note": "base-out_app_research_page_metadata.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::app_research_page_pillars",
-      "source_object": "pillars",
-      "source_file": "app/research/page.js",
-      "obsidian_note": "base-out_app_research_page_pillars.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::components_section_intro",
-      "source_object": "section-intro.js",
-      "source_file": "components/section-intro.js",
-      "obsidian_note": "base-out_components_section_intro.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::data_people",
-      "source_object": "people.js",
-      "source_file": "data/people.js",
-      "obsidian_note": "base-out_data_people.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::data_people_people",
-      "source_object": "people",
-      "source_file": "data/people.js",
-      "obsidian_note": "base-out_data_people_people.md",
       "heading": null
     },
     {
@@ -1011,6 +1109,27 @@
       "heading": null
     },
     {
+      "graphify_node_id": "base-out::package_scripts_docs_graph",
+      "source_object": "docs:graph",
+      "source_file": "package.json",
+      "obsidian_note": "base-out_package_scripts_docs_graph.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::package_scripts_docs_graph_validate",
+      "source_object": "docs:graph:validate",
+      "source_file": "package.json",
+      "obsidian_note": "base-out_package_scripts_docs_graph_validate.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::package_scripts_docs_obsidian_validate",
+      "source_object": "docs:obsidian:validate",
+      "source_file": "package.json",
+      "obsidian_note": "base-out_package_scripts_docs_obsidian_validate.md",
+      "heading": null
+    },
+    {
       "graphify_node_id": "base-out::package_scripts_lint",
       "source_object": "lint",
       "source_file": "package.json",
@@ -1057,6 +1176,90 @@
       "source_object": "eslint-config-next",
       "source_file": "package.json",
       "obsidian_note": "base-out_eslint_config_next.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::app_library_page",
+      "source_object": "library/page.js",
+      "source_file": "app/library/page.js",
+      "obsidian_note": "base-out_app_library_page.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::app_library_page_metadata",
+      "source_object": "metadata",
+      "source_file": "app/library/page.js",
+      "obsidian_note": "base-out_app_library_page_metadata.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::app_page",
+      "source_object": "app/page.js",
+      "source_file": "app/page.js",
+      "obsidian_note": "base-out_app_page.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::app_page_themes",
+      "source_object": "themes",
+      "source_file": "app/page.js",
+      "obsidian_note": "base-out_app_page_themes.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::app_people_page",
+      "source_object": "people/page.js",
+      "source_file": "app/people/page.js",
+      "obsidian_note": "base-out_app_people_page.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::app_people_page_metadata",
+      "source_object": "metadata",
+      "source_file": "app/people/page.js",
+      "obsidian_note": "base-out_app_people_page_metadata.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::app_research_page",
+      "source_object": "research/page.js",
+      "source_file": "app/research/page.js",
+      "obsidian_note": "base-out_app_research_page.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::app_research_page_metadata",
+      "source_object": "metadata",
+      "source_file": "app/research/page.js",
+      "obsidian_note": "base-out_app_research_page_metadata.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::app_research_page_pillars",
+      "source_object": "pillars",
+      "source_file": "app/research/page.js",
+      "obsidian_note": "base-out_app_research_page_pillars.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::components_section_intro",
+      "source_object": "section-intro.js",
+      "source_file": "components/section-intro.js",
+      "obsidian_note": "base-out_components_section_intro.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::data_people",
+      "source_object": "people.js",
+      "source_file": "data/people.js",
+      "obsidian_note": "base-out_data_people.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::data_people_people",
+      "source_object": "people",
+      "source_file": "data/people.js",
+      "obsidian_note": "base-out_data_people_people.md",
       "heading": null
     },
     {
@@ -1228,6 +1431,48 @@
       "heading": null
     },
     {
+      "graphify_node_id": "base-out::docs_execution_report_v1_7_0_md",
+      "source_object": "Execution Report v1.7.0",
+      "source_file": "docs/EXECUTION_REPORT_v1.7.0.md",
+      "obsidian_note": "base-out_docs_execution_report_v1_7_0_md.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::image_1",
+      "source_object": "Conceptual diagram of lattice gauge theory",
+      "source_file": "public/images/su2qc-hero.png",
+      "obsidian_note": "base-out_image_1.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::public_images_investigators_kwangmin_yu_jpeg",
+      "source_object": "Kwangmin Yu Investigator Photo",
+      "source_file": "public/images/investigators/kwangmin-yu.jpeg",
+      "obsidian_note": "base-out_public_images_investigators_kwangmin_yu_jpeg.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::public_images_investigators_paulo_f_bedaque_jpg",
+      "source_object": "Paulo F. Bedaque Investigator Photo",
+      "source_file": "public/images/investigators/paulo-f-bedaque.jpg",
+      "obsidian_note": "base-out_public_images_investigators_paulo_f_bedaque_jpg.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::public_images_investigators_raza_sabbir_sufian_png",
+      "source_object": "Raza Sabbir Sufian Investigator Photo",
+      "source_file": "public/images/investigators/raza-sabbir-sufian.png",
+      "obsidian_note": "base-out_public_images_investigators_raza_sabbir_sufian_png.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::public_images_investigators_taku_izubuchi_jpg",
+      "source_object": "Taku Izubuchi Investigator Photo",
+      "source_file": "public/images/investigators/taku-izubuchi.jpg",
+      "obsidian_note": "base-out_public_images_investigators_taku_izubuchi_jpg.md",
+      "heading": null
+    },
+    {
       "graphify_node_id": "base-out::github_pages",
       "source_object": "GitHub Pages",
       "source_file": "README.md",
@@ -1249,69 +1494,6 @@
       "heading": null
     },
     {
-      "graphify_node_id": "base-out::docs_execution_report_v1_7_0_md",
-      "source_object": "Execution Report v1.7.0",
-      "source_file": "docs/EXECUTION_REPORT_v1.7.0.md",
-      "obsidian_note": "base-out_docs_execution_report_v1_7_0_md.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::public_images_investigators_paulo-f-bedaque",
-      "source_object": "Paulo-F-Bedaque Investigator Photo",
-      "source_file": "public/images/investigators/paulo-f-bedaque.jpg",
-      "obsidian_note": "base-out_public_images_investigators_paulo-f-bedaque.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::public_images_investigators_raza-sabbir-sufian",
-      "source_object": "Raza-Sabbir-Sufian Investigator Photo",
-      "source_file": "public/images/investigators/raza-sabbir-sufian.png",
-      "obsidian_note": "base-out_public_images_investigators_raza-sabbir-sufian.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::public_images_investigators_taku-izubuchi",
-      "source_object": "Taku-Izubuchi Investigator Photo",
-      "source_file": "public/images/investigators/taku-izubuchi.jpg",
-      "obsidian_note": "base-out_public_images_investigators_taku-izubuchi.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::docs_qa_checklist",
-      "source_object": "QA Checklist",
-      "source_file": "docs/QA_CHECKLIST.md",
-      "obsidian_note": "base-out_docs_qa_checklist.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::docs_sources",
-      "source_object": "Public Content Sources",
-      "source_file": "docs/SOURCES.md",
-      "obsidian_note": "base-out_docs_sources.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::docs_upload_guide",
-      "source_object": "Upload Guide",
-      "source_file": "docs/UPLOAD_GUIDE.md",
-      "obsidian_note": "base-out_docs_upload_guide.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::public_images_investigators_kwangmin_yu_jpeg",
-      "source_object": "Kwangmin Yu Portrait",
-      "source_file": "public/images/investigators/kwangmin-yu.jpeg",
-      "obsidian_note": "base-out_public_images_investigators_kwangmin_yu_jpeg.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::public_images_su2qc_hero_png",
-      "source_object": "SU2QC Hero Diagram",
-      "source_file": "public/images/su2qc-hero.png",
-      "obsidian_note": "base-out_public_images_su2qc_hero_png.md",
-      "heading": null
-    },
-    {
       "graphify_node_id": "base-out::public_images_su2qc_logo_png",
       "source_object": "SU2QC Logo",
       "source_file": "public/images/su2qc-logo.png",
@@ -1319,38 +1501,199 @@
       "heading": null
     },
     {
-      "graphify_node_id": "semantic-out-0::docs_execution_report_v1_6_0_md",
+      "graphify_node_id": "semantic-out-0-0::docs_execution_report_v1_6_0_md",
       "source_object": "SU2QC v1.6.0 Execution Report",
       "source_file": "docs/EXECUTION_REPORT_v1.6.0.md",
-      "obsidian_note": "semantic-out-0_docs_execution_report_v1_6_0_md.md",
+      "obsidian_note": "semantic-out-0-0_docs_execution_report_v1_6_0_md.md",
       "heading": null
     },
     {
-      "graphify_node_id": "semantic-out-1::lib_upload_status_mjs",
+      "graphify_node_id": "semantic-out-1-0::lib_upload_status_mjs",
       "source_object": "upload-status.mjs",
       "source_file": "lib/upload-status.mjs",
-      "obsidian_note": "semantic-out-1_lib_upload_status_mjs.md",
+      "obsidian_note": "semantic-out-1-0_lib_upload_status_mjs.md",
       "heading": null
     },
     {
-      "graphify_node_id": "semantic-out-1::components_upload_form_js",
-      "source_object": "upload-form.js",
-      "source_file": "components/upload-form.js",
-      "obsidian_note": "semantic-out-1_components_upload_form_js.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "semantic-out-1::lib_supabase_config_js",
-      "source_object": "config.js",
-      "source_file": "lib/supabase/config.js",
-      "obsidian_note": "semantic-out-1_lib_supabase_config_js.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "semantic-out-1::docs_execution_report_v1_6_1_md",
+      "graphify_node_id": "semantic-out-1-0::docs_execution_report_v1_6_1_md",
       "source_object": "SU2QC v1.6.1 upload remediation report",
       "source_file": "docs/EXECUTION_REPORT_v1.6.1.md",
-      "obsidian_note": "semantic-out-1_docs_execution_report_v1_6_1_md.md",
+      "obsidian_note": "semantic-out-1-0_docs_execution_report_v1_6_1_md.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-1-0::components_upload_form_js",
+      "source_object": "upload-form.js",
+      "source_file": "components/upload-form.js",
+      "obsidian_note": "semantic-out-1-0_components_upload_form_js.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-1-0::lib_supabase_config_js",
+      "source_object": "config.js",
+      "source_file": "lib/supabase/config.js",
+      "obsidian_note": "semantic-out-1-0_lib_supabase_config_js.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-2-0::docs_EXECUTION_REPORT_v1_8_1_md",
+      "source_object": "Execution Report v1.8.1",
+      "source_file": "docs/EXECUTION_REPORT_v1.8.1.md",
+      "obsidian_note": "semantic-out-2-0_docs_EXECUTION_REPORT_v1_8_1_md.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-2-1::docs_execution_report_v1_8_1_md",
+      "source_object": "EXECUTION_REPORT_v1.8.1.md",
+      "source_file": "docs/EXECUTION_REPORT_v1.8.1.md",
+      "obsidian_note": "semantic-out-2-1_docs_execution_report_v1_8_1_md.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-2-2::tests_repository_test_mjs",
+      "source_object": "Repository Test",
+      "source_file": "tests/repository.test.mjs",
+      "obsidian_note": "semantic-out-2-2_tests_repository_test_mjs.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-2-2::docs_EXECUTION_REPORT_v1_8_1_md",
+      "source_object": "Execution Report v1.8.1",
+      "source_file": "docs/EXECUTION_REPORT_v1.8.1.md",
+      "obsidian_note": "semantic-out-2-2_docs_EXECUTION_REPORT_v1_8_1_md.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-3-0::docs_qa_checklist",
+      "source_object": "QA Checklist",
+      "source_file": "docs/QA_CHECKLIST.md",
+      "obsidian_note": "semantic-out-3-0_docs_qa_checklist.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-4-0::ale_et_al_quantum_computation_of_su2_lattice_gauge_theory_with_continuous_variables_journal_of_high_energy_physics_06_2025_084",
+      "source_object": "Ale et al., Quantum computation of SU(2) lattice gauge theory with continuous variables",
+      "source_file": "docs/SOURCES.md",
+      "obsidian_note": "semantic-out-4-0_ale_et_al_quantum_computation_of_su2_lattice_gauge_theory_with_continuous_variables_journal_of_high_energy_physics_06_2025_084.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-4-0::brookhaven_national_laboratory_kwangmin_yu",
+      "source_object": "Kwangmin Yu",
+      "source_file": "docs/SOURCES.md",
+      "obsidian_note": "semantic-out-4-0_brookhaven_national_laboratory_kwangmin_yu.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-4-0::brookhaven_national_laboratory_taku_izubuchi",
+      "source_object": "Taku Izubuchi",
+      "source_file": "docs/SOURCES.md",
+      "obsidian_note": "semantic-out-4-0_brookhaven_national_laboratory_taku_izubuchi.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-4-0::docs_sources_md",
+      "source_object": "SOURCES.md",
+      "source_file": "docs/SOURCES.md",
+      "obsidian_note": "semantic-out-4-0_docs_sources_md.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-4-0::kogut_and_susskind_hamiltonian_formulation_of_wilsons_lattice_gauge_theories_physical_review_d_11_395_1975",
+      "source_object": "Kogut and Susskind, Hamiltonian Formulation of Wilson's Lattice Gauge Theories",
+      "source_file": "docs/SOURCES.md",
+      "obsidian_note": "semantic-out-4-0_kogut_and_susskind_hamiltonian_formulation_of_wilsons_lattice_gauge_theories_physical_review_d_11_395_1975.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-4-0::nextjs_16_3_release",
+      "source_object": "Next.js 16.3 release",
+      "source_file": "docs/SOURCES.md",
+      "obsidian_note": "semantic-out-4-0_nextjs_16_3_release.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-4-0::nmsu_news_nmsu_led_team_among_those_selected_for_800_million_doe_genesis_mission",
+      "source_object": "NMSU-led team selected for $800 million DOE Genesis Mission",
+      "source_file": "docs/SOURCES.md",
+      "obsidian_note": "semantic-out-4-0_nmsu_news_nmsu_led_team_among_those_selected_for_800_million_doe_genesis_mission.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-4-0::nmsu_physics_raza_sufian",
+      "source_object": "Raza Sufian",
+      "source_file": "docs/SOURCES.md",
+      "obsidian_note": "semantic-out-4-0_nmsu_physics_raza_sufian.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-4-0::raychowdhury_and_stryker_loop_string_and_hadron_dynamics_in_su2_hamiltonian_lattice_gauge_theories_physical_review_d_101_114502_2020",
+      "source_object": "Raychowdhury and Stryker, Loop, String, and Hadron Dynamics in SU(2) Hamiltonian Lattice Gauge Theories",
+      "source_file": "docs/SOURCES.md",
+      "obsidian_note": "semantic-out-4-0_raychowdhury_and_stryker_loop_string_and_hadron_dynamics_in_su2_hamiltonian_lattice_gauge_theories_physical_review_d_101_114502_2020.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-4-0::supabase_server_side_authentication_for_nextjs",
+      "source_object": "Supabase server-side authentication for Next.js",
+      "source_file": "docs/SOURCES.md",
+      "obsidian_note": "semantic-out-4-0_supabase_server_side_authentication_for_nextjs.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-4-0::umd_physics_paulo_bedaque",
+      "source_object": "Paulo Bedaque",
+      "source_file": "docs/SOURCES.md",
+      "obsidian_note": "semantic-out-4-0_umd_physics_paulo_bedaque.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-4-0::us_dept_of_energy_genesis_mission_awards_list_pdf",
+      "source_object": "Genesis Mission awards list PDF",
+      "source_file": "docs/SOURCES.md",
+      "obsidian_note": "semantic-out-4-0_us_dept_of_energy_genesis_mission_awards_list_pdf.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-4-0::zohar_and_burrello_a_formulation_of_lattice_gauge_theories_for_quantum_simulations_physical_review_d_91_054506_2015",
+      "source_object": "Zohar and Burrello, A Formulation of Lattice Gauge Theories for Quantum Simulations",
+      "source_file": "docs/SOURCES.md",
+      "obsidian_note": "semantic-out-4-0_zohar_and_burrello_a_formulation_of_lattice_gauge_theories_for_quantum_simulations_physical_review_d_91_054506_2015.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-5-0::materials_upload_edge_function",
+      "source_object": "Materials Upload Edge Function",
+      "source_file": "docs/UPLOAD_GUIDE.md",
+      "obsidian_note": "semantic-out-5-0_materials_upload_edge_function.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-5-0::next_public_site_url",
+      "source_object": "NEXT_PUBLIC_SITE_URL",
+      "source_file": "docs/UPLOAD_GUIDE.md",
+      "obsidian_note": "semantic-out-5-0_next_public_site_url.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-5-0::next_public_supabase_publishable_key",
+      "source_object": "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY",
+      "source_file": "docs/UPLOAD_GUIDE.md",
+      "obsidian_note": "semantic-out-5-0_next_public_supabase_publishable_key.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-5-0::next_public_supabase_url",
+      "source_object": "NEXT_PUBLIC_SUPABASE_URL",
+      "source_file": "docs/UPLOAD_GUIDE.md",
+      "obsidian_note": "semantic-out-5-0_next_public_supabase_url.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-5-0::docs_upload_guide_md",
+      "source_object": "Upload Guide",
+      "source_file": "docs/UPLOAD_GUIDE.md",
+      "obsidian_note": "semantic-out-5-0_docs_upload_guide_md.md",
       "heading": null
     }
   ]

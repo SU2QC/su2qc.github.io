@@ -12,7 +12,7 @@ Purpose: Graphify extracted this code from the repository.
 Graphify node ID: `base-out::supabase_functions_material_download_index`
 Repository source: `supabase/functions/material-download/index.js`
 Node type: `code`
-Source commit: `7af95d6140552c38f19a61714e95298cc081689b`
+Source commit: `776681b80d961b73d4a8071ecf7429fed52bc793`
 
 ## Important symbols
 
@@ -24,9 +24,9 @@ Source commit: `7af95d6140552c38f19a61714e95298cc081689b`
 
 ## Outgoing dependencies
 
-- [[base-out_supabase_functions_shared_download_handler_creatematerialdownloadhandler]]
 - [[base-out_supabase_functions_material_download_index_adminclient]]
 - [[base-out_supabase_functions_material_download_index_publicclient]]
+- [[base-out_supabase_functions_shared_download_handler_creatematerialdownloadhandler]]
 - [[base-out_supabase_functions_shared_download_handler]]
 - [[base-out_supabase_functions_material_download_index_url]]
 - [[base-out_supabase_functions_material_download_index_anonkey]]

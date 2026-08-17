@@ -23,6 +23,8 @@ const exclusions = {
   "app/favicon.ico": "Binary favicon is audited separately; Graphify classifies ICO as unsupported.",
   "app/globals.css": "Graphify 0.9.45 classifies this CSS file as unsupported; styling remains covered by the source audit and local tests.",
   "package-lock.json": "Dependency lockfile is intentionally excluded from the Graphify corpus; package.json and the installed dependency graph remain included.",
+  "docs/codebase-graph/": "Generated Graphify output is a result, not extraction input.",
+  "docs/obsidian-vault/": "Generated Obsidian output is a result, not extraction input.",
 };
 
 const run = (command, args, options = {}) => execFileSync(command, args, { cwd: root, stdio: "inherit", ...options });
@@ -34,7 +36,8 @@ const writeJson = (file, value) => {
 const safeName = value => value.replace(/[^A-Za-z0-9_.-]+/g, "_").replace(/^_+|_+$/g, "") || "node";
 const wiki = file => `[[${file.replace(/\.md$/i, "")}]]`;
 const trackedFiles = () => execFileSync("git", ["--git-dir=.release-git/.git", "ls-files"], { cwd: root, encoding: "utf8" }).trim().split("\n").filter(Boolean);
-const includedFiles = () => trackedFiles().filter(file => !exclusions[file]);
+const isExcluded = file => Object.keys(exclusions).some(pattern => pattern.endsWith("/") ? file.startsWith(pattern) : file === pattern);
+const includedFiles = () => trackedFiles().filter(file => !isExcluded(file));
 const semanticFiles = files => files.filter(file => /\.(md|pdf|png|jpe?g|webp|gif)$/i.test(file));
 
 function stageHead(stage) {
@@ -42,6 +45,9 @@ function stageHead(stage) {
   const archive = path.join(tmp, "source.tar");
   run("git", ["--git-dir=.release-git/.git", "archive", "--format=tar", `--output=${archive}`, "HEAD"]);
   run("tar", ["-x", "-C", stage, "-f", archive]);
+  for (const generated of ["docs/codebase-graph", "docs/obsidian-vault"]) {
+    fs.rmSync(path.join(stage, generated), { recursive: true, force: true });
+  }
 }
 
 function graphSources(graph) {
@@ -49,12 +55,26 @@ function graphSources(graph) {
 }
 
 function createSemanticRetry(stage, relativeFile, index) {
-  const mini = path.join(tmp, `semantic-${index}`);
-  fs.mkdirSync(path.join(mini, path.dirname(relativeFile)), { recursive: true });
-  fs.copyFileSync(path.join(stage, relativeFile), path.join(mini, relativeFile));
-  const out = path.join(tmp, `semantic-out-${index}`);
-  run("graphify", ["extract", mini, "--out", out, "--no-gitignore", "--backend=ollama", "--model=qwen2.5-coder:7b", "--max-concurrency=1", "--api-timeout=120", "--token-budget=4000", "--force"]);
-  return path.join(out, "graphify-out", "graph.json");
+  const source = fs.readFileSync(path.join(stage, relativeFile), "utf8");
+  const lines = source.split("\n");
+  const size = source.length > 6000 ? 70 : lines.length;
+  const chunks = [];
+  for (let start = 0; start < lines.length; start += size) chunks.push(lines.slice(start, start + size).join("\n"));
+  const outputs = [];
+  for (let chunkIndex = 0; chunkIndex < chunks.length; chunkIndex++) {
+    const mini = path.join(tmp, `semantic-${index}-${chunkIndex}`);
+    fs.mkdirSync(path.join(mini, path.dirname(relativeFile)), { recursive: true });
+    fs.writeFileSync(path.join(mini, relativeFile), chunks[chunkIndex]);
+    const out = path.join(tmp, `semantic-out-${index}-${chunkIndex}`);
+    try {
+      run("graphify", ["extract", mini, "--out", out, "--no-gitignore", "--backend=ollama", "--model=qwen2.5-coder:7b", "--max-concurrency=1", "--api-timeout=120", "--token-budget=2000", "--force"]);
+      outputs.push(path.join(out, "graphify-out", "graph.json"));
+    } catch (error) {
+      console.warn(`Semantic retry chunk failed for ${relativeFile}; continuing with remaining chunks.`);
+    }
+  }
+  if (!outputs.length) console.warn(`Semantic retry failed for ${relativeFile}; retaining the base graph and recording the omission.`);
+  return outputs;
 }
 
 function normalizeAndFilter(raw, allowed) {
@@ -229,6 +249,7 @@ function build() {
   const allowed = includedFiles();
   const rawPath = path.join(tmp, "merged.json");
   let missing = [];
+  let failedRetries = [];
   if (process.env.SU2QC_GRAPH_REUSE !== "1" || !fs.existsSync(rawPath)) {
     const stage = path.join(tmp, "input");
     stageHead(stage);
@@ -238,12 +259,18 @@ function build() {
     const baseGraph = readJson(baseGraphPath);
     missing = semanticFiles(allowed).filter(file => !graphSources(baseGraph).has(file));
     const graphPaths = [baseGraphPath];
-    missing.forEach((file, index) => graphPaths.push(createSemanticRetry(stage, file, index)));
+    missing.forEach((file, index) => {
+      const retry = createSemanticRetry(stage, file, index);
+      if (retry.length) graphPaths.push(...retry);
+      else failedRetries.push(file);
+    });
     if (graphPaths.length === 1) fs.copyFileSync(graphPaths[0], rawPath);
     else run("graphify", ["merge-graphs", ...graphPaths, "--out", rawPath]);
-    writeJson(path.join(tmp, "missing-semantic.json"), missing);
+    writeJson(path.join(tmp, "missing-semantic.json"), { missing, failed_retries: failedRetries });
   } else if (fs.existsSync(path.join(tmp, "missing-semantic.json"))) {
-    missing = readJson(path.join(tmp, "missing-semantic.json"));
+    const retryState = readJson(path.join(tmp, "missing-semantic.json"));
+    missing = Array.isArray(retryState) ? retryState : retryState.missing || [];
+    failedRetries = Array.isArray(retryState) ? [] : retryState.failed_retries || [];
   } else {
     missing = fs.readdirSync(tmp).filter(name => /^semantic-out-\d+$/.test(name)).flatMap(name => {
       const file = path.join(tmp, name, "graphify-out", "graph.json");
@@ -267,7 +294,7 @@ function build() {
     const source = path.join(clusterDir, "graphify-out", artifact);
     if (fs.existsSync(source)) fs.copyFileSync(source, path.join(graphDir, artifact));
   }
-  writeJson(path.join(graphDir, "generation-metadata.json"), { graphify_version: "0.9.45", semantic_backend: "ollama", semantic_model: "qwen2.5-coder:7b", max_concurrency: 1, api_timeout_seconds: 120, source_commit: final.graph.source_commit, input_stage: "git archive HEAD", missing_semantic_retries: missing, raw_graph: "Graphify merge of full extraction plus per-file Graphify retries", generated_at_utc: new Date().toISOString() });
+  writeJson(path.join(graphDir, "generation-metadata.json"), { graphify_version: "0.9.45", semantic_backend: "ollama", semantic_model: "qwen2.5-coder:7b", max_concurrency: 1, api_timeout_seconds: 120, source_commit: final.graph.source_commit, input_stage: "git archive HEAD", missing_semantic_retries: missing, failed_semantic_retries: failedRetries, raw_graph: "Graphify merge of full extraction plus per-file Graphify retries", generated_at_utc: new Date().toISOString() });
   generateVault(final);
   console.log(`Graph artifacts written: ${final.nodes.length} nodes, ${final.links.length} edges, ${missing.length} semantic retries.`);
 }

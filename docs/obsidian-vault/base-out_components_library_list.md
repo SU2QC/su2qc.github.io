@@ -12,7 +12,7 @@ Purpose: Graphify extracted this code from the repository.
 Graphify node ID: `base-out::components_library_list`
 Repository source: `components/library-list.js`
 Node type: `code`
-Source commit: `7af95d6140552c38f19a61714e95298cc081689b`
+Source commit: `776681b80d961b73d4a8071ecf7429fed52bc793`
 
 ## Important symbols
 
@@ -24,10 +24,10 @@ Source commit: `7af95d6140552c38f19a61714e95298cc081689b`
 
 ## Outgoing dependencies
 
+- [[base-out_lib_bibtex_formatcitation]]
 - [[base-out_components_library_list_librarylist]]
 - [[base-out_lib_supabase_client_createclient]]
 - [[base-out_lib_supabase_config_getpublicconfig]]
-- [[base-out_lib_bibtex_formatcitation]]
 - [[base-out_lib_bibtex]]
 - [[base-out_lib_supabase_client]]
 - [[base-out_lib_supabase_config]]

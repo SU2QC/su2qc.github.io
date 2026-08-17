@@ -2,29 +2,28 @@
 
 This report describes the authentic Graphify extraction and merge after validation. Graphify-native node IDs are preserved. Out-of-scope or malformed model records are counted in `unresolved-relationships.md` and are not repaired.
 
-- Source commit: `7af95d6140552c38f19a61714e95298cc081689b`
-- Nodes: 193; edges: 271; hyperedges: 2; communities: 28.
-- Edge provenance: EXTRACTED=267, INFERRED=4.
-- Graphify input: 62 included files; 5 documented exclusions.
+- Source commit: `776681b80d961b73d4a8071ecf7429fed52bc793`
+- Nodes: 242; edges: 333; hyperedges: 2; communities: 30.
+- Edge provenance: EXTRACTED=329, INFERRED=4.
+- Graphify input: 64 included files; 7 documented exclusions.
 
 ## Node types
 
-- code: 164
-- concept: 13
-- document: 10
+- code: 195
+- concept: 16
+- document: 25
 - image: 6
 
 ## Edge types
 
-- calls: 36
+- calls: 58
 - conceptually_related_to: 4
-- contains: 111
+- contains: 139
 - imports: 63
 - imports_from: 44
 - indirect_call: 4
 - method: 1
-- references: 5
-- shares_data_with: 3
+- references: 20
 
 ## Source coverage
 
@@ -52,9 +51,10 @@ This report describes the authentic Graphify extraction and merge after validati
 | `docs/EXECUTION_REPORT_v1.6.2.md` | 5 |
 | `docs/EXECUTION_REPORT_v1.7.0.md` | 1 |
 | `docs/EXECUTION_REPORT_v1.8.0.md` | 1 |
+| `docs/EXECUTION_REPORT_v1.8.1.md` | 3 |
 | `docs/QA_CHECKLIST.md` | 1 |
-| `docs/SOURCES.md` | 1 |
-| `docs/UPLOAD_GUIDE.md` | 1 |
+| `docs/SOURCES.md` | 13 |
+| `docs/UPLOAD_GUIDE.md` | 5 |
 | `eslint.config.mjs` | 1 |
 | `lib/bibtex.mjs` | 5 |
 | `lib/material-validation.mjs` | 6 |
@@ -65,14 +65,15 @@ This report describes the authentic Graphify extraction and merge after validati
 | `lib/supabase/config.js` | 5 |
 | `lib/upload-status.mjs` | 4 |
 | `next.config.mjs` | 2 |
-| `package.json` | 30 |
+| `package.json` | 33 |
 | `public/images/investigators/kwangmin-yu.jpeg` | 1 |
 | `public/images/investigators/paulo-f-bedaque.jpg` | 1 |
 | `public/images/investigators/raza-sabbir-sufian.png` | 1 |
 | `public/images/investigators/taku-izubuchi.jpg` | 1 |
 | `public/images/su2qc-hero.png` | 1 |
 | `public/images/su2qc-logo.png` | 1 |
-| `scripts/check-stacked-headings.mjs` | 5 |
+| `scripts/check-stacked-headings.mjs` | 6 |
+| `scripts/docs-graph.mjs` | 25 |
 | `supabase/functions/_shared/bibtex.js` | 4 |
 | `supabase/functions/_shared/download-handler.js` | 2 |
 | `supabase/functions/_shared/http.js` | 6 |
@@ -88,7 +89,7 @@ This report describes the authentic Graphify extraction and merge after validati
 | `tests/bibtex.test.mjs` | 1 |
 | `tests/edge-functions.test.mjs` | 6 |
 | `tests/material-validation.test.mjs` | 2 |
-| `tests/repository.test.mjs` | 2 |
+| `tests/repository.test.mjs` | 3 |
 | `tests/safe-next.test.mjs` | 1 |
 | `tests/supabase-config.test.mjs` | 1 |
 | `tests/upload-status.test.mjs` | 1 |

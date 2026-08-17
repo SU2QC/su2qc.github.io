@@ -12,7 +12,7 @@ Purpose: Graphify extracted this code from the repository.
 Graphify node ID: `base-out::package_scripts`
 Repository source: `package.json`
 Node type: `code`
-Source commit: `7af95d6140552c38f19a61714e95298cc081689b`
+Source commit: `776681b80d961b73d4a8071ecf7429fed52bc793`
 
 ## Important symbols
 
@@ -27,6 +27,9 @@ Source commit: `7af95d6140552c38f19a61714e95298cc081689b`
 - [[base-out_package_scripts_test]]
 - [[base-out_package_scripts_verify]]
 - [[base-out_package_scripts_check_layout]]
+- [[base-out_package_scripts_docs_graph]]
+- [[base-out_package_scripts_docs_graph_validate]]
+- [[base-out_package_scripts_docs_obsidian_validate]]
 - [[base-out_package_scripts_dev]]
 - [[base-out_package_scripts_build]]
 - [[base-out_package_scripts_start]]

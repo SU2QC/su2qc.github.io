@@ -1,0 +1,47 @@
+{
+  "schema": "su2qc-backup-manifest-v1",
+  "generated_at_utc": "2026-08-17T19:30:18Z",
+  "organization_source_repository": "SU2QC/su2qc.github.io",
+  "organization_source_commit": "PENDING_SOURCE_COMMIT",
+  "organization_gh_pages_commit": "7bb768760ac5b8a76e22c3ffd8574996a7969a33",
+  "personal_backup_repository": "digonto10602/su2qc-website-backup",
+  "personal_backup_commit": "PENDING_BACKUP_COMMIT",
+  "included": {
+    "application_source": "app/, components/, data/, lib/, public/",
+    "tests_and_scripts": "tests/, scripts/",
+    "supabase": "supabase/migrations/, supabase/functions/",
+    "documentation": "README.md, DESIGN.md, PRODUCT.md, docs/",
+    "graph": "docs/codebase-graph/",
+    "obsidian_vault": "docs/obsidian-vault/",
+    "tracked_file_count_before_finalization": 298,
+    "tracked_bytes_before_finalization": 2693601
+  },
+  "excluded": {
+    "secrets": ".env*, credentials, tokens, cookies, keys, signed URLs",
+    "dependencies_and_builds": "node_modules/, .next/, out/ except Pages publishing snapshot",
+    "temporary_evidence": ".codex-tmp/, caches, logs, browser profiles, fixtures",
+    "private_data": "database dumps, private Storage objects, authenticated artifacts, user materials",
+    "source_originals": "source_image/ is ignored audit input; emitted public assets are included",
+    "oversized_files": "none; no necessary file reaches 50 MiB"
+  },
+  "lfs": {
+    "git_lfs_version": "git-lfs/3.5.1",
+    "used": false,
+    "paths": []
+  },
+  "artifacts": {
+    "graph": "docs/codebase-graph/",
+    "vault": "docs/obsidian-vault/",
+    "project_context": "docs/PROJECT_CONTEXT_v1.8.2.md",
+    "execution_report": "docs/EXECUTION_REPORT_v1.8.2.md",
+    "manifest": "docs/BACKUP_MANIFEST_v1.8.2.json"
+  },
+  "verification": {
+    "secret_scan": "PENDING_FINAL_SNAPSHOT",
+    "important_paths": "PENDING_BACKUP_RESTORE_CHECK",
+    "restore_check": "PENDING_BACKUP_RESTORE_CHECK",
+    "organization_push": "PENDING_SOURCE_COMMIT",
+    "pages_deployment": "PENDING_DEPLOYMENT",
+    "safe_to_restore": false
+  }
+}
