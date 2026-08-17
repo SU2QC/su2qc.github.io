@@ -70,7 +70,7 @@ The first instrumented production run reproduced the event during `upload-submit
 
 The cause was `event.currentTarget.reset()` after an awaited fetch. React no longer guarantees `currentTarget` after the await. The smallest fix captures `const formElement = event.currentTarget` before the await and calls `formElement.reset()` after success. The repository regression test protects this exact pattern.
 
-The final controlled run after deployment must have zero page errors and zero unhandled-rejection console events; failed requests marked `ERR_ABORTED` during ordinary Next navigation are recorded separately from page errors.
+Final controlled run after deployment: marker `SU2QC-V1.7.0-GATE-20260817050201-c78346ff`; fixture size 2,658 bytes; uploaded/downloaded SHA-256 `e25837629891d9298499439d4ed57db25b6160ca0ea16f9f3184763e0659b64d`; downloaded filename matched the current fixture; page errors `0`; console errors/unhandled rejections `0`. The run recorded 12 expected `ERR_ABORTED` navigation/teardown requests, with no broken asset response. Favicon loaded HTTP 200 during every controlled browser context.
 
 ## Supabase security audit
 
@@ -95,7 +95,7 @@ The leaked-password advisor warning is not suppressed or falsified. Its final cl
 
 The pre-edit v1.6.2 production run passed login, `/upload/` access, real browser file-input upload, HTTP 201, library rendering, signed download, hash equality, unauthenticated redirect/401/private-object denial, and exact cleanup. It also reproduced the application promise bug documented above.
 
-The final post-deployment run uses a unique `SU2QC-V1.7.0-GATE-*` PPTX fixture, isolated Chrome profiles under `.codex-tmp`, the actual production login form, browser file input, upload button, library `Open` link, and fresh unauthenticated context. It must verify:
+The final post-deployment run used a unique `SU2QC-V1.7.0-GATE-*` PPTX fixture, fresh marker-specific Chrome profiles under `.codex-tmp`, the actual production login form, browser file input, upload button, library `Open` link, and fresh unauthenticated context. It verified:
 
 - authenticated navigation to `/upload/` and contributor `Md Habib E Islam Digonto`;
 - HTTP 201 and success UI;
@@ -105,9 +105,9 @@ The final post-deployment run uses a unique `SU2QC-V1.7.0-GATE-*` PPTX fixture, 
 - unauthenticated function POST HTTP 401;
 - private public-object denial;
 - zero fixture rows and objects after cleanup, with total counts returned to baseline 3/3;
-- zero console errors and zero unhandled page promise rejections.
+- zero console errors and zero unhandled page promise rejections: PASS.
 
-The final marker, hashes, response classes, page-error count, and cleanup counts are appended to this report before the final release commit.
+Observed response classes: login route `200`, upload route `200`, favicon `200`, upload CORS preflight `204`, upload POST `201`, library/material reads `200`, signed storage download `200`, unauthenticated upload POST `401`, and private public-object request `400`. The library rendered `Md Habib E Islam Digonto`.
 
 ## Local validation
 
@@ -124,13 +124,16 @@ The final marker, hashes, response classes, page-error count, and cleanup counts
 
 ## Cleanup and secrets
 
-The v1.7.0 disposable fixture was removed through the authenticated Storage API followed by an exact `public.materials` row delete. Final read-only verification returned total materials `3`, private materials objects `3`, v1.7 fixture rows `0`, and v1.7 fixture objects `0`.
+The v1.7.0 disposable fixture was removed through the authenticated Storage API followed by an exact `public.materials` row delete. Final read-only verification returned total materials `3`, private materials objects `3`, v1.7 fixture rows `0`, and v1.7 fixture objects `0`. The approved-member verification still returned exactly one active `member` row with display name `Md Habib E Islam Digonto`.
 
 The member password was consumed only from `SU2QC_MEMBER_PASSWORD` in the inherited process environment. It was not printed, passed as a command argument, written to a file, included in screenshots/traces/reports, or committed. Temporary profiles, downloads, and generated browser evidence remain under ignored `.codex-tmp/`; authenticated profiles and disposable fixtures are removed after the final run. No custom GitHub Actions workflow was created.
 
 ## Deployment identifiers
 
 - Baseline main: `4a703bd6b6f76fd12a35e12b55a872dcc43b4bfc`.
+- Implementation main: `017f80f` (`Polish v1.7.0 production security gate`).
 - Baseline gh-pages: `d36c2a0863d4eccd426fa96463d1c5460c14372b`.
+- Final gh-pages: `b173a8fa1638512b7888ee60b1eda7ea840d7d05` (`Publish v1.7.0 favicon and upload fix`).
 - Baseline Pages run: `31990210789`, success.
-- Final v1.7.0 main, gh-pages, Pages run, and live verification identifiers are recorded after push.
+- Final Pages run: `31996318896`, success; https://github.com/SU2QC/su2qc.github.io/actions/runs/31996318896.
+- Final live checks: `/favicon.ico`, `/`, `/login/`, `/upload/`, and `/library/` all HTTP 200; live metadata references the icon; the final fresh-context browser gate passed and cleanup returned the 3/3 baseline.
