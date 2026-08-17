@@ -23,4 +23,6 @@
 - [x] `npx impeccable detect --json app components` returns no findings.
 - [x] No GitHub Actions workflow exists.
 - [x] Live password login, library rendering, signed download, private-object denial, non-allowlisted RLS denial, and official Storage API cleanup passed for the disposable integration fixture.
-- [ ] Production password login, real upload/download, and cleanup require the hidden member-password test.
+- [x] Production password login, real upload/download, and cleanup passed through the hidden member-password test; remote logs recorded upload `201`, signed download `302`, and final Supabase counts were materials `0` and storage objects `0`.
+
+The Chrome DevTools responsive runner remains host-blocked in this environment because loopback socket binding is denied; plain static-server route checks passed for all six exported routes.
