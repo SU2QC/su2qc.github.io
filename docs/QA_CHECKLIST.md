@@ -24,5 +24,9 @@
 - [x] No GitHub Actions workflow exists.
 - [x] Live password login, library rendering, signed download, private-object denial, non-allowlisted RLS denial, and official Storage API cleanup passed for the disposable integration fixture.
 - [x] Production password login, real upload/download, and cleanup passed through the hidden member-password test; remote logs recorded upload `201`, signed download `302`, and final Supabase counts were materials `0` and storage objects `0`.
+- [x] v1.6.1 upload availability states distinguish configuration, expired session, denied membership, Edge Function unavailability, network/CORS failure, invalid service response, and validation/upload failure.
+- [x] v1.6.1 production static bundle contains the corrected upload endpoint and no longer contains the misleading generic availability string.
 
 The Chrome DevTools responsive runner remains host-blocked in this environment because loopback socket binding is denied; plain static-server route checks passed for all six exported routes.
+
+The authenticated API fallback passed after v1.6.1 deployment (`201` upload, `302` signed download, `401` denial); a real browser upload remains unverified because the available Chrome/Firefox runtimes cannot reach the network in this host.
