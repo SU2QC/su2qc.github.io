@@ -15,7 +15,7 @@ test("public configuration prefers the modern publishable key", () => {
     publishable: process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY,
   };
   try {
-    process.env.NEXT_PUBLIC_SUPABASE_URL = "https://example.supabase.co";
+    process.env.NEXT_PUBLIC_SUPABASE_URL = "https://example.supabase.co/";
     process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY = "sb_publishable_test";
     assert.deepEqual(getPublicConfig(), { url: "https://example.supabase.co", key: "sb_publishable_test" });
   } finally {
