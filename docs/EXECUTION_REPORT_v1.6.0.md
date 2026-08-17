@@ -50,7 +50,7 @@ Local unit coverage passed for origin/method/JWT gates, file validation, orphan 
 ## GitHub Pages publication
 
 - Public repository: https://github.com/SU2QC/su2qc.github.io
-- Source branch: `main`; source commit before this report: `a026ec9b976961f6e7ef632d70dda78afa171621`.
+- Source branch: `main`; release source commit: `a026ec9b976961f6e7ef632d70dda78afa171621`; final documentation tip: `74ef34f`.
 - Pages source: branch `gh-pages`, path `/`.
 - Final Pages deployment trigger: built-in Pages run `31972845716`, completed successfully from `gh-pages` commit `1f47ed7bd26ce7e909a6ac0c13a87ba322a4d76b`.
 - Production route checks returned HTTP 200 for all six exported routes; homepage and library content markers were present.
