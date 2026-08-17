@@ -28,6 +28,13 @@ test("approved hero and investigator assets are wired to the matching people", a
   assert.match(people, /kwangmin-yu\.jpeg/);
 });
 
+test("favicon is a checked-in ICO and is referenced by root metadata", async () => {
+  const favicon = await readFile(new URL("../app/favicon.ico", import.meta.url));
+  const layout = await text("app/layout.js");
+  assert.deepEqual(favicon.subarray(0, 4), Buffer.from([0, 0, 1, 0]));
+  assert.match(layout, /icons:\s*\{\s*icon:\s*["']\/favicon\.ico["']/s);
+});
+
 test("visual sections use the shared stacked heading-description pattern", async () => {
   const component = await text("components/section-intro.js");
   assert.match(component, /data-heading-description/);
@@ -91,6 +98,13 @@ test("password login and upload access use safe local redirects and allowlists",
   assert.match(upload, /Member approval required/);
   assert.match(upload, /isMissingAuthSession/);
   assert.match(login, /safeNext/);
+});
+
+test("upload reset does not use a React event target after await", async () => {
+  const upload = await text("components/upload-form.js");
+  assert.match(upload, /const formElement = event\.currentTarget/);
+  assert.match(upload, /formElement\.reset\(\)/);
+  assert.doesNotMatch(upload, /event\.currentTarget\.reset\(\)/);
 });
 
 test("public Supabase configuration uses only the modern browser key", async () => {

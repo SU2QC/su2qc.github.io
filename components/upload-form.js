@@ -13,7 +13,8 @@ export function UploadForm() {
   async function submit(event) {
     event.preventDefault();
     setState("Uploading…");
-    const form = new FormData(event.currentTarget);
+    const formElement = event.currentTarget;
+    const form = new FormData(formElement);
     let client;
     try {
       client = createClient();
@@ -64,7 +65,7 @@ export function UploadForm() {
       return;
     }
     setState(messageForUploadResponse(response.status, data));
-    if (response.ok) event.currentTarget.reset();
+    if (response.ok) formElement.reset();
   }
 
   return <form className="upload-card" onSubmit={submit}><div className="two-col"><label>Title<input name="title" required maxLength={180}/></label><label>File<input name="file" required type="file" accept=".pdf,.ppt,.pptx,.key,application/pdf,application/vnd.ms-powerpoint,application/vnd.openxmlformats-officedocument.presentationml.presentation,application/vnd.apple.keynote"/></label></div><label>Description<textarea name="description" required rows={5} maxLength={2000} placeholder="What is this material about?"/></label><label>BibTeX citation <span>(optional)</span><textarea name="bibtex" rows={8} placeholder={'@article{key,\n  author = {Family, Given and Family, Given},\n  title = {Paper title},\n  journal = {Journal},\n  year = {2026}\n}'}/></label><p className="form-note">Accepted: PDF, PPT, PPTX, Keynote · Maximum 50 MB. BibTeX is parsed into a conventional academic reference. File type and size are checked before storage; malware scanning is not included.</p><button className="button primary" type="submit"><Upload size={17}/> Upload and publish</button><div role="status" aria-live="polite" className="status">{state}</div></form>;

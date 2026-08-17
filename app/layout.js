@@ -9,6 +9,7 @@ const serif = Source_Serif_4({ subsets: ["latin"], variable: "--font-serif" });
 export const metadata = {
   title: { default: "SU2QC", template: "%s · SU2QC" },
   description: "AI-accelerated quantum simulation of non-Abelian gauge dynamics.",
+  icons: { icon: "/favicon.ico" },
 };
 
 export default function RootLayout({ children }) {
