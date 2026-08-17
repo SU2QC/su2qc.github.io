@@ -7,9 +7,9 @@ Supabase project ref: `zvhachktcgnkxwtdxucj`
 
 ## Executive result
 
-`SU2QC V1.8.2 FINAL GRAPH, DEPLOYMENT, BACKUP, AND CONTEXT GATE: IN PROGRESS`
+`SU2QC V1.8.2 FINAL GRAPH, DEPLOYMENT, BACKUP, AND CONTEXT GATE: PASS`
 
-This substantive report records the completed local and read-only gates. Final remote commit IDs, Pages deployment evidence, personal-backup commit, restore check, and shutdown determination are filled during deterministic finalization.
+This report records the completed local, production, source-push, Pages, backup, restore, and shutdown-readiness gates. The exact containing report-only commit is returned in the final handoff to avoid self-referential hash rewriting.
 
 ## Inherited and new work
 
@@ -102,7 +102,9 @@ Verified finalization values before the report-only commit:
 
 ## Cleanup and shutdown readiness
 
-The run creates disposable material only under `.codex-tmp/`; pre-existing ignored material is preserved. Before finalization, exact run-created directories, local servers, browser profiles, and processes are removed or stopped. The final report will state the clean worktree, all remote heads, production verification, artifact presence, and whether shutdown is safe. No shutdown command is permitted.
+Only exact run-created disposable directories under `.codex-tmp/` are removed; pre-existing ignored material is preserved. Local servers, browser profiles, and run-owned processes are stopped. The primary worktree is clean, all remote heads reconcile, production is verified, and the required artifacts are remotely present. No shutdown command is permitted.
+
+`SAFE TO SHUT DOWN: YES`
 
 ## Authoritative documentation
 
