@@ -52,6 +52,7 @@ The local `.env.local` had `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_
 - `main` remediation commit: `37b2631` (`Fix production upload availability states`).
 - `gh-pages` deployment commit: `d36c2a0` (`Publish v1.6.1 upload remediation`).
 - Built-in GitHub Pages run: `31990210789`, successful.
+- No custom workflow was created; the only remote workflow is GitHub-managed `pages-build-deployment` for Pages publication.
 - Live `/`, `/upload/`, and `/library/` routes: `200`.
 - Live bundle: new network/configuration messages present, old generic message absent, upload endpoint present.
 

@@ -21,7 +21,7 @@
 - [x] `out/index.html` and static route trees are generated.
 - [x] Supabase migration and Edge Function negative gates pass.
 - [x] `npx impeccable detect --json app components` returns no findings.
-- [x] No GitHub Actions workflow exists.
+- [x] No repository-authored GitHub Actions workflow exists; GitHub-managed Pages deployment is the only workflow shown remotely.
 - [x] Live password login, library rendering, signed download, private-object denial, non-allowlisted RLS denial, and official Storage API cleanup passed for the disposable integration fixture.
 - [x] Production password login, real upload/download, and cleanup passed through the hidden member-password test; remote logs recorded upload `201`, signed download `302`, and final Supabase counts were materials `0` and storage objects `0`.
 - [x] v1.6.1 upload availability states distinguish configuration, expired session, denied membership, Edge Function unavailability, network/CORS failure, invalid service response, and validation/upload failure.
