@@ -172,7 +172,8 @@ Vault path: `docs/obsidian-vault/`.
 
 - Initial main: `7af95d6140552c38f19a61714e95298cc081689b`.
 - Initial/final `gh-pages` for this documentation-only gate: `7bb768760ac5b8a76e22c3ffd8574996a7969a33`; no Pages deployment was required.
-- Final main commit, push result, and final clean-worktree state are recorded in the post-commit amendment to this report.
+- Implementation main commit: `dbfce18d9de77a7ab7dfa65f4be383cba805cd54` (`Complete v1.8.1 Graphify and investigator audit`), pushed successfully to `origin/main`.
+- A report-only finalization commit follows this implementation commit so the report itself contains the implementation hash; the final remote main ref and clean-worktree evidence are recorded in the final handoff.
 - Only the SU2QC organization remote is approved and will be used.
 - Because only graph, Obsidian, tests, runner, package scripts, documentation, and report artifacts changed, no meaningless `gh-pages` update will be created.
 
