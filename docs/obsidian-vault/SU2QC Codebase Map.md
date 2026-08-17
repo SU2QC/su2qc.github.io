@@ -1,7 +1,7 @@
 ---
 title: SU2QC Codebase Map
 tags: [su2qc, graphify, map]
-source_commit: 776681b80d961b73d4a8071ecf7429fed52bc793
+source_commit: 44845fd7b50baf7f794edcb89ba908c4dd0ae8dd
 ---
 
 # SU2QC Codebase Map
@@ -37,14 +37,12 @@ Graphify-derived navigation for the first-party SU2QC repository. Node IDs and r
 
 ## Graph coverage
 
-- Nodes: 242; edges: 333; source commit: `776681b80d961b73d4a8071ecf7429fed52bc793`.
+- Nodes: 265; edges: 348; source commit: `44845fd7b50baf7f794edcb89ba908c4dd0ae8dd`.
 - [[Graphify Coverage and Limitations]]
 
 ## Graph nodes
 
 - [[base-out_lib_supabase_config_supabaseconfigurationerror]]
-- [[base-out_supabase_functions_material_download_index_adminclient]]
-- [[base-out_supabase_functions_material_download_index_publicclient]]
 - [[base-out_supabase_functions_shared_bibtex_clean]]
 - [[base-out_supabase_functions_shared_bibtex_parsebibtex]]
 - [[base-out_supabase_functions_shared_bibtex_readvalue]]
@@ -69,6 +67,7 @@ Graphify-derived navigation for the first-party SU2QC repository. Node IDs and r
 - [[base-out_scripts_docs_graph_generatevault]]
 - [[base-out_scripts_docs_graph_graphsources]]
 - [[base-out_scripts_docs_graph_includedfiles]]
+- [[base-out_scripts_docs_graph_isexcluded]]
 - [[base-out_scripts_docs_graph_normalizeandfilter]]
 - [[base-out_scripts_docs_graph_readjson]]
 - [[base-out_scripts_docs_graph_run]]
@@ -81,16 +80,20 @@ Graphify-derived navigation for the first-party SU2QC repository. Node IDs and r
 - [[base-out_scripts_docs_graph_writegraphreport]]
 - [[base-out_scripts_docs_graph_writejson]]
 - [[base-out_scripts_docs_graph_writemanifests]]
+- [[base-out_lib_material_validation_hassignature]]
+- [[base-out_lib_material_validation_validatematerialfile]]
+- [[base-out_tests_material_validation_test_upload]]
 - [[base-out_lib_bibtex_clean]]
 - [[base-out_lib_bibtex_formatcitation]]
 - [[base-out_lib_bibtex_parsebibtex]]
 - [[base-out_lib_bibtex_readvalue]]
 - [[base-out_scripts_check_stacked_headings_availableport]]
 - [[base-out_scripts_check_stacked_headings_waitfor]]
+- [[base-out_supabase_functions_material_download_index_adminclient]]
+- [[base-out_supabase_functions_material_download_index_publicclient]]
 - [[base-out_supabase_functions_materials_upload_index_adminclient]]
 - [[base-out_supabase_functions_materials_upload_index_userclient]]
 - [[base-out_lib_rate_limit_allowrequest]]
-- [[base-out_tests_repository_test_text]]
 - [[base-out_app_upload_page_uploadpage]]
 - [[base-out_app_upload_page_uploadpage_checkaccess]]
 - [[base-out_app_upload_page_uploadpage_signout]]
@@ -104,6 +107,7 @@ Graphify-derived navigation for the first-party SU2QC repository. Node IDs and r
 - [[base-out_lib_supabase_config_supabaseconfigurationerror_constructor]]
 - [[base-out_lib_upload_status_messageforuploaderror]]
 - [[base-out_lib_upload_status_messageforuploadresponse]]
+- [[base-out_tests_repository_test_text]]
 - [[base-out_app_library_page_library]]
 - [[base-out_app_page_home]]
 - [[base-out_app_people_page_people]]
@@ -116,13 +120,6 @@ Graphify-derived navigation for the first-party SU2QC repository. Node IDs and r
 - [[base-out_components_login_form_loginform]]
 - [[base-out_components_login_form_loginform_submit]]
 - [[base-out_lib_safe_next_safenext]]
-- [[base-out_lib_material_validation_hassignature]]
-- [[base-out_lib_material_validation_validatematerialfile]]
-- [[base-out_tests_material_validation_test_upload]]
-- [[base-out_supabase_functions_material_download_index]]
-- [[base-out_supabase_functions_material_download_index_anonkey]]
-- [[base-out_supabase_functions_material_download_index_servicekey]]
-- [[base-out_supabase_functions_material_download_index_url]]
 - [[base-out_supabase_functions_shared_bibtex]]
 - [[base-out_supabase_functions_shared_download_handler]]
 - [[base-out_supabase_functions_shared_http]]
@@ -144,21 +141,24 @@ Graphify-derived navigation for the first-party SU2QC repository. Node IDs and r
 - [[base-out_scripts_docs_graph_root]]
 - [[base-out_scripts_docs_graph_tmp]]
 - [[base-out_scripts_docs_graph_vaultdir]]
+- [[base-out_lib_material_validation]]
+- [[base-out_lib_material_validation_allowed_types]]
+- [[base-out_lib_material_validation_extensions]]
+- [[base-out_lib_material_validation_max_bytes]]
+- [[base-out_tests_material_validation_test]]
 - [[base-out_lib_bibtex]]
 - [[base-out_tests_bibtex_test]]
 - [[base-out_scripts_check_stacked_headings]]
 - [[base-out_scripts_check_stacked_headings_chrome]]
 - [[base-out_scripts_check_stacked_headings_routes]]
 - [[base-out_scripts_check_stacked_headings_widths]]
+- [[base-out_supabase_functions_material_download_index]]
+- [[base-out_supabase_functions_material_download_index_anonkey]]
+- [[base-out_supabase_functions_material_download_index_servicekey]]
+- [[base-out_supabase_functions_material_download_index_url]]
 - [[base-out_supabase_functions_materials_upload_index]]
 - [[base-out_supabase_functions_materials_upload_index_anonkey]]
 - [[base-out_supabase_functions_materials_upload_index_servicekey]]
 - [[base-out_supabase_functions_materials_upload_index_url]]
 - [[base-out_supabase_migrations_001_initial]]
 - [[base-out_supabase_migrations_001_initial_public_materials]]
-- [[base-out_supabase_migrations_001_initial_public_members]]
-- [[base-out_lib_rate_limit]]
-- [[base-out_lib_rate_limit_buckets]]
-- [[base-out_supabase_migrations_002_live_supabase_bootstrap]]
-- [[base-out_supabase_migrations_002_live_supabase_bootstrap_public_materials]]
-- [[base-out_next_config]]

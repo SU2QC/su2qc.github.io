@@ -4,17 +4,18 @@
   "semantic_model": "qwen2.5-coder:7b",
   "max_concurrency": 1,
   "api_timeout_seconds": 120,
-  "source_commit": "776681b80d961b73d4a8071ecf7429fed52bc793",
+  "source_commit": "44845fd7b50baf7f794edcb89ba908c4dd0ae8dd",
   "input_stage": "git archive HEAD",
   "missing_semantic_retries": [
     "docs/EXECUTION_REPORT_v1.6.0.md",
     "docs/EXECUTION_REPORT_v1.6.1.md",
     "docs/EXECUTION_REPORT_v1.8.1.md",
+    "docs/PROJECT_CONTEXT_v1.8.2.md",
     "docs/QA_CHECKLIST.md",
     "docs/SOURCES.md",
     "docs/UPLOAD_GUIDE.md"
   ],
   "failed_semantic_retries": [],
   "raw_graph": "Graphify merge of full extraction plus per-file Graphify retries",
-  "generated_at_utc": "2026-08-17T19:30:18.542Z"
+  "generated_at_utc": "2026-08-17T19:46:12.539Z"
 }

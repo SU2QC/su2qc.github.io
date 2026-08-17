@@ -12,7 +12,7 @@ Purpose: Graphify extracted this document from the repository.
 Graphify node ID: `semantic-out-5-0::docs_upload_guide_md`
 Repository source: `docs/UPLOAD_GUIDE.md`
 Node type: `document`
-Source commit: `776681b80d961b73d4a8071ecf7429fed52bc793`
+Source commit: `44845fd7b50baf7f794edcb89ba908c4dd0ae8dd`
 
 ## Important symbols
 
@@ -24,10 +24,12 @@ Source commit: `776681b80d961b73d4a8071ecf7429fed52bc793`
 
 ## Outgoing dependencies
 
-- [[semantic-out-5-0_materials_upload_edge_function]]
-- [[semantic-out-5-0_next_public_site_url]]
-- [[semantic-out-5-0_next_public_supabase_publishable_key]]
-- [[semantic-out-5-0_next_public_supabase_url]]
+- [[semantic-out-5-0_journal_of_high_energy_physics_06_2025_084]]
+- [[semantic-out-5-0_nextjs_16_3_release]]
+- [[semantic-out-5-0_physical_review_d_101_114502_2020]]
+- [[semantic-out-5-0_physical_review_d_11_395_1975]]
+- [[semantic-out-5-0_physical_review_d_91_054506_2015]]
+- [[semantic-out-5-0_supabase_server_side_authentication_for_nextjs]]
 
 ## Responsibilities and security relevance
 

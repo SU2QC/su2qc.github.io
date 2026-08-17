@@ -1,26 +1,12 @@
 {
   "graphify_version": "0.9.45",
-  "source_commit": "776681b80d961b73d4a8071ecf7429fed52bc793",
+  "source_commit": "44845fd7b50baf7f794edcb89ba908c4dd0ae8dd",
   "mapping": [
     {
       "graphify_node_id": "base-out::lib_supabase_config_supabaseconfigurationerror",
       "source_object": "SupabaseConfigurationError",
       "source_file": "lib/supabase/config.js",
       "obsidian_note": "base-out_lib_supabase_config_supabaseconfigurationerror.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::supabase_functions_material_download_index_adminclient",
-      "source_object": "adminClient()",
-      "source_file": "supabase/functions/material-download/index.js",
-      "obsidian_note": "base-out_supabase_functions_material_download_index_adminclient.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::supabase_functions_material_download_index_publicclient",
-      "source_object": "publicClient()",
-      "source_file": "supabase/functions/material-download/index.js",
-      "obsidian_note": "base-out_supabase_functions_material_download_index_publicclient.md",
       "heading": null
     },
     {
@@ -192,6 +178,13 @@
       "heading": null
     },
     {
+      "graphify_node_id": "base-out::scripts_docs_graph_isexcluded",
+      "source_object": "isExcluded()",
+      "source_file": "scripts/docs-graph.mjs",
+      "obsidian_note": "base-out_scripts_docs_graph_isexcluded.md",
+      "heading": null
+    },
+    {
       "graphify_node_id": "base-out::scripts_docs_graph_normalizeandfilter",
       "source_object": "normalizeAndFilter()",
       "source_file": "scripts/docs-graph.mjs",
@@ -276,6 +269,27 @@
       "heading": null
     },
     {
+      "graphify_node_id": "base-out::lib_material_validation_hassignature",
+      "source_object": "hasSignature()",
+      "source_file": "lib/material-validation.mjs",
+      "obsidian_note": "base-out_lib_material_validation_hassignature.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::lib_material_validation_validatematerialfile",
+      "source_object": "validateMaterialFile()",
+      "source_file": "lib/material-validation.mjs",
+      "obsidian_note": "base-out_lib_material_validation_validatematerialfile.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::tests_material_validation_test_upload",
+      "source_object": "upload()",
+      "source_file": "tests/material-validation.test.mjs",
+      "obsidian_note": "base-out_tests_material_validation_test_upload.md",
+      "heading": null
+    },
+    {
       "graphify_node_id": "base-out::lib_bibtex_clean",
       "source_object": "clean()",
       "source_file": "lib/bibtex.mjs",
@@ -318,6 +332,20 @@
       "heading": null
     },
     {
+      "graphify_node_id": "base-out::supabase_functions_material_download_index_adminclient",
+      "source_object": "adminClient()",
+      "source_file": "supabase/functions/material-download/index.js",
+      "obsidian_note": "base-out_supabase_functions_material_download_index_adminclient.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::supabase_functions_material_download_index_publicclient",
+      "source_object": "publicClient()",
+      "source_file": "supabase/functions/material-download/index.js",
+      "obsidian_note": "base-out_supabase_functions_material_download_index_publicclient.md",
+      "heading": null
+    },
+    {
       "graphify_node_id": "base-out::supabase_functions_materials_upload_index_adminclient",
       "source_object": "adminClient()",
       "source_file": "supabase/functions/materials-upload/index.js",
@@ -336,13 +364,6 @@
       "source_object": "allowRequest()",
       "source_file": "lib/rate-limit.mjs",
       "obsidian_note": "base-out_lib_rate_limit_allowrequest.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::tests_repository_test_text",
-      "source_object": "text()",
-      "source_file": "tests/repository.test.mjs",
-      "obsidian_note": "base-out_tests_repository_test_text.md",
       "heading": null
     },
     {
@@ -437,6 +458,13 @@
       "heading": null
     },
     {
+      "graphify_node_id": "base-out::tests_repository_test_text",
+      "source_object": "text()",
+      "source_file": "tests/repository.test.mjs",
+      "obsidian_note": "base-out_tests_repository_test_text.md",
+      "heading": null
+    },
+    {
       "graphify_node_id": "base-out::app_library_page_library",
       "source_object": "Library()",
       "source_file": "app/library/page.js",
@@ -518,55 +546,6 @@
       "source_object": "safeNext()",
       "source_file": "lib/safe-next.mjs",
       "obsidian_note": "base-out_lib_safe_next_safenext.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::lib_material_validation_hassignature",
-      "source_object": "hasSignature()",
-      "source_file": "lib/material-validation.mjs",
-      "obsidian_note": "base-out_lib_material_validation_hassignature.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::lib_material_validation_validatematerialfile",
-      "source_object": "validateMaterialFile()",
-      "source_file": "lib/material-validation.mjs",
-      "obsidian_note": "base-out_lib_material_validation_validatematerialfile.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::tests_material_validation_test_upload",
-      "source_object": "upload()",
-      "source_file": "tests/material-validation.test.mjs",
-      "obsidian_note": "base-out_tests_material_validation_test_upload.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::supabase_functions_material_download_index",
-      "source_object": "material-download/index.js",
-      "source_file": "supabase/functions/material-download/index.js",
-      "obsidian_note": "base-out_supabase_functions_material_download_index.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::supabase_functions_material_download_index_anonkey",
-      "source_object": "anonKey",
-      "source_file": "supabase/functions/material-download/index.js",
-      "obsidian_note": "base-out_supabase_functions_material_download_index_anonkey.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::supabase_functions_material_download_index_servicekey",
-      "source_object": "serviceKey",
-      "source_file": "supabase/functions/material-download/index.js",
-      "obsidian_note": "base-out_supabase_functions_material_download_index_servicekey.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::supabase_functions_material_download_index_url",
-      "source_object": "url",
-      "source_file": "supabase/functions/material-download/index.js",
-      "obsidian_note": "base-out_supabase_functions_material_download_index_url.md",
       "heading": null
     },
     {
@@ -717,6 +696,41 @@
       "heading": null
     },
     {
+      "graphify_node_id": "base-out::lib_material_validation",
+      "source_object": "material-validation.mjs",
+      "source_file": "lib/material-validation.mjs",
+      "obsidian_note": "base-out_lib_material_validation.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::lib_material_validation_allowed_types",
+      "source_object": "ALLOWED_TYPES",
+      "source_file": "lib/material-validation.mjs",
+      "obsidian_note": "base-out_lib_material_validation_allowed_types.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::lib_material_validation_extensions",
+      "source_object": "EXTENSIONS",
+      "source_file": "lib/material-validation.mjs",
+      "obsidian_note": "base-out_lib_material_validation_extensions.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::lib_material_validation_max_bytes",
+      "source_object": "MAX_BYTES",
+      "source_file": "lib/material-validation.mjs",
+      "obsidian_note": "base-out_lib_material_validation_max_bytes.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::tests_material_validation_test",
+      "source_object": "material-validation.test.mjs",
+      "source_file": "tests/material-validation.test.mjs",
+      "obsidian_note": "base-out_tests_material_validation_test.md",
+      "heading": null
+    },
+    {
       "graphify_node_id": "base-out::lib_bibtex",
       "source_object": "bibtex.mjs",
       "source_file": "lib/bibtex.mjs",
@@ -756,6 +770,34 @@
       "source_object": "widths",
       "source_file": "scripts/check-stacked-headings.mjs",
       "obsidian_note": "base-out_scripts_check_stacked_headings_widths.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::supabase_functions_material_download_index",
+      "source_object": "material-download/index.js",
+      "source_file": "supabase/functions/material-download/index.js",
+      "obsidian_note": "base-out_supabase_functions_material_download_index.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::supabase_functions_material_download_index_anonkey",
+      "source_object": "anonKey",
+      "source_file": "supabase/functions/material-download/index.js",
+      "obsidian_note": "base-out_supabase_functions_material_download_index_anonkey.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::supabase_functions_material_download_index_servicekey",
+      "source_object": "serviceKey",
+      "source_file": "supabase/functions/material-download/index.js",
+      "obsidian_note": "base-out_supabase_functions_material_download_index_servicekey.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::supabase_functions_material_download_index_url",
+      "source_object": "url",
+      "source_file": "supabase/functions/material-download/index.js",
+      "obsidian_note": "base-out_supabase_functions_material_download_index_url.md",
       "heading": null
     },
     {
@@ -836,27 +878,6 @@
       "heading": null
     },
     {
-      "graphify_node_id": "base-out::next_config",
-      "source_object": "next.config.mjs",
-      "source_file": "next.config.mjs",
-      "obsidian_note": "base-out_next_config.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::next_config_nextconfig",
-      "source_object": "nextConfig",
-      "source_file": "next.config.mjs",
-      "obsidian_note": "base-out_next_config_nextconfig.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::tests_repository_test",
-      "source_object": "repository.test.mjs",
-      "source_file": "tests/repository.test.mjs",
-      "obsidian_note": "base-out_tests_repository_test.md",
-      "heading": null
-    },
-    {
       "graphify_node_id": "base-out::app_upload_page",
       "source_object": "upload/page.js",
       "source_file": "app/upload/page.js",
@@ -917,6 +938,27 @@
       "source_object": "upload-status.test.mjs",
       "source_file": "tests/upload-status.test.mjs",
       "obsidian_note": "base-out_tests_upload_status_test.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::next_config",
+      "source_object": "next.config.mjs",
+      "source_file": "next.config.mjs",
+      "obsidian_note": "base-out_next_config.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::next_config_nextconfig",
+      "source_object": "nextConfig",
+      "source_file": "next.config.mjs",
+      "obsidian_note": "base-out_next_config_nextconfig.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::tests_repository_test",
+      "source_object": "repository.test.mjs",
+      "source_file": "tests/repository.test.mjs",
+      "obsidian_note": "base-out_tests_repository_test.md",
       "heading": null
     },
     {
@@ -1354,41 +1396,6 @@
       "heading": null
     },
     {
-      "graphify_node_id": "base-out::lib_material_validation",
-      "source_object": "material-validation.mjs",
-      "source_file": "lib/material-validation.mjs",
-      "obsidian_note": "base-out_lib_material_validation.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::lib_material_validation_allowed_types",
-      "source_object": "ALLOWED_TYPES",
-      "source_file": "lib/material-validation.mjs",
-      "obsidian_note": "base-out_lib_material_validation_allowed_types.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::lib_material_validation_extensions",
-      "source_object": "EXTENSIONS",
-      "source_file": "lib/material-validation.mjs",
-      "obsidian_note": "base-out_lib_material_validation_extensions.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::lib_material_validation_max_bytes",
-      "source_object": "MAX_BYTES",
-      "source_file": "lib/material-validation.mjs",
-      "obsidian_note": "base-out_lib_material_validation_max_bytes.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::tests_material_validation_test",
-      "source_object": "material-validation.test.mjs",
-      "source_file": "tests/material-validation.test.mjs",
-      "obsidian_note": "base-out_tests_material_validation_test.md",
-      "heading": null
-    },
-    {
       "graphify_node_id": "base-out::su2qc_production_browser_gate_20260817042636_d41813d3",
       "source_object": "SU2QC Production Browser Gate 20260817042636-d41813d3",
       "source_file": "docs/EXECUTION_REPORT_v1.6.2.md",
@@ -1431,6 +1438,34 @@
       "heading": null
     },
     {
+      "graphify_node_id": "base-out::docs_EXECUTION_REPORT_v1_8_2_md",
+      "source_object": "Execution Report v1.8.2",
+      "source_file": "docs/EXECUTION_REPORT_v1.8.2.md",
+      "obsidian_note": "base-out_docs_EXECUTION_REPORT_v1_8_2_md.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::graphify_0_9_45",
+      "source_object": "Graphify 0.9.45",
+      "source_file": "docs/EXECUTION_REPORT_v1.8.2.md",
+      "obsidian_note": "base-out_graphify_0_9_45.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::su2qc_su2qc_github_io",
+      "source_object": "SU2QC GitHub Repository",
+      "source_file": "docs/EXECUTION_REPORT_v1.8.2.md",
+      "obsidian_note": "base-out_su2qc_su2qc_github_io.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::supabase_zvhachktcgnkxwtdxucj",
+      "source_object": "Supabase Project",
+      "source_file": "docs/EXECUTION_REPORT_v1.8.2.md",
+      "obsidian_note": "base-out_supabase_zvhachktcgnkxwtdxucj.md",
+      "heading": null
+    },
+    {
       "graphify_node_id": "base-out::docs_execution_report_v1_7_0_md",
       "source_object": "Execution Report v1.7.0",
       "source_file": "docs/EXECUTION_REPORT_v1.7.0.md",
@@ -1439,7 +1474,7 @@
     },
     {
       "graphify_node_id": "base-out::image_1",
-      "source_object": "Conceptual diagram of lattice gauge theory",
+      "source_object": "SU(2) Lattice Gauge Theory Hero Diagram",
       "source_file": "public/images/su2qc-hero.png",
       "obsidian_note": "base-out_image_1.md",
       "heading": null
@@ -1456,20 +1491,6 @@
       "source_object": "Paulo F. Bedaque Investigator Photo",
       "source_file": "public/images/investigators/paulo-f-bedaque.jpg",
       "obsidian_note": "base-out_public_images_investigators_paulo_f_bedaque_jpg.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::public_images_investigators_raza_sabbir_sufian_png",
-      "source_object": "Raza Sabbir Sufian Investigator Photo",
-      "source_file": "public/images/investigators/raza-sabbir-sufian.png",
-      "obsidian_note": "base-out_public_images_investigators_raza_sabbir_sufian_png.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "base-out::public_images_investigators_taku_izubuchi_jpg",
-      "source_object": "Taku Izubuchi Investigator Photo",
-      "source_file": "public/images/investigators/taku-izubuchi.jpg",
-      "obsidian_note": "base-out_public_images_investigators_taku_izubuchi_jpg.md",
       "heading": null
     },
     {
@@ -1491,6 +1512,20 @@
       "source_object": "Product",
       "source_file": "PRODUCT.md",
       "obsidian_note": "base-out_product_md.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::public_images_investigators_raza_sabbir_sufian_png",
+      "source_object": "Raza Sabbir Sufian Investigator Photo",
+      "source_file": "public/images/investigators/raza-sabbir-sufian.png",
+      "obsidian_note": "base-out_public_images_investigators_raza_sabbir_sufian_png.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "base-out::public_images_investigators_taku_izubuchi_jpg",
+      "source_object": "Taku Izubuchi Investigator Photo",
+      "source_file": "public/images/investigators/taku-izubuchi.jpg",
+      "obsidian_note": "base-out_public_images_investigators_taku_izubuchi_jpg.md",
       "heading": null
     },
     {
@@ -1564,129 +1599,171 @@
       "heading": null
     },
     {
-      "graphify_node_id": "semantic-out-3-0::docs_qa_checklist",
+      "graphify_node_id": "semantic-out-3-0::data_people_js",
+      "source_object": "People Data",
+      "source_file": "data/people.js",
+      "obsidian_note": "semantic-out-3-0_data_people_js.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-3-0::lib_supabase_config_js",
+      "source_object": "Supabase Config",
+      "source_file": "lib/supabase/config.js",
+      "obsidian_note": "semantic-out-3-0_lib_supabase_config_js.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-3-0::docs_PROJECT_CONTEXT_v1_8_2_md",
+      "source_object": "SU2QC Project Context v1.8.2",
+      "source_file": "docs/PROJECT_CONTEXT_v1.8.2.md",
+      "obsidian_note": "semantic-out-3-0_docs_PROJECT_CONTEXT_v1_8_2_md.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-3-0::docs_QA_CHECKLIST_md",
       "source_object": "QA Checklist",
       "source_file": "docs/QA_CHECKLIST.md",
-      "obsidian_note": "semantic-out-3-0_docs_qa_checklist.md",
+      "obsidian_note": "semantic-out-3-0_docs_QA_CHECKLIST_md.md",
       "heading": null
     },
     {
-      "graphify_node_id": "semantic-out-4-0::ale_et_al_quantum_computation_of_su2_lattice_gauge_theory_with_continuous_variables_journal_of_high_energy_physics_06_2025_084",
-      "source_object": "Ale et al., Quantum computation of SU(2) lattice gauge theory with continuous variables",
-      "source_file": "docs/SOURCES.md",
-      "obsidian_note": "semantic-out-4-0_ale_et_al_quantum_computation_of_su2_lattice_gauge_theory_with_continuous_variables_journal_of_high_energy_physics_06_2025_084.md",
+      "graphify_node_id": "semantic-out-3-1::data_people_js",
+      "source_object": "data/people.js",
+      "source_file": "docs/PROJECT_CONTEXT_v1.8.2.md",
+      "obsidian_note": "semantic-out-3-1_data_people_js.md",
       "heading": null
     },
     {
-      "graphify_node_id": "semantic-out-4-0::brookhaven_national_laboratory_kwangmin_yu",
-      "source_object": "Kwangmin Yu",
-      "source_file": "docs/SOURCES.md",
-      "obsidian_note": "semantic-out-4-0_brookhaven_national_laboratory_kwangmin_yu.md",
+      "graphify_node_id": "semantic-out-3-1::material_download_function",
+      "source_object": "material-download function",
+      "source_file": "docs/PROJECT_CONTEXT_v1.8.2.md",
+      "obsidian_note": "semantic-out-3-1_material_download_function.md",
       "heading": null
     },
     {
-      "graphify_node_id": "semantic-out-4-0::brookhaven_national_laboratory_taku_izubuchi",
-      "source_object": "Taku Izubuchi",
-      "source_file": "docs/SOURCES.md",
-      "obsidian_note": "semantic-out-4-0_brookhaven_national_laboratory_taku_izubuchi.md",
+      "graphify_node_id": "semantic-out-3-1::materials_upload_function",
+      "source_object": "materials-upload function",
+      "source_file": "docs/PROJECT_CONTEXT_v1.8.2.md",
+      "obsidian_note": "semantic-out-3-1_materials_upload_function.md",
       "heading": null
     },
     {
-      "graphify_node_id": "semantic-out-4-0::docs_sources_md",
-      "source_object": "SOURCES.md",
-      "source_file": "docs/SOURCES.md",
-      "obsidian_note": "semantic-out-4-0_docs_sources_md.md",
+      "graphify_node_id": "semantic-out-3-1::Md_Habib_E_Islam_Digonto",
+      "source_object": "Md Habib E Islam Digonto",
+      "source_file": "docs/PROJECT_CONTEXT_v1.8.2.md",
+      "obsidian_note": "semantic-out-3-1_Md_Habib_E_Islam_Digonto.md",
       "heading": null
     },
     {
-      "graphify_node_id": "semantic-out-4-0::kogut_and_susskind_hamiltonian_formulation_of_wilsons_lattice_gauge_theories_physical_review_d_11_395_1975",
-      "source_object": "Kogut and Susskind, Hamiltonian Formulation of Wilson's Lattice Gauge Theories",
+      "graphify_node_id": "semantic-out-3-1::NEXT_PUBLIC_SITE_URL",
+      "source_object": "NEXT_PUBLIC_SITE_URL",
+      "source_file": "docs/PROJECT_CONTEXT_v1.8.2.md",
+      "obsidian_note": "semantic-out-3-1_NEXT_PUBLIC_SITE_URL.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-3-1::NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY",
+      "source_object": "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY",
+      "source_file": "docs/PROJECT_CONTEXT_v1.8.2.md",
+      "obsidian_note": "semantic-out-3-1_NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-3-1::NEXT_PUBLIC_SUPABASE_URL",
+      "source_object": "NEXT_PUBLIC_SUPABASE_URL",
+      "source_file": "docs/PROJECT_CONTEXT_v1.8.2.md",
+      "obsidian_note": "semantic-out-3-1_NEXT_PUBLIC_SUPABASE_URL.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-3-1::misla004_odu_edu",
+      "source_object": "misla004@odu.edu",
+      "source_file": "docs/PROJECT_CONTEXT_v1.8.2.md",
+      "obsidian_note": "semantic-out-3-1_misla004_odu_edu.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-3-1::public_materials_table",
+      "source_object": "public.materials table",
+      "source_file": "docs/PROJECT_CONTEXT_v1.8.2.md",
+      "obsidian_note": "semantic-out-3-1_public_materials_table.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-3-1::public_members_table",
+      "source_object": "public.members table",
+      "source_file": "docs/PROJECT_CONTEXT_v1.8.2.md",
+      "obsidian_note": "semantic-out-3-1_public_members_table.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-3-1::docs_PROJECT_CONTEXT_v1_8_2_md",
+      "source_object": "PROJECT_CONTEXT_v1.8.2.md",
+      "source_file": "docs/PROJECT_CONTEXT_v1.8.2.md",
+      "obsidian_note": "semantic-out-3-1_docs_PROJECT_CONTEXT_v1_8_2_md.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-3-2::docs_PROJECT_CONTEXT_v1_8_2_md",
+      "source_object": "PROJECT_CONTEXT_v1.8.2.md",
+      "source_file": "docs/PROJECT_CONTEXT_v1.8.2.md",
+      "obsidian_note": "semantic-out-3-2_docs_PROJECT_CONTEXT_v1_8_2_md.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-4-0::docs_qa_checklist",
+      "source_object": "QA Checklist",
+      "source_file": "docs/QA_CHECKLIST.md",
+      "obsidian_note": "semantic-out-4-0_docs_qa_checklist.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-4-0::docs_sources",
+      "source_object": "Public Content Sources",
       "source_file": "docs/SOURCES.md",
-      "obsidian_note": "semantic-out-4-0_kogut_and_susskind_hamiltonian_formulation_of_wilsons_lattice_gauge_theories_physical_review_d_11_395_1975.md",
+      "obsidian_note": "semantic-out-4-0_docs_sources.md",
       "heading": null
     },
     {
       "graphify_node_id": "semantic-out-4-0::nextjs_16_3_release",
-      "source_object": "Next.js 16.3 release",
+      "source_object": "Next.js 16.3 Release",
       "source_file": "docs/SOURCES.md",
       "obsidian_note": "semantic-out-4-0_nextjs_16_3_release.md",
       "heading": null
     },
     {
-      "graphify_node_id": "semantic-out-4-0::nmsu_news_nmsu_led_team_among_those_selected_for_800_million_doe_genesis_mission",
-      "source_object": "NMSU-led team selected for $800 million DOE Genesis Mission",
+      "graphify_node_id": "semantic-out-4-0::supabase_server_side_auth_nextjs",
+      "source_object": "Supabase Server-Side Authentication for Next.js",
       "source_file": "docs/SOURCES.md",
-      "obsidian_note": "semantic-out-4-0_nmsu_news_nmsu_led_team_among_those_selected_for_800_million_doe_genesis_mission.md",
+      "obsidian_note": "semantic-out-4-0_supabase_server_side_auth_nextjs.md",
       "heading": null
     },
     {
-      "graphify_node_id": "semantic-out-4-0::nmsu_physics_raza_sufian",
-      "source_object": "Raza Sufian",
+      "graphify_node_id": "semantic-out-4-0::ale_et_al_2025",
+      "source_object": "Ale et al., 'Quantum computation of SU(2) lattice gauge theory with continuous variables'",
       "source_file": "docs/SOURCES.md",
-      "obsidian_note": "semantic-out-4-0_nmsu_physics_raza_sufian.md",
+      "obsidian_note": "semantic-out-4-0_ale_et_al_2025.md",
       "heading": null
     },
     {
-      "graphify_node_id": "semantic-out-4-0::raychowdhury_and_stryker_loop_string_and_hadron_dynamics_in_su2_hamiltonian_lattice_gauge_theories_physical_review_d_101_114502_2020",
-      "source_object": "Raychowdhury and Stryker, Loop, String, and Hadron Dynamics in SU(2) Hamiltonian Lattice Gauge Theories",
+      "graphify_node_id": "semantic-out-4-0::kogut_and_susskind_1975",
+      "source_object": "Kogut and Susskind, 'Hamiltonian Formulation of Wilson's Lattice Gauge Theories'",
       "source_file": "docs/SOURCES.md",
-      "obsidian_note": "semantic-out-4-0_raychowdhury_and_stryker_loop_string_and_hadron_dynamics_in_su2_hamiltonian_lattice_gauge_theories_physical_review_d_101_114502_2020.md",
+      "obsidian_note": "semantic-out-4-0_kogut_and_susskind_1975.md",
       "heading": null
     },
     {
-      "graphify_node_id": "semantic-out-4-0::supabase_server_side_authentication_for_nextjs",
-      "source_object": "Supabase server-side authentication for Next.js",
+      "graphify_node_id": "semantic-out-4-0::raychowdhury_and_stryker_2020",
+      "source_object": "Raychowdhury and Stryker, 'Loop, String, and Hadron Dynamics in SU(2) Hamiltonian Lattice Gauge Theories'",
       "source_file": "docs/SOURCES.md",
-      "obsidian_note": "semantic-out-4-0_supabase_server_side_authentication_for_nextjs.md",
+      "obsidian_note": "semantic-out-4-0_raychowdhury_and_stryker_2020.md",
       "heading": null
     },
     {
-      "graphify_node_id": "semantic-out-4-0::umd_physics_paulo_bedaque",
-      "source_object": "Paulo Bedaque",
+      "graphify_node_id": "semantic-out-4-0::zohar_and_burrello_2015",
+      "source_object": "Zohar and Burrello, 'A Formulation of Lattice Gauge Theories for Quantum Simulations'",
       "source_file": "docs/SOURCES.md",
-      "obsidian_note": "semantic-out-4-0_umd_physics_paulo_bedaque.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "semantic-out-4-0::us_dept_of_energy_genesis_mission_awards_list_pdf",
-      "source_object": "Genesis Mission awards list PDF",
-      "source_file": "docs/SOURCES.md",
-      "obsidian_note": "semantic-out-4-0_us_dept_of_energy_genesis_mission_awards_list_pdf.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "semantic-out-4-0::zohar_and_burrello_a_formulation_of_lattice_gauge_theories_for_quantum_simulations_physical_review_d_91_054506_2015",
-      "source_object": "Zohar and Burrello, A Formulation of Lattice Gauge Theories for Quantum Simulations",
-      "source_file": "docs/SOURCES.md",
-      "obsidian_note": "semantic-out-4-0_zohar_and_burrello_a_formulation_of_lattice_gauge_theories_for_quantum_simulations_physical_review_d_91_054506_2015.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "semantic-out-5-0::materials_upload_edge_function",
-      "source_object": "Materials Upload Edge Function",
-      "source_file": "docs/UPLOAD_GUIDE.md",
-      "obsidian_note": "semantic-out-5-0_materials_upload_edge_function.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "semantic-out-5-0::next_public_site_url",
-      "source_object": "NEXT_PUBLIC_SITE_URL",
-      "source_file": "docs/UPLOAD_GUIDE.md",
-      "obsidian_note": "semantic-out-5-0_next_public_site_url.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "semantic-out-5-0::next_public_supabase_publishable_key",
-      "source_object": "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY",
-      "source_file": "docs/UPLOAD_GUIDE.md",
-      "obsidian_note": "semantic-out-5-0_next_public_supabase_publishable_key.md",
-      "heading": null
-    },
-    {
-      "graphify_node_id": "semantic-out-5-0::next_public_supabase_url",
-      "source_object": "NEXT_PUBLIC_SUPABASE_URL",
-      "source_file": "docs/UPLOAD_GUIDE.md",
-      "obsidian_note": "semantic-out-5-0_next_public_supabase_url.md",
+      "obsidian_note": "semantic-out-4-0_zohar_and_burrello_2015.md",
       "heading": null
     },
     {
@@ -1694,6 +1771,90 @@
       "source_object": "Upload Guide",
       "source_file": "docs/UPLOAD_GUIDE.md",
       "obsidian_note": "semantic-out-5-0_docs_upload_guide_md.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-5-0::journal_of_high_energy_physics_06_2025_084",
+      "source_object": "Journal of High Energy Physics 06 (2025) 084",
+      "source_file": "docs/SOURCES.md",
+      "obsidian_note": "semantic-out-5-0_journal_of_high_energy_physics_06_2025_084.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-5-0::nextjs_16_3_release",
+      "source_object": "Next.js 16.3 Release",
+      "source_file": "docs/SOURCES.md",
+      "obsidian_note": "semantic-out-5-0_nextjs_16_3_release.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-5-0::physical_review_d_101_114502_2020",
+      "source_object": "Physical Review D 101, 114502 (2020)",
+      "source_file": "docs/SOURCES.md",
+      "obsidian_note": "semantic-out-5-0_physical_review_d_101_114502_2020.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-5-0::physical_review_d_11_395_1975",
+      "source_object": "Physical Review D 11, 395 (1975)",
+      "source_file": "docs/SOURCES.md",
+      "obsidian_note": "semantic-out-5-0_physical_review_d_11_395_1975.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-5-0::physical_review_d_91_054506_2015",
+      "source_object": "Physical Review D 91, 054506 (2015)",
+      "source_file": "docs/SOURCES.md",
+      "obsidian_note": "semantic-out-5-0_physical_review_d_91_054506_2015.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-5-0::supabase_server_side_authentication_for_nextjs",
+      "source_object": "Supabase Server-Side Authentication for Next.js",
+      "source_file": "docs/SOURCES.md",
+      "obsidian_note": "semantic-out-5-0_supabase_server_side_authentication_for_nextjs.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-5-0::docs_sources_md",
+      "source_object": "Sources",
+      "source_file": "docs/SOURCES.md",
+      "obsidian_note": "semantic-out-5-0_docs_sources_md.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-6-0::materials_upload_edge_function",
+      "source_object": "Materials Upload Edge Function",
+      "source_file": "docs/UPLOAD_GUIDE.md",
+      "obsidian_note": "semantic-out-6-0_materials_upload_edge_function.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-6-0::next_public_site_url",
+      "source_object": "NEXT_PUBLIC_SITE_URL",
+      "source_file": "docs/UPLOAD_GUIDE.md",
+      "obsidian_note": "semantic-out-6-0_next_public_site_url.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-6-0::next_public_supabase_publishable_key",
+      "source_object": "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY",
+      "source_file": "docs/UPLOAD_GUIDE.md",
+      "obsidian_note": "semantic-out-6-0_next_public_supabase_publishable_key.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-6-0::next_public_supabase_url",
+      "source_object": "NEXT_PUBLIC_SUPABASE_URL",
+      "source_file": "docs/UPLOAD_GUIDE.md",
+      "obsidian_note": "semantic-out-6-0_next_public_supabase_url.md",
+      "heading": null
+    },
+    {
+      "graphify_node_id": "semantic-out-6-0::docs_upload_guide_md",
+      "source_object": "Upload Guide",
+      "source_file": "docs/UPLOAD_GUIDE.md",
+      "obsidian_note": "semantic-out-6-0_docs_upload_guide_md.md",
       "heading": null
     }
   ]

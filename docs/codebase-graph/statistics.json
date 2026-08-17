@@ -1,33 +1,34 @@
 {
   "generated_by": "Graphify 0.9.45",
-  "source_commit": "776681b80d961b73d4a8071ecf7429fed52bc793",
-  "included_files": 64,
-  "nodes": 242,
-  "edges": 333,
+  "source_commit": "44845fd7b50baf7f794edcb89ba908c4dd0ae8dd",
+  "included_files": 66,
+  "nodes": 265,
+  "edges": 348,
   "hyperedges": 2,
-  "communities": 30,
+  "communities": 32,
   "node_types": {
-    "code": 195,
-    "concept": 16,
-    "document": 25,
-    "image": 6
+    "code": 201,
+    "concept": 23,
+    "document": 31,
+    "image": 6,
+    "paper": 4
   },
   "edge_types": {
-    "calls": 58,
+    "calls": 59,
     "conceptually_related_to": 4,
-    "contains": 139,
+    "contains": 140,
     "imports": 63,
     "imports_from": 44,
     "indirect_call": 4,
     "method": 1,
-    "references": 20
+    "references": 33
   },
   "provenance": {
-    "EXTRACTED": 329,
+    "EXTRACTED": 344,
     "INFERRED": 4
   },
-  "raw_nodes": 276,
-  "raw_edges": 364,
-  "discarded_nodes": 34,
-  "discarded_edges": 31
+  "raw_nodes": 309,
+  "raw_edges": 393,
+  "discarded_nodes": 44,
+  "discarded_edges": 45
 }

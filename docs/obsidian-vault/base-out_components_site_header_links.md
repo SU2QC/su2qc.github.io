@@ -12,7 +12,7 @@ Purpose: Graphify extracted this code from the repository.
 Graphify node ID: `base-out::components_site_header_links`
 Repository source: `components/site-header.js`
 Node type: `code`
-Source commit: `776681b80d961b73d4a8071ecf7429fed52bc793`
+Source commit: `44845fd7b50baf7f794edcb89ba908c4dd0ae8dd`
 
 ## Important symbols
 

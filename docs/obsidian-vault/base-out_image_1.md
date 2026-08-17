@@ -5,18 +5,18 @@ node_type: image
 tags: [su2qc, graphify]
 ---
 
-# Conceptual diagram of lattice gauge theory
+# SU(2) Lattice Gauge Theory Hero Diagram
 
 Purpose: Graphify extracted this image from the repository.
 
 Graphify node ID: `base-out::image_1`
 Repository source: `public/images/su2qc-hero.png`
 Node type: `image`
-Source commit: `776681b80d961b73d4a8071ecf7429fed52bc793`
+Source commit: `44845fd7b50baf7f794edcb89ba908c4dd0ae8dd`
 
 ## Important symbols
 
-- Conceptual diagram of lattice gauge theory
+- SU(2) Lattice Gauge Theory Hero Diagram
 
 ## Incoming dependencies
 

@@ -2,8 +2,8 @@
 
 The raw Graphify merge contained model output outside the declared corpus and malformed records. The final graph keeps only records with an allowed repository-relative source, valid node IDs/labels, valid endpoints, relation, confidence, and provenance. No edges were invented.
 
-- Raw nodes: 276; retained nodes: 242; discarded nodes: 34.
-- Raw edges: 364; retained edges: 333; discarded edges: 31.
+- Raw nodes: 309; retained nodes: 265; discarded nodes: 44.
+- Raw edges: 393; retained edges: 348; discarded edges: 45.
 - Dynamic relationships and omitted model relationships remain unresolved rather than being inferred here.
 
 ## Discarded node samples
@@ -44,6 +44,26 @@ The raw Graphify merge contained model output outside the declared corpus and ma
     "id": "base-out::tree_sitter_sql",
     "source_file": null,
     "label": "Tree Sitter SQL"
+  },
+  {
+    "id": "base-out::nextjs_16_3_1",
+    "source_file": "docs/EXECUTION_REPORT_v1.8.2_md",
+    "label": "Next.js 16.3.1"
+  },
+  {
+    "id": "base-out::ollama_0_30_10",
+    "source_file": "docs/EXECUTION_REPORT_v1.8.2_md",
+    "label": "Ollama 0.30.10"
+  },
+  {
+    "id": "base-out::openai",
+    "source_file": "docs/EXECUTION_REPORT_v1.8.2_md",
+    "label": "OpenAI"
+  },
+  {
+    "id": "base-out::qwen2_5_coder_7b",
+    "source_file": "docs/EXECUTION_REPORT_v1.8.2_md",
+    "label": "Qwen2.5-coder:7b"
   },
   {
     "id": "base-out::next_js_app_router",
@@ -179,6 +199,36 @@ The raw Graphify merge contained model output outside the declared corpus and ma
     "id": "semantic-out-2-1::qwen2_5_coder_7b",
     "source_file": null,
     "label": "qwen2.5-coder:7b"
+  },
+  {
+    "id": "semantic-out-3-0::app_index_js",
+    "source_file": "app/index.js",
+    "label": "App Index"
+  },
+  {
+    "id": "semantic-out-3-0::components_header_js",
+    "source_file": "components/header.js",
+    "label": "Header Component"
+  },
+  {
+    "id": "semantic-out-3-0::scripts_layout_qa_js",
+    "source_file": "scripts/layout-qa.js",
+    "label": "Layout QA Script"
+  },
+  {
+    "id": "semantic-out-3-0::supabase_functions_upload_js",
+    "source_file": "supabase/functions/upload.js",
+    "label": "Upload Function"
+  },
+  {
+    "id": "semantic-out-3-0::tests_index_js",
+    "source_file": "tests/index.js",
+    "label": "Test Index"
+  },
+  {
+    "id": "semantic-out-3-2::setup_py",
+    "source_file": "setup.py",
+    "label": "setup.py"
   }
 ]
 ```

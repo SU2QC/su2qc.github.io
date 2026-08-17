@@ -23,9 +23,9 @@ No migration, Auth user, password, approved-member field, role, active status, o
 - Backend: local Ollama `0.30.10`, model `qwen2.5-coder:7b`, concurrency 1, API timeout 120 seconds.
 - Environment: localhost Ollama reachable; `openai` and `tree_sitter_sql` imports passed.
 - Smoke: the prior JavaScript/SQL/Markdown smoke gate passed; this run used the authentic CLI for the full extraction.
-- Scope: 64 included first-party files (46 code, 11 Markdown, 1 paper, 6 public images) and 7 documented exclusion entries/patterns. Generated graph and vault directories are explicitly removed from the staged extraction input.
-- Result: 242 nodes, 333 valid edges, 2 hyperedges, 30 communities; 195 code, 16 concept, 25 document, and 6 image nodes; 329 `EXTRACTED` and 4 `INFERRED` edges.
-- Coverage: 64/64 included files represented; zero dangling endpoints; generated graph/vault source count 0.
+- Scope: 66 included first-party files (46 code, 13 Markdown, 1 paper, 6 public images) and 8 documented exclusion entries/patterns. The machine-readable backup manifest is separately validated and excluded because Graphify 0.9.45 produces no node for it. Generated graph and vault directories are explicitly removed from the staged extraction input.
+- Result: 265 nodes, 348 valid edges, 2 hyperedges, 32 communities; node types and edge provenance are recorded in `statistics.json`.
+- Coverage: 66/66 included files represented; zero dangling endpoints; generated graph/vault source count 0.
 - Raw merge: 276 nodes and 364 edges; 34 nodes and 31 edges discarded as malformed or out of declared scope. No relationships were invented.
 - Artifacts: `docs/codebase-graph/graph.json`, `graph.html`, `graph.graphml`, `GRAPH_REPORT.md`, `statistics.json`, `generation-metadata.json`, `included-files.json`, `exclusions.json`, and `unresolved-relationships.md`.
 - Limitation: local semantic extraction can return malformed or omitted records and cannot prove dynamic runtime relationships. Long documents use bounded source-preserving retries and omissions remain visible in metadata.
@@ -36,7 +36,7 @@ Commands: `npm run docs:graph`, `npm run docs:graph:validate`.
 
 - Vault: `docs/obsidian-vault/`.
 - Graphify nodes mapped: 242/242.
-- Notes: 279, including `SU2QC Codebase Map.md` and 25 subsystem notes.
+- Notes: 319, including `SU2QC Codebase Map.md` and 25 subsystem notes.
 - Canvas: `SU2QC Architecture.canvas`; the Auth/member/authorization/upload/private-storage/library/signed-download and people/assets/static-export/Pages flows are represented.
 - Wiki links, map backlinks, Canvas file paths, secret scan, and absolute-path checks: PASS.
 - Validation command: `npm run docs:obsidian:validate`.

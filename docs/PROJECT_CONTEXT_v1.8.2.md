@@ -10,7 +10,7 @@ This is a standalone handoff for the SU2QC academic collaboration website. It is
 - Planned disaster-recovery repository: private `digonto10602/su2qc-website-backup`.
 - Supabase project URL: `https://zvhachktcgnkxwtdxucj.supabase.co`.
 - Supabase project ref: `zvhachktcgnkxwtdxucj`.
-- Current source baseline before this gate: `776681b80d961b73d4a8071ecf7429fed52bc793`.
+- Content/source commit used to generate the final graph: `44845fd7b50baf7f794edcb89ba908c4dd0ae8dd`.
 - Current organization `gh-pages`: `7bb768760ac5b8a76e22c3ffd8574996a7969a33`.
 - Personal-backup commit is recorded during finalization of this gate.
 
@@ -113,7 +113,7 @@ Run `npm run dev` only in the foreground for local browser checks and stop it af
 
 ## Graphify and Obsidian
 
-The final declared graph scope is 64 first-party files: 46 code, 11 Markdown documents, 1 paper, and 6 public images, with seven documented exclusions/patterns. The graph contains 242 nodes, 333 valid edges, 2 hyperedges, 30 communities, 195 code, 16 concept, 25 document, and 6 image nodes. Edge provenance is 329 `EXTRACTED` and 4 `INFERRED`. All 64 included files have at least one node, all endpoints validate, and no generated graph/vault source is included.
+The final declared graph scope is 66 first-party files: 46 code, 13 Markdown documents, 1 paper, and 6 public images, with eight documented exclusion entries/patterns. The machine-readable backup manifest is separately validated and excluded because Graphify 0.9.45 produces no node for it. The graph contains 265 nodes, 348 valid edges, 2 hyperedges, 32 communities, and node types recorded in `statistics.json`. Edge provenance is 344 `EXTRACTED` and 4 `INFERRED`. All 66 included files have at least one node, all endpoints validate, and no generated graph/vault source is included.
 
 Artifacts are under `docs/codebase-graph/`: `graph.json`, `graph.html`, `graph.graphml`, `GRAPH_REPORT.md`, `statistics.json`, `generation-metadata.json`, `included-files.json`, `exclusions.json`, and `unresolved-relationships.md`. The generated `docs/obsidian-vault/` contains 242 Graphify node mappings, 279 notes, the central `SU2QC Codebase Map.md`, 25 subsystem notes, and `SU2QC Architecture.canvas`. Validation is `npm run docs:graph:validate` (also the vault validator).
 

@@ -12,7 +12,7 @@ Purpose: Graphify extracted this code from the repository.
 Graphify node ID: `base-out::lib_rate_limit_allowrequest`
 Repository source: `lib/rate-limit.mjs`
 Node type: `code`
-Source commit: `776681b80d961b73d4a8071ecf7429fed52bc793`
+Source commit: `44845fd7b50baf7f794edcb89ba908c4dd0ae8dd`
 
 ## Important symbols
 
