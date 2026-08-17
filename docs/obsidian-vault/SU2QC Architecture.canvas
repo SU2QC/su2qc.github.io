@@ -1,0 +1,308 @@
+{
+  "nodes": [
+    {
+      "id": "group-frontend",
+      "type": "group",
+      "x": 0,
+      "y": 0,
+      "width": 230,
+      "height": 520,
+      "label": "Frontend"
+    },
+    {
+      "id": "frontend-0",
+      "type": "file",
+      "file": "Repository Structure.md",
+      "x": 20,
+      "y": 60,
+      "width": 190,
+      "height": 80
+    },
+    {
+      "id": "frontend-1",
+      "type": "file",
+      "file": "Application Routes.md",
+      "x": 20,
+      "y": 190,
+      "width": 190,
+      "height": 80
+    },
+    {
+      "id": "frontend-2",
+      "type": "file",
+      "file": "React Components.md",
+      "x": 20,
+      "y": 320,
+      "width": 190,
+      "height": 80
+    },
+    {
+      "id": "frontend-3",
+      "type": "file",
+      "file": "Library Rendering.md",
+      "x": 20,
+      "y": 450,
+      "width": 190,
+      "height": 80
+    },
+    {
+      "id": "group-auth",
+      "type": "group",
+      "x": 260,
+      "y": 0,
+      "width": 230,
+      "height": 520,
+      "label": "Authentication and authorization"
+    },
+    {
+      "id": "auth-0",
+      "type": "file",
+      "file": "Authentication Flow.md",
+      "x": 280,
+      "y": 60,
+      "width": 190,
+      "height": 80
+    },
+    {
+      "id": "auth-1",
+      "type": "file",
+      "file": "Approved Member Authorization.md",
+      "x": 280,
+      "y": 190,
+      "width": 190,
+      "height": 80
+    },
+    {
+      "id": "auth-2",
+      "type": "file",
+      "file": "Security Model.md",
+      "x": 280,
+      "y": 320,
+      "width": 190,
+      "height": 80
+    },
+    {
+      "id": "group-functions",
+      "type": "group",
+      "x": 520,
+      "y": 0,
+      "width": 230,
+      "height": 520,
+      "label": "Edge Functions"
+    },
+    {
+      "id": "functions-0",
+      "type": "file",
+      "file": "Upload Flow.md",
+      "x": 540,
+      "y": 60,
+      "width": 190,
+      "height": 80
+    },
+    {
+      "id": "functions-1",
+      "type": "file",
+      "file": "Signed Download Flow.md",
+      "x": 540,
+      "y": 190,
+      "width": 190,
+      "height": 80
+    },
+    {
+      "id": "functions-2",
+      "type": "file",
+      "file": "Edge Functions.md",
+      "x": 540,
+      "y": 320,
+      "width": 190,
+      "height": 80
+    },
+    {
+      "id": "group-data",
+      "type": "group",
+      "x": 780,
+      "y": 0,
+      "width": 230,
+      "height": 520,
+      "label": "Database and storage"
+    },
+    {
+      "id": "data-0",
+      "type": "file",
+      "file": "Supabase Data Model.md",
+      "x": 800,
+      "y": 60,
+      "width": 190,
+      "height": 80
+    },
+    {
+      "id": "data-1",
+      "type": "file",
+      "file": "Row-Level Security.md",
+      "x": 800,
+      "y": 190,
+      "width": 190,
+      "height": 80
+    },
+    {
+      "id": "data-2",
+      "type": "file",
+      "file": "Private Storage Security.md",
+      "x": 800,
+      "y": 320,
+      "width": 190,
+      "height": 80
+    },
+    {
+      "id": "group-people",
+      "type": "group",
+      "x": 1040,
+      "y": 0,
+      "width": 230,
+      "height": 520,
+      "label": "People and assets"
+    },
+    {
+      "id": "people-0",
+      "type": "file",
+      "file": "Investigator Images.md",
+      "x": 1060,
+      "y": 60,
+      "width": 190,
+      "height": 80
+    },
+    {
+      "id": "group-deploy",
+      "type": "group",
+      "x": 1300,
+      "y": 0,
+      "width": 230,
+      "height": 520,
+      "label": "Deployment"
+    },
+    {
+      "id": "deploy-0",
+      "type": "file",
+      "file": "Static Export.md",
+      "x": 1320,
+      "y": 60,
+      "width": 190,
+      "height": 80
+    },
+    {
+      "id": "deploy-1",
+      "type": "file",
+      "file": "GitHub Pages Deployment.md",
+      "x": 1320,
+      "y": 190,
+      "width": 190,
+      "height": 80
+    },
+    {
+      "id": "group-test",
+      "type": "group",
+      "x": 1560,
+      "y": 0,
+      "width": 230,
+      "height": 520,
+      "label": "Testing"
+    },
+    {
+      "id": "test-0",
+      "type": "file",
+      "file": "Local Testing.md",
+      "x": 1580,
+      "y": 60,
+      "width": 190,
+      "height": 80
+    },
+    {
+      "id": "test-1",
+      "type": "file",
+      "file": "Production Browser Validation.md",
+      "x": 1580,
+      "y": 190,
+      "width": 190,
+      "height": 80
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-0",
+      "fromNode": "frontend-1",
+      "toNode": "auth-0",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "edge-1",
+      "fromNode": "auth-0",
+      "toNode": "auth-1",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "edge-2",
+      "fromNode": "auth-1",
+      "toNode": "functions-0",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "edge-3",
+      "fromNode": "functions-0",
+      "toNode": "data-2",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "edge-4",
+      "fromNode": "data-2",
+      "toNode": "data-0",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "edge-5",
+      "fromNode": "data-0",
+      "toNode": "frontend-3",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "edge-6",
+      "fromNode": "frontend-3",
+      "toNode": "functions-1",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "edge-7",
+      "fromNode": "frontend-0",
+      "toNode": "people-0",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "edge-8",
+      "fromNode": "people-0",
+      "toNode": "deploy-0",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "edge-9",
+      "fromNode": "deploy-0",
+      "toNode": "deploy-1",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "edge-10",
+      "fromNode": "test-0",
+      "toNode": "test-1",
+      "fromSide": "right",
+      "toSide": "left"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "graphify_version": "0.9.45",
+  "semantic_backend": "ollama",
+  "semantic_model": "qwen2.5-coder:7b",
+  "max_concurrency": 1,
+  "api_timeout_seconds": 120,
+  "source_commit": "7af95d6140552c38f19a61714e95298cc081689b",
+  "input_stage": "git archive HEAD",
+  "missing_semantic_retries": [
+    "docs/EXECUTION_REPORT_v1.6.0.md",
+    "docs/EXECUTION_REPORT_v1.6.1.md"
+  ],
+  "raw_graph": "Graphify merge of full extraction plus per-file Graphify retries",
+  "generated_at_utc": "2026-08-17T17:38:12.463Z"
+}

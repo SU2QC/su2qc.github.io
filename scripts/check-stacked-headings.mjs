@@ -1,11 +1,20 @@
 import { spawn } from "node:child_process";
-import { mkdir, rm } from "node:fs/promises";
+import { mkdtemp, rm } from "node:fs/promises";
+import net from "node:net";
 
 const base = process.env.SU2QC_BASE_URL || "http://127.0.0.1:3000";
 const routes = ["/", "/research", "/people", "/library", "/login", "/upload"];
 const widths = [390, 768, 1024, 1440];
-const port = 9223;
-const profile = `${process.cwd()}/.tmp/layout-chrome-profile`;
+async function availablePort() {
+  const server = net.createServer();
+  await new Promise((resolve, reject) => { server.once("error", reject); server.listen(0, "127.0.0.1", resolve); });
+  const port = server.address().port;
+  await new Promise(resolve => server.close(resolve));
+  return port;
+}
+
+const port = await availablePort();
+const profile = await mkdtemp(`${process.cwd()}/.codex-tmp/layout-chrome-`);
 
 async function waitFor(url, attempts = 40) {
   for (let i = 0; i < attempts; i += 1) {

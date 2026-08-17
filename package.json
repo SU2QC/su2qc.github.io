@@ -9,7 +9,10 @@
     "lint": "eslint .",
     "test": "node --test tests/*.test.mjs",
     "verify": "npm test && npm run build",
-    "check:layout": "node scripts/check-stacked-headings.mjs"
+    "check:layout": "node scripts/check-stacked-headings.mjs",
+    "docs:graph": "node scripts/docs-graph.mjs build",
+    "docs:graph:validate": "node scripts/docs-graph.mjs validate",
+    "docs:obsidian:validate": "node scripts/docs-graph.mjs validate"
   },
   "dependencies": {
     "@supabase/ssr": "^0.6.1",

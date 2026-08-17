@@ -1,0 +1,4299 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d22" for="edge" attr.name="confidence_score" attr.type="double" />
+  <key id="d21" for="edge" attr.name="confidence_score" attr.type="long" />
+  <key id="d20" for="edge" attr.name="weight" attr.type="long" />
+  <key id="d19" for="edge" attr.name="source_location" attr.type="string" />
+  <key id="d18" for="edge" attr.name="source_file" attr.type="string" />
+  <key id="d17" for="edge" attr.name="confidence" attr.type="string" />
+  <key id="d16" for="edge" attr.name="context" attr.type="string" />
+  <key id="d15" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d14" for="node" attr.name="contributor" attr.type="string" />
+  <key id="d13" for="node" attr.name="author" attr.type="string" />
+  <key id="d12" for="node" attr.name="captured_at" attr.type="string" />
+  <key id="d11" for="node" attr.name="source_url" attr.type="string" />
+  <key id="d10" for="node" attr.name="local_id" attr.type="string" />
+  <key id="d9" for="node" attr.name="repo" attr.type="string" />
+  <key id="d8" for="node" attr.name="norm_label" attr.type="string" />
+  <key id="d7" for="node" attr.name="community" attr.type="long" />
+  <key id="d6" for="node" attr.name="source_location" attr.type="string" />
+  <key id="d5" for="node" attr.name="source_file" attr.type="string" />
+  <key id="d4" for="node" attr.name="file_type" attr.type="string" />
+  <key id="d3" for="node" attr.name="label" attr.type="string" />
+  <key id="d2" for="graph" attr.name="source_commit" attr.type="string" />
+  <key id="d1" for="graph" attr.name="graphify_version" attr.type="string" />
+  <key id="d0" for="graph" attr.name="hyperedges" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="base-out::lib_supabase_config_supabaseconfigurationerror">
+      <data key="d3">SupabaseConfigurationError</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/supabase/config.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">1</data>
+      <data key="d8">supabaseconfigurationerror</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_supabase_config_supabaseconfigurationerror</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_bibtex_clean">
+      <data key="d3">clean()</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/bibtex.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">0</data>
+      <data key="d8">clean()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_bibtex_clean</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_bibtex_parsebibtex">
+      <data key="d3">parseBibTeX()</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/bibtex.js</data>
+      <data key="d6">L28</data>
+      <data key="d7">0</data>
+      <data key="d8">parsebibtex()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_bibtex_parsebibtex</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_bibtex_readvalue">
+      <data key="d3">readValue()</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/bibtex.js</data>
+      <data key="d6">L3</data>
+      <data key="d7">0</data>
+      <data key="d8">readvalue()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_bibtex_readvalue</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_download_handler_creatematerialdownloadhandler">
+      <data key="d3">createMaterialDownloadHandler()</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/download-handler.js</data>
+      <data key="d6">L4</data>
+      <data key="d7">0</data>
+      <data key="d8">creatematerialdownloadhandler()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_download_handler_creatematerialdownloadhandler</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_http_bearertoken">
+      <data key="d3">bearerToken()</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/http.js</data>
+      <data key="d6">L31</data>
+      <data key="d7">0</data>
+      <data key="d8">bearertoken()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_http_bearertoken</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_http_corsheaders">
+      <data key="d3">corsHeaders()</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/http.js</data>
+      <data key="d6">L15</data>
+      <data key="d7">0</data>
+      <data key="d8">corsheaders()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_http_corsheaders</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_http_json">
+      <data key="d3">json()</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/http.js</data>
+      <data key="d6">L24</data>
+      <data key="d7">0</data>
+      <data key="d8">json()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_http_json</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_http_requestorigin">
+      <data key="d3">requestOrigin()</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/http.js</data>
+      <data key="d6">L9</data>
+      <data key="d7">0</data>
+      <data key="d8">requestorigin()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_http_requestorigin</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_material_hassignature">
+      <data key="d3">hasSignature()</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/material.js</data>
+      <data key="d6">L11</data>
+      <data key="d7">0</data>
+      <data key="d8">hassignature()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_material_hassignature</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_material_isuuid">
+      <data key="d3">isUuid()</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/material.js</data>
+      <data key="d6">L32</data>
+      <data key="d7">0</data>
+      <data key="d8">isuuid()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_material_isuuid</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_material_safefilename">
+      <data key="d3">safeFilename()</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/material.js</data>
+      <data key="d6">L28</data>
+      <data key="d7">0</data>
+      <data key="d8">safefilename()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_material_safefilename</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_material_validatematerialfile">
+      <data key="d3">validateMaterialFile()</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/material.js</data>
+      <data key="d6">L17</data>
+      <data key="d7">0</data>
+      <data key="d8">validatematerialfile()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_material_validatematerialfile</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_upload_handler_creatematerialsuploadhandler">
+      <data key="d3">createMaterialsUploadHandler()</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d6">L19</data>
+      <data key="d7">0</data>
+      <data key="d8">creatematerialsuploadhandler()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_upload_handler_creatematerialsuploadhandler</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_upload_handler_findactivemember">
+      <data key="d3">findActiveMember()</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d6">L11</data>
+      <data key="d7">0</data>
+      <data key="d8">findactivemember()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_upload_handler_findactivemember</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_upload_handler_removeobject">
+      <data key="d3">removeObject()</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d6">L15</data>
+      <data key="d7">0</data>
+      <data key="d8">removeobject()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_upload_handler_removeobject</data>
+    </node>
+    <node id="base-out::tests_edge_functions_test_memberclient">
+      <data key="d3">memberClient()</data>
+      <data key="d4">code</data>
+      <data key="d5">tests/edge-functions.test.mjs</data>
+      <data key="d6">L10</data>
+      <data key="d7">0</data>
+      <data key="d8">memberclient()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">tests_edge_functions_test_memberclient</data>
+    </node>
+    <node id="base-out::tests_edge_functions_test_memberquery">
+      <data key="d3">memberQuery()</data>
+      <data key="d4">code</data>
+      <data key="d5">tests/edge-functions.test.mjs</data>
+      <data key="d6">L15</data>
+      <data key="d7">0</data>
+      <data key="d8">memberquery()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">tests_edge_functions_test_memberquery</data>
+    </node>
+    <node id="base-out::tests_edge_functions_test_request">
+      <data key="d3">request()</data>
+      <data key="d4">code</data>
+      <data key="d5">tests/edge-functions.test.mjs</data>
+      <data key="d6">L20</data>
+      <data key="d7">0</data>
+      <data key="d8">request()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">tests_edge_functions_test_request</data>
+    </node>
+    <node id="base-out::tests_edge_functions_test_uploaddeps">
+      <data key="d3">uploadDeps()</data>
+      <data key="d4">code</data>
+      <data key="d5">tests/edge-functions.test.mjs</data>
+      <data key="d6">L24</data>
+      <data key="d7">0</data>
+      <data key="d8">uploaddeps()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">tests_edge_functions_test_uploaddeps</data>
+    </node>
+    <node id="base-out::app_upload_page_uploadpage">
+      <data key="d3">UploadPage()</data>
+      <data key="d4">code</data>
+      <data key="d5">app/upload/page.js</data>
+      <data key="d6">L10</data>
+      <data key="d7">1</data>
+      <data key="d8">uploadpage()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_upload_page_uploadpage</data>
+    </node>
+    <node id="base-out::app_upload_page_uploadpage_checkaccess">
+      <data key="d3">checkAccess()</data>
+      <data key="d4">code</data>
+      <data key="d5">app/upload/page.js</data>
+      <data key="d6">L15</data>
+      <data key="d7">1</data>
+      <data key="d8">checkaccess()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_upload_page_uploadpage_checkaccess</data>
+    </node>
+    <node id="base-out::app_upload_page_uploadpage_signout">
+      <data key="d3">signOut()</data>
+      <data key="d4">code</data>
+      <data key="d5">app/upload/page.js</data>
+      <data key="d6">L51</data>
+      <data key="d7">1</data>
+      <data key="d8">signout()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_upload_page_uploadpage_signout</data>
+    </node>
+    <node id="base-out::components_library_list_librarylist">
+      <data key="d3">LibraryList()</data>
+      <data key="d4">code</data>
+      <data key="d5">components/library-list.js</data>
+      <data key="d6">L9</data>
+      <data key="d7">1</data>
+      <data key="d8">librarylist()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">components_library_list_librarylist</data>
+    </node>
+    <node id="base-out::components_library_list_librarylist_load">
+      <data key="d3">load()</data>
+      <data key="d4">code</data>
+      <data key="d5">components/library-list.js</data>
+      <data key="d6">L17</data>
+      <data key="d7">1</data>
+      <data key="d8">load()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">components_library_list_librarylist_load</data>
+    </node>
+    <node id="base-out::components_upload_form_uploadform">
+      <data key="d3">UploadForm()</data>
+      <data key="d4">code</data>
+      <data key="d5">components/upload-form.js</data>
+      <data key="d6">L10</data>
+      <data key="d7">1</data>
+      <data key="d8">uploadform()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">components_upload_form_uploadform</data>
+    </node>
+    <node id="base-out::components_upload_form_uploadform_submit">
+      <data key="d3">submit()</data>
+      <data key="d4">code</data>
+      <data key="d5">components/upload-form.js</data>
+      <data key="d6">L13</data>
+      <data key="d7">1</data>
+      <data key="d8">submit()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">components_upload_form_uploadform_submit</data>
+    </node>
+    <node id="base-out::lib_supabase_auth_ismissingauthsession">
+      <data key="d3">isMissingAuthSession()</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/supabase/auth.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">1</data>
+      <data key="d8">ismissingauthsession()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_supabase_auth_ismissingauthsession</data>
+    </node>
+    <node id="base-out::lib_supabase_client_createclient">
+      <data key="d3">createClient()</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/supabase/client.js</data>
+      <data key="d6">L4</data>
+      <data key="d7">1</data>
+      <data key="d8">createclient()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_supabase_client_createclient</data>
+    </node>
+    <node id="base-out::lib_supabase_config_getpublicconfig">
+      <data key="d3">getPublicConfig()</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/supabase/config.js</data>
+      <data key="d6">L8</data>
+      <data key="d7">1</data>
+      <data key="d8">getpublicconfig()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_supabase_config_getpublicconfig</data>
+    </node>
+    <node id="base-out::lib_supabase_config_supabaseconfigurationerror_constructor">
+      <data key="d3">.constructor()</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/supabase/config.js</data>
+      <data key="d6">L2</data>
+      <data key="d7">1</data>
+      <data key="d8">.constructor()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_supabase_config_supabaseconfigurationerror_constructor</data>
+    </node>
+    <node id="base-out::lib_upload_status_messageforuploaderror">
+      <data key="d3">messageForUploadError()</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/upload-status.mjs</data>
+      <data key="d6">L4</data>
+      <data key="d7">1</data>
+      <data key="d8">messageforuploaderror()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_upload_status_messageforuploaderror</data>
+    </node>
+    <node id="base-out::lib_upload_status_messageforuploadresponse">
+      <data key="d3">messageForUploadResponse()</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/upload-status.mjs</data>
+      <data key="d6">L13</data>
+      <data key="d7">1</data>
+      <data key="d8">messageforuploadresponse()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_upload_status_messageforuploadresponse</data>
+    </node>
+    <node id="base-out::lib_bibtex_clean">
+      <data key="d3">clean()</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/bibtex.mjs</data>
+      <data key="d6">L1</data>
+      <data key="d7">10</data>
+      <data key="d8">clean()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_bibtex_clean</data>
+    </node>
+    <node id="base-out::lib_bibtex_formatcitation">
+      <data key="d3">formatCitation()</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/bibtex.mjs</data>
+      <data key="d6">L53</data>
+      <data key="d7">10</data>
+      <data key="d8">formatcitation()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_bibtex_formatcitation</data>
+    </node>
+    <node id="base-out::lib_bibtex_parsebibtex">
+      <data key="d3">parseBibTeX()</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/bibtex.mjs</data>
+      <data key="d6">L28</data>
+      <data key="d7">10</data>
+      <data key="d8">parsebibtex()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_bibtex_parsebibtex</data>
+    </node>
+    <node id="base-out::lib_bibtex_readvalue">
+      <data key="d3">readValue()</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/bibtex.mjs</data>
+      <data key="d6">L3</data>
+      <data key="d7">10</data>
+      <data key="d8">readvalue()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_bibtex_readvalue</data>
+    </node>
+    <node id="base-out::supabase_functions_material_download_index_adminclient">
+      <data key="d3">adminClient()</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/material-download/index.js</data>
+      <data key="d6">L12</data>
+      <data key="d7">11</data>
+      <data key="d8">adminclient()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_material_download_index_adminclient</data>
+    </node>
+    <node id="base-out::supabase_functions_material_download_index_publicclient">
+      <data key="d3">publicClient()</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/material-download/index.js</data>
+      <data key="d6">L8</data>
+      <data key="d7">11</data>
+      <data key="d8">publicclient()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_material_download_index_publicclient</data>
+    </node>
+    <node id="base-out::supabase_functions_materials_upload_index_adminclient">
+      <data key="d3">adminClient()</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/materials-upload/index.js</data>
+      <data key="d6">L12</data>
+      <data key="d7">12</data>
+      <data key="d8">adminclient()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_materials_upload_index_adminclient</data>
+    </node>
+    <node id="base-out::supabase_functions_materials_upload_index_userclient">
+      <data key="d3">userClient()</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/materials-upload/index.js</data>
+      <data key="d6">L8</data>
+      <data key="d7">12</data>
+      <data key="d8">userclient()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_materials_upload_index_userclient</data>
+    </node>
+    <node id="base-out::scripts_check_stacked_headings_waitfor">
+      <data key="d3">waitFor()</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/check-stacked-headings.mjs</data>
+      <data key="d6">L10</data>
+      <data key="d7">14</data>
+      <data key="d8">waitfor()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_check_stacked_headings_waitfor</data>
+    </node>
+    <node id="base-out::lib_rate_limit_allowrequest">
+      <data key="d3">allowRequest()</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/rate-limit.mjs</data>
+      <data key="d6">L3</data>
+      <data key="d7">16</data>
+      <data key="d8">allowrequest()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_rate_limit_allowrequest</data>
+    </node>
+    <node id="base-out::tests_repository_test_text">
+      <data key="d3">text()</data>
+      <data key="d4">code</data>
+      <data key="d5">tests/repository.test.mjs</data>
+      <data key="d6">L6</data>
+      <data key="d7">20</data>
+      <data key="d8">text()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">tests_repository_test_text</data>
+    </node>
+    <node id="base-out::app_library_page_library">
+      <data key="d3">Library()</data>
+      <data key="d4">code</data>
+      <data key="d5">app/library/page.js</data>
+      <data key="d6">L6</data>
+      <data key="d7">3</data>
+      <data key="d8">library()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_library_page_library</data>
+    </node>
+    <node id="base-out::app_page_home">
+      <data key="d3">Home()</data>
+      <data key="d4">code</data>
+      <data key="d5">app/page.js</data>
+      <data key="d6">L14</data>
+      <data key="d7">3</data>
+      <data key="d8">home()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_page_home</data>
+    </node>
+    <node id="base-out::app_people_page_people">
+      <data key="d3">People()</data>
+      <data key="d4">code</data>
+      <data key="d5">app/people/page.js</data>
+      <data key="d6">L7</data>
+      <data key="d7">3</data>
+      <data key="d8">people()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_people_page_people</data>
+    </node>
+    <node id="base-out::app_research_page_research">
+      <data key="d3">Research()</data>
+      <data key="d4">code</data>
+      <data key="d5">app/research/page.js</data>
+      <data key="d6">L12</data>
+      <data key="d7">3</data>
+      <data key="d8">research()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_research_page_research</data>
+    </node>
+    <node id="base-out::components_section_intro_sectionintro">
+      <data key="d3">SectionIntro()</data>
+      <data key="d4">code</data>
+      <data key="d5">components/section-intro.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">3</data>
+      <data key="d8">sectionintro()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">components_section_intro_sectionintro</data>
+    </node>
+    <node id="base-out::app_layout_rootlayout">
+      <data key="d3">RootLayout()</data>
+      <data key="d4">code</data>
+      <data key="d5">app/layout.js</data>
+      <data key="d6">L15</data>
+      <data key="d7">5</data>
+      <data key="d8">rootlayout()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_layout_rootlayout</data>
+    </node>
+    <node id="base-out::components_site_footer_sitefooter">
+      <data key="d3">SiteFooter()</data>
+      <data key="d4">code</data>
+      <data key="d5">components/site-footer.js</data>
+      <data key="d6">L2</data>
+      <data key="d7">5</data>
+      <data key="d8">sitefooter()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">components_site_footer_sitefooter</data>
+    </node>
+    <node id="base-out::components_site_header_siteheader">
+      <data key="d3">SiteHeader()</data>
+      <data key="d4">code</data>
+      <data key="d5">components/site-header.js</data>
+      <data key="d6">L6</data>
+      <data key="d7">5</data>
+      <data key="d8">siteheader()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">components_site_header_siteheader</data>
+    </node>
+    <node id="base-out::app_login_page_login">
+      <data key="d3">Login()</data>
+      <data key="d4">code</data>
+      <data key="d5">app/login/page.js</data>
+      <data key="d6">L4</data>
+      <data key="d7">6</data>
+      <data key="d8">login()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_login_page_login</data>
+    </node>
+    <node id="base-out::components_login_form_loginform">
+      <data key="d3">LoginForm()</data>
+      <data key="d4">code</data>
+      <data key="d5">components/login-form.js</data>
+      <data key="d6">L7</data>
+      <data key="d7">6</data>
+      <data key="d8">loginform()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">components_login_form_loginform</data>
+    </node>
+    <node id="base-out::components_login_form_loginform_submit">
+      <data key="d3">submit()</data>
+      <data key="d4">code</data>
+      <data key="d5">components/login-form.js</data>
+      <data key="d6">L12</data>
+      <data key="d7">6</data>
+      <data key="d8">submit()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">components_login_form_loginform_submit</data>
+    </node>
+    <node id="base-out::lib_safe_next_safenext">
+      <data key="d3">safeNext()</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/safe-next.mjs</data>
+      <data key="d6">L3</data>
+      <data key="d7">6</data>
+      <data key="d8">safenext()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_safe_next_safenext</data>
+    </node>
+    <node id="base-out::lib_material_validation_hassignature">
+      <data key="d3">hasSignature()</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/material-validation.mjs</data>
+      <data key="d6">L11</data>
+      <data key="d7">8</data>
+      <data key="d8">hassignature()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_material_validation_hassignature</data>
+    </node>
+    <node id="base-out::lib_material_validation_validatematerialfile">
+      <data key="d3">validateMaterialFile()</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/material-validation.mjs</data>
+      <data key="d6">L17</data>
+      <data key="d7">8</data>
+      <data key="d8">validatematerialfile()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_material_validation_validatematerialfile</data>
+    </node>
+    <node id="base-out::tests_material_validation_test_upload">
+      <data key="d3">upload()</data>
+      <data key="d4">code</data>
+      <data key="d5">tests/material-validation.test.mjs</data>
+      <data key="d6">L5</data>
+      <data key="d7">8</data>
+      <data key="d8">upload()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">tests_material_validation_test_upload</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_bibtex">
+      <data key="d3">bibtex.js</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/bibtex.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">0</data>
+      <data key="d8">bibtex.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_bibtex</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_download_handler">
+      <data key="d3">download-handler.js</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/download-handler.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">0</data>
+      <data key="d8">download-handler.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_download_handler</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_http">
+      <data key="d3">http.js</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/http.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">0</data>
+      <data key="d8">http.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_http</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_http_allowed_origins">
+      <data key="d3">ALLOWED_ORIGINS</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/http.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">0</data>
+      <data key="d8">allowed_origins</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_http_allowed_origins</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_material">
+      <data key="d3">material.js</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/material.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">0</data>
+      <data key="d8">material.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_material</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_material_allowed_types">
+      <data key="d3">ALLOWED_TYPES</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/material.js</data>
+      <data key="d6">L2</data>
+      <data key="d7">0</data>
+      <data key="d8">allowed_types</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_material_allowed_types</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_material_extensions">
+      <data key="d3">EXTENSIONS</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/material.js</data>
+      <data key="d6">L8</data>
+      <data key="d7">0</data>
+      <data key="d8">extensions</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_material_extensions</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_material_max_bytes">
+      <data key="d3">MAX_BYTES</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/material.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">0</data>
+      <data key="d8">max_bytes</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_material_max_bytes</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_material_ppt_signature">
+      <data key="d3">PPT_SIGNATURE</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/material.js</data>
+      <data key="d6">L9</data>
+      <data key="d7">0</data>
+      <data key="d8">ppt_signature</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_material_ppt_signature</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_upload_handler">
+      <data key="d3">upload-handler.js</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">0</data>
+      <data key="d8">upload-handler.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_upload_handler</data>
+    </node>
+    <node id="base-out::supabase_functions_shared_upload_handler_error">
+      <data key="d3">ERROR</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d6">L5</data>
+      <data key="d7">0</data>
+      <data key="d8">error</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_shared_upload_handler_error</data>
+    </node>
+    <node id="base-out::tests_edge_functions_test">
+      <data key="d3">edge-functions.test.mjs</data>
+      <data key="d4">code</data>
+      <data key="d5">tests/edge-functions.test.mjs</data>
+      <data key="d6">L1</data>
+      <data key="d7">0</data>
+      <data key="d8">edge-functions.test.mjs</data>
+      <data key="d9">base-out</data>
+      <data key="d10">tests_edge_functions_test</data>
+    </node>
+    <node id="base-out::tests_edge_functions_test_member">
+      <data key="d3">member</data>
+      <data key="d4">code</data>
+      <data key="d5">tests/edge-functions.test.mjs</data>
+      <data key="d6">L6</data>
+      <data key="d7">0</data>
+      <data key="d8">member</data>
+      <data key="d9">base-out</data>
+      <data key="d10">tests_edge_functions_test_member</data>
+    </node>
+    <node id="base-out::app_upload_page">
+      <data key="d3">upload/page.js</data>
+      <data key="d4">code</data>
+      <data key="d5">app/upload/page.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">1</data>
+      <data key="d8">upload/page.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_upload_page</data>
+    </node>
+    <node id="base-out::components_library_list">
+      <data key="d3">library-list.js</data>
+      <data key="d4">code</data>
+      <data key="d5">components/library-list.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">1</data>
+      <data key="d8">library-list.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">components_library_list</data>
+    </node>
+    <node id="base-out::components_upload_form">
+      <data key="d3">upload-form.js</data>
+      <data key="d4">code</data>
+      <data key="d5">components/upload-form.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">1</data>
+      <data key="d8">upload-form.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">components_upload_form</data>
+    </node>
+    <node id="base-out::lib_supabase_auth">
+      <data key="d3">auth.js</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/supabase/auth.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">1</data>
+      <data key="d8">auth.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_supabase_auth</data>
+    </node>
+    <node id="base-out::lib_supabase_client">
+      <data key="d3">client.js</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/supabase/client.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">1</data>
+      <data key="d8">client.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_supabase_client</data>
+    </node>
+    <node id="base-out::lib_supabase_config">
+      <data key="d3">config.js</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/supabase/config.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">1</data>
+      <data key="d8">config.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_supabase_config</data>
+    </node>
+    <node id="base-out::lib_upload_status">
+      <data key="d3">upload-status.mjs</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/upload-status.mjs</data>
+      <data key="d6">L1</data>
+      <data key="d7">1</data>
+      <data key="d8">upload-status.mjs</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_upload_status</data>
+    </node>
+    <node id="base-out::tests_supabase_config_test">
+      <data key="d3">supabase-config.test.mjs</data>
+      <data key="d4">code</data>
+      <data key="d5">tests/supabase-config.test.mjs</data>
+      <data key="d6">L1</data>
+      <data key="d7">1</data>
+      <data key="d8">supabase-config.test.mjs</data>
+      <data key="d9">base-out</data>
+      <data key="d10">tests_supabase_config_test</data>
+    </node>
+    <node id="base-out::tests_upload_status_test">
+      <data key="d3">upload-status.test.mjs</data>
+      <data key="d4">code</data>
+      <data key="d5">tests/upload-status.test.mjs</data>
+      <data key="d6">L1</data>
+      <data key="d7">1</data>
+      <data key="d8">upload-status.test.mjs</data>
+      <data key="d9">base-out</data>
+      <data key="d10">tests_upload_status_test</data>
+    </node>
+    <node id="base-out::lib_bibtex">
+      <data key="d3">bibtex.mjs</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/bibtex.mjs</data>
+      <data key="d6">L1</data>
+      <data key="d7">10</data>
+      <data key="d8">bibtex.mjs</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_bibtex</data>
+    </node>
+    <node id="base-out::tests_bibtex_test">
+      <data key="d3">bibtex.test.mjs</data>
+      <data key="d4">code</data>
+      <data key="d5">tests/bibtex.test.mjs</data>
+      <data key="d6">L1</data>
+      <data key="d7">10</data>
+      <data key="d8">bibtex.test.mjs</data>
+      <data key="d9">base-out</data>
+      <data key="d10">tests_bibtex_test</data>
+    </node>
+    <node id="base-out::supabase_functions_material_download_index">
+      <data key="d3">material-download/index.js</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/material-download/index.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">11</data>
+      <data key="d8">material-download/index.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_material_download_index</data>
+    </node>
+    <node id="base-out::supabase_functions_material_download_index_anonkey">
+      <data key="d3">anonKey</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/material-download/index.js</data>
+      <data key="d6">L5</data>
+      <data key="d7">11</data>
+      <data key="d8">anonkey</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_material_download_index_anonkey</data>
+    </node>
+    <node id="base-out::supabase_functions_material_download_index_servicekey">
+      <data key="d3">serviceKey</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/material-download/index.js</data>
+      <data key="d6">L6</data>
+      <data key="d7">11</data>
+      <data key="d8">servicekey</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_material_download_index_servicekey</data>
+    </node>
+    <node id="base-out::supabase_functions_material_download_index_url">
+      <data key="d3">url</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/material-download/index.js</data>
+      <data key="d6">L4</data>
+      <data key="d7">11</data>
+      <data key="d8">url</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_material_download_index_url</data>
+    </node>
+    <node id="base-out::supabase_functions_materials_upload_index">
+      <data key="d3">materials-upload/index.js</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/materials-upload/index.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">12</data>
+      <data key="d8">materials-upload/index.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_materials_upload_index</data>
+    </node>
+    <node id="base-out::supabase_functions_materials_upload_index_anonkey">
+      <data key="d3">anonKey</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/materials-upload/index.js</data>
+      <data key="d6">L5</data>
+      <data key="d7">12</data>
+      <data key="d8">anonkey</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_materials_upload_index_anonkey</data>
+    </node>
+    <node id="base-out::supabase_functions_materials_upload_index_servicekey">
+      <data key="d3">serviceKey</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/materials-upload/index.js</data>
+      <data key="d6">L6</data>
+      <data key="d7">12</data>
+      <data key="d8">servicekey</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_materials_upload_index_servicekey</data>
+    </node>
+    <node id="base-out::supabase_functions_materials_upload_index_url">
+      <data key="d3">url</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/functions/materials-upload/index.js</data>
+      <data key="d6">L4</data>
+      <data key="d7">12</data>
+      <data key="d8">url</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_functions_materials_upload_index_url</data>
+    </node>
+    <node id="base-out::scripts_check_stacked_headings">
+      <data key="d3">check-stacked-headings.mjs</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/check-stacked-headings.mjs</data>
+      <data key="d6">L1</data>
+      <data key="d7">14</data>
+      <data key="d8">check-stacked-headings.mjs</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_check_stacked_headings</data>
+    </node>
+    <node id="base-out::scripts_check_stacked_headings_chrome">
+      <data key="d3">chrome</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/check-stacked-headings.mjs</data>
+      <data key="d6">L17</data>
+      <data key="d7">14</data>
+      <data key="d8">chrome</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_check_stacked_headings_chrome</data>
+    </node>
+    <node id="base-out::scripts_check_stacked_headings_routes">
+      <data key="d3">routes</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/check-stacked-headings.mjs</data>
+      <data key="d6">L5</data>
+      <data key="d7">14</data>
+      <data key="d8">routes</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_check_stacked_headings_routes</data>
+    </node>
+    <node id="base-out::scripts_check_stacked_headings_widths">
+      <data key="d3">widths</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/check-stacked-headings.mjs</data>
+      <data key="d6">L6</data>
+      <data key="d7">14</data>
+      <data key="d8">widths</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_check_stacked_headings_widths</data>
+    </node>
+    <node id="base-out::supabase_migrations_001_initial">
+      <data key="d3">001_initial.sql</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/migrations/001_initial.sql</data>
+      <data key="d6" />
+      <data key="d7">15</data>
+      <data key="d8">001_initial.sql</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_migrations_001_initial</data>
+    </node>
+    <node id="base-out::supabase_migrations_001_initial_public_materials">
+      <data key="d3">public.materials</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/migrations/001_initial.sql</data>
+      <data key="d6">L12</data>
+      <data key="d7">15</data>
+      <data key="d8">public.materials</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_migrations_001_initial_public_materials</data>
+    </node>
+    <node id="base-out::supabase_migrations_001_initial_public_members">
+      <data key="d3">public.members</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/migrations/001_initial.sql</data>
+      <data key="d6">L3</data>
+      <data key="d7">15</data>
+      <data key="d8">public.members</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_migrations_001_initial_public_members</data>
+    </node>
+    <node id="base-out::lib_rate_limit">
+      <data key="d3">rate-limit.mjs</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/rate-limit.mjs</data>
+      <data key="d6">L1</data>
+      <data key="d7">16</data>
+      <data key="d8">rate-limit.mjs</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_rate_limit</data>
+    </node>
+    <node id="base-out::lib_rate_limit_buckets">
+      <data key="d3">buckets</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/rate-limit.mjs</data>
+      <data key="d6">L1</data>
+      <data key="d7">16</data>
+      <data key="d8">buckets</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_rate_limit_buckets</data>
+    </node>
+    <node id="base-out::supabase_migrations_002_live_supabase_bootstrap">
+      <data key="d3">002_live_supabase_bootstrap.sql</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/migrations/002_live_supabase_bootstrap.sql</data>
+      <data key="d6" />
+      <data key="d7">17</data>
+      <data key="d8">002_live_supabase_bootstrap.sql</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_migrations_002_live_supabase_bootstrap</data>
+    </node>
+    <node id="base-out::supabase_migrations_002_live_supabase_bootstrap_public_materials">
+      <data key="d3">public.materials</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/migrations/002_live_supabase_bootstrap.sql</data>
+      <data key="d6">L41</data>
+      <data key="d7">17</data>
+      <data key="d8">public.materials</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_migrations_002_live_supabase_bootstrap_public_materials</data>
+    </node>
+    <node id="base-out::next_config">
+      <data key="d3">next.config.mjs</data>
+      <data key="d4">code</data>
+      <data key="d5">next.config.mjs</data>
+      <data key="d6">L1</data>
+      <data key="d7">19</data>
+      <data key="d8">next.config.mjs</data>
+      <data key="d9">base-out</data>
+      <data key="d10">next_config</data>
+    </node>
+    <node id="base-out::next_config_nextconfig">
+      <data key="d3">nextConfig</data>
+      <data key="d4">code</data>
+      <data key="d5">next.config.mjs</data>
+      <data key="d6">L2</data>
+      <data key="d7">19</data>
+      <data key="d8">nextconfig</data>
+      <data key="d9">base-out</data>
+      <data key="d10">next_config_nextconfig</data>
+    </node>
+    <node id="base-out::package_dependencies">
+      <data key="d3">dependencies</data>
+      <data key="d4">code</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L14</data>
+      <data key="d7">2</data>
+      <data key="d8">dependencies</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package_dependencies</data>
+    </node>
+    <node id="base-out::package_dependencies_lucide_react">
+      <data key="d3">lucide-react</data>
+      <data key="d4">code</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L17</data>
+      <data key="d7">2</data>
+      <data key="d8">lucide-react</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package_dependencies_lucide_react</data>
+    </node>
+    <node id="base-out::package_dependencies_next">
+      <data key="d3">next</data>
+      <data key="d4">code</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L18</data>
+      <data key="d7">2</data>
+      <data key="d8">next</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package_dependencies_next</data>
+    </node>
+    <node id="base-out::package_dependencies_react">
+      <data key="d3">react</data>
+      <data key="d4">code</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L19</data>
+      <data key="d7">2</data>
+      <data key="d8">react</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package_dependencies_react</data>
+    </node>
+    <node id="base-out::package_dependencies_react_dom">
+      <data key="d3">react-dom</data>
+      <data key="d4">code</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L20</data>
+      <data key="d7">2</data>
+      <data key="d8">react-dom</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package_dependencies_react_dom</data>
+    </node>
+    <node id="base-out::package_dependencies_supabase_ssr">
+      <data key="d3">@supabase/ssr</data>
+      <data key="d4">code</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L15</data>
+      <data key="d7">2</data>
+      <data key="d8">@supabase/ssr</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package_dependencies_supabase_ssr</data>
+    </node>
+    <node id="base-out::package_dependencies_supabase_supabase_js">
+      <data key="d3">@supabase/supabase-js</data>
+      <data key="d4">code</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L16</data>
+      <data key="d7">2</data>
+      <data key="d8">@supabase/supabase-js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package_dependencies_supabase_supabase_js</data>
+    </node>
+    <node id="base-out::lucide_react">
+      <data key="d3">lucide-react</data>
+      <data key="d4">concept</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L17</data>
+      <data key="d7">2</data>
+      <data key="d8">lucide-react</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lucide_react</data>
+    </node>
+    <node id="base-out::package_json_next">
+      <data key="d3">next</data>
+      <data key="d4">concept</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L18</data>
+      <data key="d7">2</data>
+      <data key="d8">next</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package_json_next</data>
+    </node>
+    <node id="base-out::react">
+      <data key="d3">react</data>
+      <data key="d4">concept</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L19</data>
+      <data key="d7">2</data>
+      <data key="d8">react</data>
+      <data key="d9">base-out</data>
+      <data key="d10">react</data>
+    </node>
+    <node id="base-out::react_dom">
+      <data key="d3">react-dom</data>
+      <data key="d4">concept</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L20</data>
+      <data key="d7">2</data>
+      <data key="d8">react-dom</data>
+      <data key="d9">base-out</data>
+      <data key="d10">react_dom</data>
+    </node>
+    <node id="base-out::supabase_ssr">
+      <data key="d3">@supabase/ssr</data>
+      <data key="d4">concept</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L15</data>
+      <data key="d7">2</data>
+      <data key="d8">@supabase/ssr</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_ssr</data>
+    </node>
+    <node id="base-out::supabase_supabase_js">
+      <data key="d3">@supabase/supabase-js</data>
+      <data key="d4">concept</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L16</data>
+      <data key="d7">2</data>
+      <data key="d8">@supabase/supabase-js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_supabase_js</data>
+    </node>
+    <node id="base-out::tests_repository_test">
+      <data key="d3">repository.test.mjs</data>
+      <data key="d4">code</data>
+      <data key="d5">tests/repository.test.mjs</data>
+      <data key="d6">L1</data>
+      <data key="d7">20</data>
+      <data key="d8">repository.test.mjs</data>
+      <data key="d9">base-out</data>
+      <data key="d10">tests_repository_test</data>
+    </node>
+    <node id="base-out::eslint_config">
+      <data key="d3">eslint.config.mjs</data>
+      <data key="d4">code</data>
+      <data key="d5">eslint.config.mjs</data>
+      <data key="d6">L1</data>
+      <data key="d7">22</data>
+      <data key="d8">eslint.config.mjs</data>
+      <data key="d9">base-out</data>
+      <data key="d10">eslint_config</data>
+    </node>
+    <node id="base-out::supabase_migrations_003_v1_4_0_live_supabase_grant_hardening">
+      <data key="d3">003_v1_4_0_live_supabase_grant_hardening.sql</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/migrations/003_v1_4_0_live_supabase_grant_hardening.sql</data>
+      <data key="d6" />
+      <data key="d7">29</data>
+      <data key="d8">003_v1_4_0_live_supabase_grant_hardening.sql</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_migrations_003_v1_4_0_live_supabase_grant_hardening</data>
+    </node>
+    <node id="base-out::app_library_page">
+      <data key="d3">library/page.js</data>
+      <data key="d4">code</data>
+      <data key="d5">app/library/page.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">3</data>
+      <data key="d8">library/page.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_library_page</data>
+    </node>
+    <node id="base-out::app_library_page_metadata">
+      <data key="d3">metadata</data>
+      <data key="d4">code</data>
+      <data key="d5">app/library/page.js</data>
+      <data key="d6">L4</data>
+      <data key="d7">3</data>
+      <data key="d8">metadata</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_library_page_metadata</data>
+    </node>
+    <node id="base-out::app_page">
+      <data key="d3">app/page.js</data>
+      <data key="d4">code</data>
+      <data key="d5">app/page.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">3</data>
+      <data key="d8">app/page.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_page</data>
+    </node>
+    <node id="base-out::app_page_themes">
+      <data key="d3">themes</data>
+      <data key="d4">code</data>
+      <data key="d5">app/page.js</data>
+      <data key="d6">L7</data>
+      <data key="d7">3</data>
+      <data key="d8">themes</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_page_themes</data>
+    </node>
+    <node id="base-out::app_people_page">
+      <data key="d3">people/page.js</data>
+      <data key="d4">code</data>
+      <data key="d5">app/people/page.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">3</data>
+      <data key="d8">people/page.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_people_page</data>
+    </node>
+    <node id="base-out::app_people_page_metadata">
+      <data key="d3">metadata</data>
+      <data key="d4">code</data>
+      <data key="d5">app/people/page.js</data>
+      <data key="d6">L6</data>
+      <data key="d7">3</data>
+      <data key="d8">metadata</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_people_page_metadata</data>
+    </node>
+    <node id="base-out::app_research_page">
+      <data key="d3">research/page.js</data>
+      <data key="d4">code</data>
+      <data key="d5">app/research/page.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">3</data>
+      <data key="d8">research/page.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_research_page</data>
+    </node>
+    <node id="base-out::app_research_page_metadata">
+      <data key="d3">metadata</data>
+      <data key="d4">code</data>
+      <data key="d5">app/research/page.js</data>
+      <data key="d6">L11</data>
+      <data key="d7">3</data>
+      <data key="d8">metadata</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_research_page_metadata</data>
+    </node>
+    <node id="base-out::app_research_page_pillars">
+      <data key="d3">pillars</data>
+      <data key="d4">code</data>
+      <data key="d5">app/research/page.js</data>
+      <data key="d6">L4</data>
+      <data key="d7">3</data>
+      <data key="d8">pillars</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_research_page_pillars</data>
+    </node>
+    <node id="base-out::components_section_intro">
+      <data key="d3">section-intro.js</data>
+      <data key="d4">code</data>
+      <data key="d5">components/section-intro.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">3</data>
+      <data key="d8">section-intro.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">components_section_intro</data>
+    </node>
+    <node id="base-out::data_people">
+      <data key="d3">people.js</data>
+      <data key="d4">code</data>
+      <data key="d5">data/people.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">3</data>
+      <data key="d8">people.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">data_people</data>
+    </node>
+    <node id="base-out::data_people_people">
+      <data key="d3">people</data>
+      <data key="d4">code</data>
+      <data key="d5">data/people.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">3</data>
+      <data key="d8">people</data>
+      <data key="d9">base-out</data>
+      <data key="d10">data_people_people</data>
+    </node>
+    <node id="base-out::supabase_migrations_004_v1_4_0_live_supabase_fk_hardening">
+      <data key="d3">004_v1_4_0_live_supabase_fk_hardening.sql</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/migrations/004_v1_4_0_live_supabase_fk_hardening.sql</data>
+      <data key="d6" />
+      <data key="d7">30</data>
+      <data key="d8">004_v1_4_0_live_supabase_fk_hardening.sql</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_migrations_004_v1_4_0_live_supabase_fk_hardening</data>
+    </node>
+    <node id="base-out::supabase_migrations_005_v1_6_0_security_hardening">
+      <data key="d3">005_v1_6_0_security_hardening.sql</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/migrations/005_v1_6_0_security_hardening.sql</data>
+      <data key="d6" />
+      <data key="d7">31</data>
+      <data key="d8">005_v1_6_0_security_hardening.sql</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_migrations_005_v1_6_0_security_hardening</data>
+    </node>
+    <node id="base-out::package">
+      <data key="d3">package.json</data>
+      <data key="d4">code</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L1</data>
+      <data key="d7">4</data>
+      <data key="d8">package.json</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package</data>
+    </node>
+    <node id="base-out::package_devdependencies">
+      <data key="d3">devDependencies</data>
+      <data key="d4">code</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L22</data>
+      <data key="d7">4</data>
+      <data key="d8">devdependencies</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package_devdependencies</data>
+    </node>
+    <node id="base-out::package_devdependencies_eslint">
+      <data key="d3">eslint</data>
+      <data key="d4">code</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L23</data>
+      <data key="d7">4</data>
+      <data key="d8">eslint</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package_devdependencies_eslint</data>
+    </node>
+    <node id="base-out::package_devdependencies_eslint_config_next">
+      <data key="d3">eslint-config-next</data>
+      <data key="d4">code</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L24</data>
+      <data key="d7">4</data>
+      <data key="d8">eslint-config-next</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package_devdependencies_eslint_config_next</data>
+    </node>
+    <node id="base-out::package_name">
+      <data key="d3">name</data>
+      <data key="d4">code</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L2</data>
+      <data key="d7">4</data>
+      <data key="d8">name</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package_name</data>
+    </node>
+    <node id="base-out::package_private">
+      <data key="d3">private</data>
+      <data key="d4">code</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L4</data>
+      <data key="d7">4</data>
+      <data key="d8">private</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package_private</data>
+    </node>
+    <node id="base-out::package_scripts">
+      <data key="d3">scripts</data>
+      <data key="d4">code</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L5</data>
+      <data key="d7">4</data>
+      <data key="d8">scripts</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package_scripts</data>
+    </node>
+    <node id="base-out::package_scripts_build">
+      <data key="d3">build</data>
+      <data key="d4">code</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L7</data>
+      <data key="d7">4</data>
+      <data key="d8">build</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package_scripts_build</data>
+    </node>
+    <node id="base-out::package_scripts_check_layout">
+      <data key="d3">check:layout</data>
+      <data key="d4">code</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L12</data>
+      <data key="d7">4</data>
+      <data key="d8">check:layout</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package_scripts_check_layout</data>
+    </node>
+    <node id="base-out::package_scripts_dev">
+      <data key="d3">dev</data>
+      <data key="d4">code</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L6</data>
+      <data key="d7">4</data>
+      <data key="d8">dev</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package_scripts_dev</data>
+    </node>
+    <node id="base-out::package_scripts_lint">
+      <data key="d3">lint</data>
+      <data key="d4">code</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L9</data>
+      <data key="d7">4</data>
+      <data key="d8">lint</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package_scripts_lint</data>
+    </node>
+    <node id="base-out::package_scripts_start">
+      <data key="d3">start</data>
+      <data key="d4">code</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L8</data>
+      <data key="d7">4</data>
+      <data key="d8">start</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package_scripts_start</data>
+    </node>
+    <node id="base-out::package_scripts_test">
+      <data key="d3">test</data>
+      <data key="d4">code</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L10</data>
+      <data key="d7">4</data>
+      <data key="d8">test</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package_scripts_test</data>
+    </node>
+    <node id="base-out::package_scripts_verify">
+      <data key="d3">verify</data>
+      <data key="d4">code</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L11</data>
+      <data key="d7">4</data>
+      <data key="d8">verify</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package_scripts_verify</data>
+    </node>
+    <node id="base-out::package_version">
+      <data key="d3">version</data>
+      <data key="d4">code</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L3</data>
+      <data key="d7">4</data>
+      <data key="d8">version</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package_version</data>
+    </node>
+    <node id="base-out::eslint">
+      <data key="d3">eslint</data>
+      <data key="d4">concept</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L23</data>
+      <data key="d7">4</data>
+      <data key="d8">eslint</data>
+      <data key="d9">base-out</data>
+      <data key="d10">eslint</data>
+    </node>
+    <node id="base-out::eslint_config_next">
+      <data key="d3">eslint-config-next</data>
+      <data key="d4">concept</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L24</data>
+      <data key="d7">4</data>
+      <data key="d8">eslint-config-next</data>
+      <data key="d9">base-out</data>
+      <data key="d10">eslint_config_next</data>
+    </node>
+    <node id="base-out::app_layout">
+      <data key="d3">layout.js</data>
+      <data key="d4">code</data>
+      <data key="d5">app/layout.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">5</data>
+      <data key="d8">layout.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_layout</data>
+    </node>
+    <node id="base-out::app_layout_metadata">
+      <data key="d3">metadata</data>
+      <data key="d4">code</data>
+      <data key="d5">app/layout.js</data>
+      <data key="d6">L9</data>
+      <data key="d7">5</data>
+      <data key="d8">metadata</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_layout_metadata</data>
+    </node>
+    <node id="base-out::app_layout_sans">
+      <data key="d3">sans</data>
+      <data key="d4">code</data>
+      <data key="d5">app/layout.js</data>
+      <data key="d6">L6</data>
+      <data key="d7">5</data>
+      <data key="d8">sans</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_layout_sans</data>
+    </node>
+    <node id="base-out::app_layout_serif">
+      <data key="d3">serif</data>
+      <data key="d4">code</data>
+      <data key="d5">app/layout.js</data>
+      <data key="d6">L7</data>
+      <data key="d7">5</data>
+      <data key="d8">serif</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_layout_serif</data>
+    </node>
+    <node id="base-out::components_site_footer">
+      <data key="d3">site-footer.js</data>
+      <data key="d4">code</data>
+      <data key="d5">components/site-footer.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">5</data>
+      <data key="d8">site-footer.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">components_site_footer</data>
+    </node>
+    <node id="base-out::components_site_header">
+      <data key="d3">site-header.js</data>
+      <data key="d4">code</data>
+      <data key="d5">components/site-header.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">5</data>
+      <data key="d8">site-header.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">components_site_header</data>
+    </node>
+    <node id="base-out::components_site_header_links">
+      <data key="d3">links</data>
+      <data key="d4">code</data>
+      <data key="d5">components/site-header.js</data>
+      <data key="d6">L5</data>
+      <data key="d7">5</data>
+      <data key="d8">links</data>
+      <data key="d9">base-out</data>
+      <data key="d10">components_site_header_links</data>
+    </node>
+    <node id="base-out::app_login_page">
+      <data key="d3">login/page.js</data>
+      <data key="d4">code</data>
+      <data key="d5">app/login/page.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">6</data>
+      <data key="d8">login/page.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_login_page</data>
+    </node>
+    <node id="base-out::app_login_page_metadata">
+      <data key="d3">metadata</data>
+      <data key="d4">code</data>
+      <data key="d5">app/login/page.js</data>
+      <data key="d6">L3</data>
+      <data key="d7">6</data>
+      <data key="d8">metadata</data>
+      <data key="d9">base-out</data>
+      <data key="d10">app_login_page_metadata</data>
+    </node>
+    <node id="base-out::components_login_form">
+      <data key="d3">login-form.js</data>
+      <data key="d4">code</data>
+      <data key="d5">components/login-form.js</data>
+      <data key="d6">L1</data>
+      <data key="d7">6</data>
+      <data key="d8">login-form.js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">components_login_form</data>
+    </node>
+    <node id="base-out::lib_safe_next">
+      <data key="d3">safe-next.mjs</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/safe-next.mjs</data>
+      <data key="d6">L1</data>
+      <data key="d7">6</data>
+      <data key="d8">safe-next.mjs</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_safe_next</data>
+    </node>
+    <node id="base-out::lib_safe_next_allowed_next">
+      <data key="d3">ALLOWED_NEXT</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/safe-next.mjs</data>
+      <data key="d6">L1</data>
+      <data key="d7">6</data>
+      <data key="d8">allowed_next</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_safe_next_allowed_next</data>
+    </node>
+    <node id="base-out::tests_safe_next_test">
+      <data key="d3">safe-next.test.mjs</data>
+      <data key="d4">code</data>
+      <data key="d5">tests/safe-next.test.mjs</data>
+      <data key="d6">L1</data>
+      <data key="d7">6</data>
+      <data key="d8">safe-next.test.mjs</data>
+      <data key="d9">base-out</data>
+      <data key="d10">tests_safe_next_test</data>
+    </node>
+    <node id="base-out::lib_material_validation">
+      <data key="d3">material-validation.mjs</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/material-validation.mjs</data>
+      <data key="d6">L1</data>
+      <data key="d7">8</data>
+      <data key="d8">material-validation.mjs</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_material_validation</data>
+    </node>
+    <node id="base-out::lib_material_validation_allowed_types">
+      <data key="d3">ALLOWED_TYPES</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/material-validation.mjs</data>
+      <data key="d6">L2</data>
+      <data key="d7">8</data>
+      <data key="d8">allowed_types</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_material_validation_allowed_types</data>
+    </node>
+    <node id="base-out::lib_material_validation_extensions">
+      <data key="d3">EXTENSIONS</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/material-validation.mjs</data>
+      <data key="d6">L9</data>
+      <data key="d7">8</data>
+      <data key="d8">extensions</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_material_validation_extensions</data>
+    </node>
+    <node id="base-out::lib_material_validation_max_bytes">
+      <data key="d3">MAX_BYTES</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/material-validation.mjs</data>
+      <data key="d6">L1</data>
+      <data key="d7">8</data>
+      <data key="d8">max_bytes</data>
+      <data key="d9">base-out</data>
+      <data key="d10">lib_material_validation_max_bytes</data>
+    </node>
+    <node id="base-out::tests_material_validation_test">
+      <data key="d3">material-validation.test.mjs</data>
+      <data key="d4">code</data>
+      <data key="d5">tests/material-validation.test.mjs</data>
+      <data key="d6">L1</data>
+      <data key="d7">8</data>
+      <data key="d8">material-validation.test.mjs</data>
+      <data key="d9">base-out</data>
+      <data key="d10">tests_material_validation_test</data>
+    </node>
+    <node id="base-out::su2qc_production_browser_gate_20260817042636_d41813d3">
+      <data key="d3">SU2QC Production Browser Gate 20260817042636-d41813d3</data>
+      <data key="d4">concept</data>
+      <data key="d5">docs/EXECUTION_REPORT_v1.6.2.md</data>
+      <data key="d6" />
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d7">13</data>
+      <data key="d8">su2qc production browser gate 20260817042636-d41813d3</data>
+      <data key="d9">base-out</data>
+      <data key="d10">su2qc_production_browser_gate_20260817042636_d41813d3</data>
+    </node>
+    <node id="base-out::su2qc_production_browser_gate_20260817042740_28b08c33">
+      <data key="d3">SU2QC Production Browser Gate 20260817042740-28b08c33</data>
+      <data key="d4">concept</data>
+      <data key="d5">docs/EXECUTION_REPORT_v1.6.2.md</data>
+      <data key="d6" />
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d7">13</data>
+      <data key="d8">su2qc production browser gate 20260817042740-28b08c33</data>
+      <data key="d9">base-out</data>
+      <data key="d10">su2qc_production_browser_gate_20260817042740_28b08c33</data>
+    </node>
+    <node id="base-out::su2qc_production_browser_gate_fail">
+      <data key="d3">SU2QC Production Browser Gate Fail</data>
+      <data key="d4">concept</data>
+      <data key="d5">docs/EXECUTION_REPORT_v1.6.2.md</data>
+      <data key="d6" />
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d7">13</data>
+      <data key="d8">su2qc production browser gate fail</data>
+      <data key="d9">base-out</data>
+      <data key="d10">su2qc_production_browser_gate_fail</data>
+    </node>
+    <node id="base-out::su2qc_production_browser_gate_pass">
+      <data key="d3">SU2QC Production Browser Gate Pass</data>
+      <data key="d4">concept</data>
+      <data key="d5">docs/EXECUTION_REPORT_v1.6.2.md</data>
+      <data key="d6" />
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d7">13</data>
+      <data key="d8">su2qc production browser gate pass</data>
+      <data key="d9">base-out</data>
+      <data key="d10">su2qc_production_browser_gate_pass</data>
+    </node>
+    <node id="base-out::docs_execution_report_v1_6_2_md">
+      <data key="d3">Execution Report v1.6.2</data>
+      <data key="d4">document</data>
+      <data key="d5">docs/EXECUTION_REPORT_v1.6.2.md</data>
+      <data key="d6" />
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d7">13</data>
+      <data key="d8">execution report v1.6.2</data>
+      <data key="d9">base-out</data>
+      <data key="d10">docs_execution_report_v1_6_2_md</data>
+    </node>
+    <node id="base-out::docs_execution_report_v1_8_0_md">
+      <data key="d3">Execution Report v1.8.0</data>
+      <data key="d4">document</data>
+      <data key="d5">docs/EXECUTION_REPORT_v1.8.0.md</data>
+      <data key="d6" />
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d7">18</data>
+      <data key="d8">execution report v1.8.0</data>
+      <data key="d9">base-out</data>
+      <data key="d10">docs_execution_report_v1_8_0_md</data>
+    </node>
+    <node id="base-out::github_pages">
+      <data key="d3">GitHub Pages</data>
+      <data key="d4">concept</data>
+      <data key="d5">README.md</data>
+      <data key="d7">2</data>
+      <data key="d8">github pages</data>
+      <data key="d9">base-out</data>
+      <data key="d10">github_pages</data>
+    </node>
+    <node id="base-out::design_md">
+      <data key="d3">Design System: SU2QC</data>
+      <data key="d4">document</data>
+      <data key="d5">DESIGN.md</data>
+      <data key="d7">2</data>
+      <data key="d8">design system: su2qc</data>
+      <data key="d9">base-out</data>
+      <data key="d10">design_md</data>
+    </node>
+    <node id="base-out::product_md">
+      <data key="d3">Product</data>
+      <data key="d4">document</data>
+      <data key="d5">PRODUCT.md</data>
+      <data key="d7">2</data>
+      <data key="d8">product</data>
+      <data key="d9">base-out</data>
+      <data key="d10">product_md</data>
+    </node>
+    <node id="base-out::docs_execution_report_v1_7_0_md">
+      <data key="d3">Execution Report v1.7.0</data>
+      <data key="d4">document</data>
+      <data key="d5">docs/EXECUTION_REPORT_v1.7.0.md</data>
+      <data key="d7">21</data>
+      <data key="d8">execution report v1.7.0</data>
+      <data key="d9">base-out</data>
+      <data key="d10">docs_execution_report_v1_7_0_md</data>
+    </node>
+    <node id="base-out::public_images_investigators_paulo-f-bedaque">
+      <data key="d3">Paulo-F-Bedaque Investigator Photo</data>
+      <data key="d4">image</data>
+      <data key="d5">public/images/investigators/paulo-f-bedaque.jpg</data>
+      <data key="d7">26</data>
+      <data key="d8">paulo-f-bedaque investigator photo</data>
+      <data key="d9">base-out</data>
+      <data key="d10">public_images_investigators_paulo-f-bedaque</data>
+    </node>
+    <node id="base-out::public_images_investigators_raza-sabbir-sufian">
+      <data key="d3">Raza-Sabbir-Sufian Investigator Photo</data>
+      <data key="d4">image</data>
+      <data key="d5">public/images/investigators/raza-sabbir-sufian.png</data>
+      <data key="d7">27</data>
+      <data key="d8">raza-sabbir-sufian investigator photo</data>
+      <data key="d9">base-out</data>
+      <data key="d10">public_images_investigators_raza-sabbir-sufian</data>
+    </node>
+    <node id="base-out::public_images_investigators_taku-izubuchi">
+      <data key="d3">Taku-Izubuchi Investigator Photo</data>
+      <data key="d4">image</data>
+      <data key="d5">public/images/investigators/taku-izubuchi.jpg</data>
+      <data key="d7">28</data>
+      <data key="d8">taku-izubuchi investigator photo</data>
+      <data key="d9">base-out</data>
+      <data key="d10">public_images_investigators_taku-izubuchi</data>
+    </node>
+    <node id="base-out::docs_qa_checklist">
+      <data key="d3">QA Checklist</data>
+      <data key="d4">document</data>
+      <data key="d5">docs/QA_CHECKLIST.md</data>
+      <data key="d7">9</data>
+      <data key="d8">qa checklist</data>
+      <data key="d9">base-out</data>
+      <data key="d10">docs_qa_checklist</data>
+    </node>
+    <node id="base-out::docs_sources">
+      <data key="d3">Public Content Sources</data>
+      <data key="d4">document</data>
+      <data key="d5">docs/SOURCES.md</data>
+      <data key="d7">9</data>
+      <data key="d8">public content sources</data>
+      <data key="d9">base-out</data>
+      <data key="d10">docs_sources</data>
+    </node>
+    <node id="base-out::docs_upload_guide">
+      <data key="d3">Upload Guide</data>
+      <data key="d4">document</data>
+      <data key="d5">docs/UPLOAD_GUIDE.md</data>
+      <data key="d7">9</data>
+      <data key="d8">upload guide</data>
+      <data key="d9">base-out</data>
+      <data key="d10">docs_upload_guide</data>
+    </node>
+    <node id="base-out::public_images_investigators_kwangmin_yu_jpeg">
+      <data key="d3">Kwangmin Yu Portrait</data>
+      <data key="d4">image</data>
+      <data key="d5">public/images/investigators/kwangmin-yu.jpeg</data>
+      <data key="d7">9</data>
+      <data key="d8">kwangmin yu portrait</data>
+      <data key="d9">base-out</data>
+      <data key="d10">public_images_investigators_kwangmin_yu_jpeg</data>
+    </node>
+    <node id="base-out::public_images_su2qc_hero_png">
+      <data key="d3">SU2QC Hero Diagram</data>
+      <data key="d4">image</data>
+      <data key="d5">public/images/su2qc-hero.png</data>
+      <data key="d7">9</data>
+      <data key="d8">su2qc hero diagram</data>
+      <data key="d9">base-out</data>
+      <data key="d10">public_images_su2qc_hero_png</data>
+    </node>
+    <node id="base-out::public_images_su2qc_logo_png">
+      <data key="d3">SU2QC Logo</data>
+      <data key="d4">image</data>
+      <data key="d5">public/images/su2qc-logo.png</data>
+      <data key="d7">9</data>
+      <data key="d8">su2qc logo</data>
+      <data key="d9">base-out</data>
+      <data key="d10">public_images_su2qc_logo_png</data>
+    </node>
+    <node id="semantic-out-0::docs_execution_report_v1_6_0_md">
+      <data key="d3">SU2QC v1.6.0 Execution Report</data>
+      <data key="d4">document</data>
+      <data key="d5">docs/EXECUTION_REPORT_v1.6.0.md</data>
+      <data key="d6" />
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d7">0</data>
+      <data key="d8">su2qc v1.6.0 execution report</data>
+      <data key="d9">semantic-out-0</data>
+      <data key="d10">docs_execution_report_v1_6_0_md</data>
+    </node>
+    <node id="semantic-out-1::lib_upload_status_mjs">
+      <data key="d3">upload-status.mjs</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/upload-status.mjs</data>
+      <data key="d6" />
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d7">0</data>
+      <data key="d8">upload-status.mjs</data>
+      <data key="d9">semantic-out-1</data>
+      <data key="d10">lib_upload_status_mjs</data>
+    </node>
+    <node id="semantic-out-1::components_upload_form_js">
+      <data key="d3">upload-form.js</data>
+      <data key="d4">code</data>
+      <data key="d5">components/upload-form.js</data>
+      <data key="d6" />
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d7">1</data>
+      <data key="d8">upload-form.js</data>
+      <data key="d9">semantic-out-1</data>
+      <data key="d10">components_upload_form_js</data>
+    </node>
+    <node id="semantic-out-1::lib_supabase_config_js">
+      <data key="d3">config.js</data>
+      <data key="d4">code</data>
+      <data key="d5">lib/supabase/config.js</data>
+      <data key="d6" />
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d7">1</data>
+      <data key="d8">config.js</data>
+      <data key="d9">semantic-out-1</data>
+      <data key="d10">lib_supabase_config_js</data>
+    </node>
+    <node id="semantic-out-1::docs_execution_report_v1_6_1_md">
+      <data key="d3">SU2QC v1.6.1 upload remediation report</data>
+      <data key="d4">document</data>
+      <data key="d5">docs/EXECUTION_REPORT_v1.6.1.md</data>
+      <data key="d6" />
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d7">1</data>
+      <data key="d8">su2qc v1.6.1 upload remediation report</data>
+      <data key="d9">semantic-out-1</data>
+      <data key="d10">docs_execution_report_v1_6_1_md</data>
+    </node>
+    <edge source="base-out::lib_supabase_config_supabaseconfigurationerror" target="base-out::app_upload_page">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/upload/page.js</data>
+      <data key="d19">L5</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_config_supabaseconfigurationerror" target="base-out::lib_upload_status">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/upload-status.mjs</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_config_supabaseconfigurationerror" target="base-out::tests_supabase_config_test">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/supabase-config.test.mjs</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_config_supabaseconfigurationerror" target="base-out::tests_upload_status_test">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/upload-status.test.mjs</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_config_supabaseconfigurationerror" target="base-out::lib_supabase_config">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/supabase/config.js</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_config_supabaseconfigurationerror" target="base-out::lib_supabase_config_supabaseconfigurationerror_constructor">
+      <data key="d15">method</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/supabase/config.js</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_bibtex_clean" target="base-out::supabase_functions_shared_bibtex_parsebibtex">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/bibtex.js</data>
+      <data key="d19">L45</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_bibtex_clean" target="base-out::supabase_functions_shared_bibtex">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/bibtex.js</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_bibtex_parsebibtex" target="base-out::supabase_functions_shared_bibtex_readvalue">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/bibtex.js</data>
+      <data key="d19">L44</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_bibtex_parsebibtex" target="base-out::supabase_functions_shared_upload_handler_creatematerialsuploadhandler">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d19">L52</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_bibtex_parsebibtex" target="base-out::supabase_functions_shared_upload_handler">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_bibtex_parsebibtex" target="base-out::supabase_functions_shared_bibtex">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/bibtex.js</data>
+      <data key="d19">L28</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_bibtex_readvalue" target="base-out::supabase_functions_shared_bibtex">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/bibtex.js</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_download_handler_creatematerialdownloadhandler" target="base-out::supabase_functions_shared_material_isuuid">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">supabase/functions/_shared/download-handler.js</data>
+      <data key="d19">L11</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_download_handler_creatematerialdownloadhandler" target="base-out::supabase_functions_shared_http_requestorigin">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">supabase/functions/_shared/download-handler.js</data>
+      <data key="d19">L6</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_download_handler_creatematerialdownloadhandler" target="base-out::supabase_functions_shared_http_json">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">supabase/functions/_shared/download-handler.js</data>
+      <data key="d19">L7</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_download_handler_creatematerialdownloadhandler" target="base-out::supabase_functions_shared_http_corsheaders">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">supabase/functions/_shared/download-handler.js</data>
+      <data key="d19">L8</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_download_handler_creatematerialdownloadhandler" target="base-out::supabase_functions_material_download_index">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/material-download/index.js</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_download_handler_creatematerialdownloadhandler" target="base-out::tests_edge_functions_test">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/edge-functions.test.mjs</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_download_handler_creatematerialdownloadhandler" target="base-out::supabase_functions_shared_download_handler">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/download-handler.js</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_http_bearertoken" target="base-out::supabase_functions_shared_upload_handler_creatematerialsuploadhandler">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d19">L26</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_http_bearertoken" target="base-out::supabase_functions_shared_upload_handler">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_http_bearertoken" target="base-out::supabase_functions_shared_http">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/http.js</data>
+      <data key="d19">L31</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_http_corsheaders" target="base-out::supabase_functions_shared_http_json">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/http.js</data>
+      <data key="d19">L27</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_http_corsheaders" target="base-out::supabase_functions_shared_upload_handler_creatematerialsuploadhandler">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d19">L23</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_http_corsheaders" target="base-out::supabase_functions_shared_download_handler">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/download-handler.js</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_http_corsheaders" target="base-out::supabase_functions_shared_upload_handler">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_http_corsheaders" target="base-out::supabase_functions_shared_http">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/http.js</data>
+      <data key="d19">L15</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_http_json" target="base-out::supabase_functions_shared_upload_handler_creatematerialsuploadhandler">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d19">L22</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_http_json" target="base-out::supabase_functions_shared_download_handler">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/download-handler.js</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_http_json" target="base-out::supabase_functions_shared_upload_handler">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_http_json" target="base-out::supabase_functions_shared_http">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/http.js</data>
+      <data key="d19">L24</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_http_requestorigin" target="base-out::supabase_functions_shared_upload_handler_creatematerialsuploadhandler">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d19">L21</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_http_requestorigin" target="base-out::supabase_functions_shared_download_handler">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/download-handler.js</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_http_requestorigin" target="base-out::supabase_functions_shared_upload_handler">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_http_requestorigin" target="base-out::supabase_functions_shared_http">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/http.js</data>
+      <data key="d19">L9</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_material_hassignature" target="base-out::supabase_functions_shared_material_validatematerialfile">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/material.js</data>
+      <data key="d19">L25</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_material_hassignature" target="base-out::supabase_functions_shared_material">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/material.js</data>
+      <data key="d19">L11</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_material_isuuid" target="base-out::supabase_functions_shared_download_handler">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/download-handler.js</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_material_isuuid" target="base-out::supabase_functions_shared_material">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/material.js</data>
+      <data key="d19">L32</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_material_safefilename" target="base-out::supabase_functions_shared_upload_handler_creatematerialsuploadhandler">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d19">L61</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_material_safefilename" target="base-out::supabase_functions_shared_upload_handler">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_material_safefilename" target="base-out::supabase_functions_shared_material">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/material.js</data>
+      <data key="d19">L28</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_material_validatematerialfile" target="base-out::supabase_functions_shared_upload_handler_creatematerialsuploadhandler">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d19">L48</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_material_validatematerialfile" target="base-out::supabase_functions_shared_upload_handler">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_material_validatematerialfile" target="base-out::supabase_functions_shared_material">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/material.js</data>
+      <data key="d19">L17</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_upload_handler_creatematerialsuploadhandler" target="base-out::supabase_functions_shared_upload_handler_findactivemember">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d19">L36</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_upload_handler_creatematerialsuploadhandler" target="base-out::supabase_functions_shared_upload_handler_removeobject">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d19">L64</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_upload_handler_creatematerialsuploadhandler" target="base-out::supabase_functions_materials_upload_index">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/materials-upload/index.js</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_upload_handler_creatematerialsuploadhandler" target="base-out::tests_edge_functions_test">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/edge-functions.test.mjs</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_upload_handler_creatematerialsuploadhandler" target="base-out::supabase_functions_shared_upload_handler">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d19">L19</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_upload_handler_findactivemember" target="base-out::supabase_functions_shared_upload_handler">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d19">L11</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_upload_handler_removeobject" target="base-out::supabase_functions_shared_upload_handler">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d19">L15</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::tests_edge_functions_test_memberclient" target="base-out::tests_edge_functions_test_uploaddeps">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/edge-functions.test.mjs</data>
+      <data key="d19">L35</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::tests_edge_functions_test_memberclient" target="base-out::tests_edge_functions_test">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/edge-functions.test.mjs</data>
+      <data key="d19">L10</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::tests_edge_functions_test_memberquery" target="base-out::tests_edge_functions_test">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/edge-functions.test.mjs</data>
+      <data key="d19">L15</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::tests_edge_functions_test_request" target="base-out::tests_edge_functions_test">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/edge-functions.test.mjs</data>
+      <data key="d19">L20</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::tests_edge_functions_test_uploaddeps" target="base-out::tests_edge_functions_test">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/edge-functions.test.mjs</data>
+      <data key="d19">L24</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_upload_page_uploadpage" target="base-out::app_upload_page_uploadpage_checkaccess">
+      <data key="d15">contains</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/upload/page.js</data>
+      <data key="d19">L15</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_upload_page_uploadpage" target="base-out::app_upload_page">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/upload/page.js</data>
+      <data key="d19">L10</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_upload_page_uploadpage" target="base-out::app_upload_page_uploadpage_signout">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/upload/page.js</data>
+      <data key="d19">L51</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_upload_page_uploadpage_checkaccess" target="base-out::lib_supabase_client_createclient">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">app/upload/page.js</data>
+      <data key="d19">L17</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::app_upload_page_uploadpage_checkaccess" target="base-out::lib_supabase_auth_ismissingauthsession">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">app/upload/page.js</data>
+      <data key="d19">L19</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::app_upload_page_uploadpage_signout" target="base-out::lib_supabase_client_createclient">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">app/upload/page.js</data>
+      <data key="d19">L51</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::components_library_list_librarylist" target="base-out::lib_supabase_config_getpublicconfig">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">components/library-list.js</data>
+      <data key="d19">L33</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::components_library_list_librarylist" target="base-out::lib_bibtex_formatcitation">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">components/library-list.js</data>
+      <data key="d19">L35</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::components_library_list_librarylist" target="base-out::components_library_list_librarylist_load">
+      <data key="d15">contains</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/library-list.js</data>
+      <data key="d19">L17</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_library_list_librarylist" target="base-out::app_library_page">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/library/page.js</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_library_list_librarylist" target="base-out::components_library_list">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/library-list.js</data>
+      <data key="d19">L9</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_library_list_librarylist_load" target="base-out::lib_supabase_client_createclient">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">components/library-list.js</data>
+      <data key="d19">L19</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::components_upload_form_uploadform" target="base-out::app_upload_page">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/upload/page.js</data>
+      <data key="d19">L7</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_upload_form_uploadform" target="base-out::components_upload_form">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/upload-form.js</data>
+      <data key="d19">L10</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_upload_form_uploadform" target="base-out::components_upload_form_uploadform_submit">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/upload-form.js</data>
+      <data key="d19">L13</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_upload_form_uploadform_submit" target="base-out::lib_supabase_client_createclient">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">components/upload-form.js</data>
+      <data key="d19">L20</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::components_upload_form_uploadform_submit" target="base-out::lib_upload_status_messageforuploaderror">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">components/upload-form.js</data>
+      <data key="d19">L22</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::components_upload_form_uploadform_submit" target="base-out::lib_supabase_auth_ismissingauthsession">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">components/upload-form.js</data>
+      <data key="d19">L35</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::components_upload_form_uploadform_submit" target="base-out::lib_supabase_config_getpublicconfig">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">components/upload-form.js</data>
+      <data key="d19">L42</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::components_upload_form_uploadform_submit" target="base-out::lib_upload_status_messageforuploadresponse">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">components/upload-form.js</data>
+      <data key="d19">L67</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_auth_ismissingauthsession" target="base-out::lib_upload_status_messageforuploaderror">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">lib/upload-status.mjs</data>
+      <data key="d19">L6</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_auth_ismissingauthsession" target="base-out::app_upload_page">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/upload/page.js</data>
+      <data key="d19">L6</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_auth_ismissingauthsession" target="base-out::components_upload_form">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/upload-form.js</data>
+      <data key="d19">L7</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_auth_ismissingauthsession" target="base-out::lib_upload_status">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/upload-status.mjs</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_auth_ismissingauthsession" target="base-out::tests_supabase_config_test">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/supabase-config.test.mjs</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_auth_ismissingauthsession" target="base-out::lib_supabase_auth">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/supabase/auth.js</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_client_createclient" target="base-out::components_login_form_loginform_submit">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">components/login-form.js</data>
+      <data key="d19">L17</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_client_createclient" target="base-out::lib_supabase_config_getpublicconfig">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">lib/supabase/client.js</data>
+      <data key="d19">L5</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_client_createclient" target="base-out::app_upload_page">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/upload/page.js</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_client_createclient" target="base-out::components_library_list">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/library-list.js</data>
+      <data key="d19">L6</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_client_createclient" target="base-out::components_login_form">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/login-form.js</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_client_createclient" target="base-out::components_upload_form">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/upload-form.js</data>
+      <data key="d19">L5</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_client_createclient" target="base-out::lib_supabase_client">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/supabase/client.js</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_config_getpublicconfig" target="base-out::components_library_list">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/library-list.js</data>
+      <data key="d19">L7</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_config_getpublicconfig" target="base-out::components_upload_form">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/upload-form.js</data>
+      <data key="d19">L6</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_config_getpublicconfig" target="base-out::lib_supabase_client">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/supabase/client.js</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_config_getpublicconfig" target="base-out::tests_supabase_config_test">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/supabase-config.test.mjs</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_config_getpublicconfig" target="base-out::lib_supabase_config">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/supabase/config.js</data>
+      <data key="d19">L8</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_upload_status_messageforuploaderror" target="base-out::components_upload_form">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/upload-form.js</data>
+      <data key="d19">L8</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_upload_status_messageforuploaderror" target="base-out::tests_upload_status_test">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/upload-status.test.mjs</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_upload_status_messageforuploaderror" target="base-out::lib_upload_status">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/upload-status.mjs</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_upload_status_messageforuploadresponse" target="base-out::components_upload_form">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/upload-form.js</data>
+      <data key="d19">L8</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_upload_status_messageforuploadresponse" target="base-out::tests_upload_status_test">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/upload-status.test.mjs</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_upload_status_messageforuploadresponse" target="base-out::lib_upload_status">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/upload-status.mjs</data>
+      <data key="d19">L13</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_bibtex_clean" target="base-out::lib_bibtex_parsebibtex">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/bibtex.mjs</data>
+      <data key="d19">L45</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_bibtex_clean" target="base-out::lib_bibtex">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/bibtex.mjs</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_bibtex_formatcitation" target="base-out::components_library_list">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/library-list.js</data>
+      <data key="d19">L5</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_bibtex_formatcitation" target="base-out::tests_bibtex_test">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/bibtex.test.mjs</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_bibtex_formatcitation" target="base-out::lib_bibtex">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/bibtex.mjs</data>
+      <data key="d19">L53</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_bibtex_parsebibtex" target="base-out::lib_bibtex_readvalue">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/bibtex.mjs</data>
+      <data key="d19">L44</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_bibtex_parsebibtex" target="base-out::tests_bibtex_test">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/bibtex.test.mjs</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_bibtex_parsebibtex" target="base-out::lib_bibtex">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/bibtex.mjs</data>
+      <data key="d19">L28</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_bibtex_readvalue" target="base-out::lib_bibtex">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/bibtex.mjs</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_material_download_index_adminclient" target="base-out::supabase_functions_material_download_index">
+      <data key="d15">indirect_call</data>
+      <data key="d17">INFERRED</data>
+      <data key="d18">supabase/functions/material-download/index.js</data>
+      <data key="d19">L16</data>
+      <data key="d20">1</data>
+      <data key="d16">collection</data>
+      <data key="d22">0.5</data>
+    </edge>
+    <edge source="base-out::supabase_functions_material_download_index_publicclient" target="base-out::supabase_functions_material_download_index">
+      <data key="d15">indirect_call</data>
+      <data key="d17">INFERRED</data>
+      <data key="d18">supabase/functions/material-download/index.js</data>
+      <data key="d19">L16</data>
+      <data key="d20">1</data>
+      <data key="d16">collection</data>
+      <data key="d22">0.5</data>
+    </edge>
+    <edge source="base-out::supabase_functions_materials_upload_index_adminclient" target="base-out::supabase_functions_materials_upload_index">
+      <data key="d15">indirect_call</data>
+      <data key="d17">INFERRED</data>
+      <data key="d18">supabase/functions/materials-upload/index.js</data>
+      <data key="d19">L16</data>
+      <data key="d20">1</data>
+      <data key="d16">collection</data>
+      <data key="d22">0.5</data>
+    </edge>
+    <edge source="base-out::supabase_functions_materials_upload_index_userclient" target="base-out::supabase_functions_materials_upload_index">
+      <data key="d15">indirect_call</data>
+      <data key="d17">INFERRED</data>
+      <data key="d18">supabase/functions/materials-upload/index.js</data>
+      <data key="d19">L16</data>
+      <data key="d20">1</data>
+      <data key="d16">collection</data>
+      <data key="d22">0.5</data>
+    </edge>
+    <edge source="base-out::scripts_check_stacked_headings_waitfor" target="base-out::scripts_check_stacked_headings">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">scripts/check-stacked-headings.mjs</data>
+      <data key="d19">L10</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_rate_limit_allowrequest" target="base-out::lib_rate_limit">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/rate-limit.mjs</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::tests_repository_test_text" target="base-out::tests_repository_test">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/repository.test.mjs</data>
+      <data key="d19">L6</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_library_page_library" target="base-out::app_library_page">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/library/page.js</data>
+      <data key="d19">L6</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_page_home" target="base-out::app_page">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/page.js</data>
+      <data key="d19">L14</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_people_page_people" target="base-out::app_people_page">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/people/page.js</data>
+      <data key="d19">L7</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_research_page_research" target="base-out::app_research_page">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/research/page.js</data>
+      <data key="d19">L12</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_section_intro_sectionintro" target="base-out::app_library_page">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/library/page.js</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_section_intro_sectionintro" target="base-out::app_login_page">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/login/page.js</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_section_intro_sectionintro" target="base-out::app_page">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/page.js</data>
+      <data key="d19">L5</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_section_intro_sectionintro" target="base-out::app_people_page">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/people/page.js</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_section_intro_sectionintro" target="base-out::app_research_page">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/research/page.js</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_section_intro_sectionintro" target="base-out::app_upload_page">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/upload/page.js</data>
+      <data key="d19">L8</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_section_intro_sectionintro" target="base-out::components_section_intro">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/section-intro.js</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_layout_rootlayout" target="base-out::app_layout">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/layout.js</data>
+      <data key="d19">L15</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_site_footer_sitefooter" target="base-out::app_layout">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/layout.js</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_site_footer_sitefooter" target="base-out::components_site_footer">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/site-footer.js</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_site_header_siteheader" target="base-out::app_layout">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/layout.js</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_site_header_siteheader" target="base-out::components_site_header">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/site-header.js</data>
+      <data key="d19">L6</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_login_page_login" target="base-out::app_login_page">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/login/page.js</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_login_form_loginform" target="base-out::app_login_page">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/login/page.js</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_login_form_loginform" target="base-out::components_login_form">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/login-form.js</data>
+      <data key="d19">L7</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_login_form_loginform" target="base-out::components_login_form_loginform_submit">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/login-form.js</data>
+      <data key="d19">L12</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_login_form_loginform_submit" target="base-out::lib_safe_next_safenext">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">components/login-form.js</data>
+      <data key="d19">L28</data>
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::lib_safe_next_safenext" target="base-out::components_login_form">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/login-form.js</data>
+      <data key="d19">L5</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_safe_next_safenext" target="base-out::tests_safe_next_test">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/safe-next.test.mjs</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_safe_next_safenext" target="base-out::lib_safe_next">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/safe-next.mjs</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_material_validation_hassignature" target="base-out::lib_material_validation_validatematerialfile">
+      <data key="d15">calls</data>
+      <data key="d16">call</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/material-validation.mjs</data>
+      <data key="d19">L22</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_material_validation_hassignature" target="base-out::lib_material_validation">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/material-validation.mjs</data>
+      <data key="d19">L11</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_material_validation_validatematerialfile" target="base-out::tests_material_validation_test">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/material-validation.test.mjs</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_material_validation_validatematerialfile" target="base-out::lib_material_validation">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/material-validation.mjs</data>
+      <data key="d19">L17</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::tests_material_validation_test_upload" target="base-out::tests_material_validation_test">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/material-validation.test.mjs</data>
+      <data key="d19">L5</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_bibtex" target="base-out::supabase_functions_shared_upload_handler">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_download_handler" target="base-out::supabase_functions_material_download_index">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/material-download/index.js</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_download_handler" target="base-out::supabase_functions_shared_http">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/download-handler.js</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_download_handler" target="base-out::supabase_functions_shared_material">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/download-handler.js</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_download_handler" target="base-out::tests_edge_functions_test">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/edge-functions.test.mjs</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_http" target="base-out::supabase_functions_shared_upload_handler">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_http" target="base-out::supabase_functions_shared_http_allowed_origins">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/http.js</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_material" target="base-out::supabase_functions_shared_upload_handler">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_material" target="base-out::supabase_functions_shared_material_max_bytes">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/material.js</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_material" target="base-out::supabase_functions_shared_material_allowed_types">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/material.js</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_material" target="base-out::supabase_functions_shared_material_extensions">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/material.js</data>
+      <data key="d19">L8</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_material" target="base-out::supabase_functions_shared_material_ppt_signature">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/material.js</data>
+      <data key="d19">L9</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_upload_handler" target="base-out::supabase_functions_materials_upload_index">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/materials-upload/index.js</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_upload_handler" target="base-out::tests_edge_functions_test">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/edge-functions.test.mjs</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_shared_upload_handler" target="base-out::supabase_functions_shared_upload_handler_error">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/_shared/upload-handler.js</data>
+      <data key="d19">L5</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::tests_edge_functions_test" target="base-out::tests_edge_functions_test_member">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/edge-functions.test.mjs</data>
+      <data key="d19">L6</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_upload_page" target="base-out::lib_supabase_client">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/upload/page.js</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_upload_page" target="base-out::lib_supabase_config">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/upload/page.js</data>
+      <data key="d19">L5</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_upload_page" target="base-out::lib_supabase_auth">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/upload/page.js</data>
+      <data key="d19">L6</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_upload_page" target="base-out::components_upload_form">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/upload/page.js</data>
+      <data key="d19">L7</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_upload_page" target="base-out::components_section_intro">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/upload/page.js</data>
+      <data key="d19">L8</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_library_list" target="base-out::app_library_page">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/library/page.js</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_library_list" target="base-out::lib_bibtex">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/library-list.js</data>
+      <data key="d19">L5</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_library_list" target="base-out::lib_supabase_client">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/library-list.js</data>
+      <data key="d19">L6</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_library_list" target="base-out::lib_supabase_config">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/library-list.js</data>
+      <data key="d19">L7</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_upload_form" target="base-out::lib_supabase_client">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/upload-form.js</data>
+      <data key="d19">L5</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_upload_form" target="base-out::lib_supabase_config">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/upload-form.js</data>
+      <data key="d19">L6</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_upload_form" target="base-out::lib_supabase_auth">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/upload-form.js</data>
+      <data key="d19">L7</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_upload_form" target="base-out::lib_upload_status">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/upload-form.js</data>
+      <data key="d19">L8</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_auth" target="base-out::lib_upload_status">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/upload-status.mjs</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_auth" target="base-out::tests_supabase_config_test">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/supabase-config.test.mjs</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_client" target="base-out::components_login_form">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/login-form.js</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_client" target="base-out::lib_supabase_config">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/supabase/client.js</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_config" target="base-out::lib_upload_status">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/upload-status.mjs</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_config" target="base-out::tests_supabase_config_test">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/supabase-config.test.mjs</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_supabase_config" target="base-out::tests_upload_status_test">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/upload-status.test.mjs</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_upload_status" target="base-out::tests_upload_status_test">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/upload-status.test.mjs</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_bibtex" target="base-out::tests_bibtex_test">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/bibtex.test.mjs</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_material_download_index" target="base-out::supabase_functions_material_download_index_url">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/material-download/index.js</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_material_download_index" target="base-out::supabase_functions_material_download_index_anonkey">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/material-download/index.js</data>
+      <data key="d19">L5</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_material_download_index" target="base-out::supabase_functions_material_download_index_servicekey">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/material-download/index.js</data>
+      <data key="d19">L6</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_materials_upload_index" target="base-out::supabase_functions_materials_upload_index_url">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/materials-upload/index.js</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_materials_upload_index" target="base-out::supabase_functions_materials_upload_index_anonkey">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/materials-upload/index.js</data>
+      <data key="d19">L5</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_functions_materials_upload_index" target="base-out::supabase_functions_materials_upload_index_servicekey">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/functions/materials-upload/index.js</data>
+      <data key="d19">L6</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::scripts_check_stacked_headings" target="base-out::scripts_check_stacked_headings_chrome">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">scripts/check-stacked-headings.mjs</data>
+      <data key="d19">L17</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::scripts_check_stacked_headings" target="base-out::scripts_check_stacked_headings_routes">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">scripts/check-stacked-headings.mjs</data>
+      <data key="d19">L5</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::scripts_check_stacked_headings" target="base-out::scripts_check_stacked_headings_widths">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">scripts/check-stacked-headings.mjs</data>
+      <data key="d19">L6</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_migrations_001_initial" target="base-out::supabase_migrations_001_initial_public_materials">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/migrations/001_initial.sql</data>
+      <data key="d19">L12</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_migrations_001_initial" target="base-out::supabase_migrations_001_initial_public_members">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/migrations/001_initial.sql</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_migrations_001_initial_public_materials" target="base-out::supabase_migrations_001_initial_public_members">
+      <data key="d15">references</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/migrations/001_initial.sql</data>
+      <data key="d19">L12</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_rate_limit" target="base-out::lib_rate_limit_buckets">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/rate-limit.mjs</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_migrations_002_live_supabase_bootstrap" target="base-out::supabase_migrations_002_live_supabase_bootstrap_public_materials">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/migrations/002_live_supabase_bootstrap.sql</data>
+      <data key="d19">L41</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::next_config" target="base-out::next_config_nextconfig">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">next.config.mjs</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies" target="base-out::package">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L14</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies" target="base-out::package_dependencies_supabase_ssr">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L15</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies" target="base-out::package_dependencies_supabase_supabase_js">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L16</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies" target="base-out::package_dependencies_lucide_react">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L17</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies" target="base-out::package_dependencies_next">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L18</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies" target="base-out::package_dependencies_react">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L19</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies" target="base-out::package_dependencies_react_dom">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L20</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies_lucide_react" target="base-out::lucide_react">
+      <data key="d15">imports</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L17</data>
+      <data key="d20">1</data>
+      <data key="d16">import</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies_next" target="base-out::package_json_next">
+      <data key="d15">imports</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L18</data>
+      <data key="d20">1</data>
+      <data key="d16">import</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies_react" target="base-out::react">
+      <data key="d15">imports</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L19</data>
+      <data key="d20">1</data>
+      <data key="d16">import</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies_react_dom" target="base-out::react_dom">
+      <data key="d15">imports</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L20</data>
+      <data key="d20">1</data>
+      <data key="d16">import</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies_supabase_ssr" target="base-out::supabase_ssr">
+      <data key="d15">imports</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L15</data>
+      <data key="d20">1</data>
+      <data key="d16">import</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies_supabase_supabase_js" target="base-out::supabase_supabase_js">
+      <data key="d15">imports</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L16</data>
+      <data key="d20">1</data>
+      <data key="d16">import</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_library_page" target="base-out::components_section_intro">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/library/page.js</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_library_page" target="base-out::app_library_page_metadata">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/library/page.js</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_page" target="base-out::data_people_people">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/page.js</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_page" target="base-out::data_people">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/page.js</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_page" target="base-out::components_section_intro">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/page.js</data>
+      <data key="d19">L5</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_page" target="base-out::app_page_themes">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/page.js</data>
+      <data key="d19">L7</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_people_page" target="base-out::data_people_people">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/people/page.js</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_people_page" target="base-out::data_people">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/people/page.js</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_people_page" target="base-out::components_section_intro">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/people/page.js</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_people_page" target="base-out::app_people_page_metadata">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/people/page.js</data>
+      <data key="d19">L6</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_research_page" target="base-out::components_section_intro">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/research/page.js</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_research_page" target="base-out::app_research_page_metadata">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/research/page.js</data>
+      <data key="d19">L11</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_research_page" target="base-out::app_research_page_pillars">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/research/page.js</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_section_intro" target="base-out::app_login_page">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/login/page.js</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::data_people" target="base-out::data_people_people">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">data/people.js</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package" target="base-out::package_name">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package" target="base-out::package_devdependencies">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L22</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package" target="base-out::package_version">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package" target="base-out::package_private">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package" target="base-out::package_scripts">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L5</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_devdependencies" target="base-out::package_devdependencies_eslint">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L23</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_devdependencies" target="base-out::package_devdependencies_eslint_config_next">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L24</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_devdependencies_eslint" target="base-out::eslint">
+      <data key="d15">imports</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L23</data>
+      <data key="d20">1</data>
+      <data key="d16">import</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_devdependencies_eslint_config_next" target="base-out::eslint_config_next">
+      <data key="d15">imports</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L24</data>
+      <data key="d20">1</data>
+      <data key="d16">import</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_scripts" target="base-out::package_scripts_test">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L10</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_scripts" target="base-out::package_scripts_verify">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L11</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_scripts" target="base-out::package_scripts_check_layout">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L12</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_scripts" target="base-out::package_scripts_dev">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L6</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_scripts" target="base-out::package_scripts_build">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L7</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_scripts" target="base-out::package_scripts_start">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L8</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_scripts" target="base-out::package_scripts_lint">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L9</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_layout" target="base-out::components_site_header">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/layout.js</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_layout" target="base-out::components_site_footer">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/layout.js</data>
+      <data key="d19">L4</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_layout" target="base-out::app_layout_sans">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/layout.js</data>
+      <data key="d19">L6</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_layout" target="base-out::app_layout_serif">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/layout.js</data>
+      <data key="d19">L7</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_layout" target="base-out::app_layout_metadata">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/layout.js</data>
+      <data key="d19">L9</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_site_header" target="base-out::components_site_header_links">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/site-header.js</data>
+      <data key="d19">L5</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_login_page" target="base-out::components_login_form">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/login/page.js</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::app_login_page" target="base-out::app_login_page_metadata">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">app/login/page.js</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::components_login_form" target="base-out::lib_safe_next">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">components/login-form.js</data>
+      <data key="d19">L5</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_safe_next" target="base-out::tests_safe_next_test">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/safe-next.test.mjs</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_safe_next" target="base-out::lib_safe_next_allowed_next">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/safe-next.mjs</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_material_validation" target="base-out::tests_material_validation_test">
+      <data key="d15">imports_from</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/material-validation.test.mjs</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_material_validation" target="base-out::lib_material_validation_max_bytes">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/material-validation.mjs</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_material_validation" target="base-out::lib_material_validation_allowed_types">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/material-validation.mjs</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_material_validation" target="base-out::lib_material_validation_extensions">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/material-validation.mjs</data>
+      <data key="d19">L9</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_material_validation_max_bytes" target="base-out::tests_material_validation_test">
+      <data key="d15">imports</data>
+      <data key="d16">import</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/material-validation.test.mjs</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::su2qc_production_browser_gate_20260817042636_d41813d3" target="base-out::docs_execution_report_v1_6_2_md">
+      <data key="d15">conceptually_related_to</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">docs/EXECUTION_REPORT_v1.6.2.md</data>
+      <data key="d19" />
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::su2qc_production_browser_gate_20260817042740_28b08c33" target="base-out::docs_execution_report_v1_6_2_md">
+      <data key="d15">conceptually_related_to</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">docs/EXECUTION_REPORT_v1.6.2.md</data>
+      <data key="d19" />
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::su2qc_production_browser_gate_fail" target="base-out::docs_execution_report_v1_6_2_md">
+      <data key="d15">conceptually_related_to</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">docs/EXECUTION_REPORT_v1.6.2.md</data>
+      <data key="d19" />
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::su2qc_production_browser_gate_pass" target="base-out::docs_execution_report_v1_6_2_md">
+      <data key="d15">conceptually_related_to</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">docs/EXECUTION_REPORT_v1.6.2.md</data>
+      <data key="d19" />
+      <data key="d20">1</data>
+    </edge>
+    <edge source="base-out::docs_qa_checklist" target="base-out::docs_sources">
+      <data key="d15">references</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">docs/QA_CHECKLIST.md</data>
+    </edge>
+    <edge source="base-out::docs_sources" target="base-out::docs_upload_guide">
+      <data key="d15">references</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">docs/UPLOAD_GUIDE.md</data>
+    </edge>
+    <edge source="base-out::docs_upload_guide" target="base-out::public_images_investigators_kwangmin_yu_jpeg">
+      <data key="d15">shares_data_with</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">public/images/investigators/kwangmin-yu.jpeg</data>
+    </edge>
+    <edge source="base-out::docs_upload_guide" target="base-out::public_images_su2qc_hero_png">
+      <data key="d15">shares_data_with</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">public/images/su2qc-hero.png</data>
+    </edge>
+    <edge source="base-out::docs_upload_guide" target="base-out::public_images_su2qc_logo_png">
+      <data key="d15">shares_data_with</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">public/images/su2qc-logo.png</data>
+    </edge>
+    <edge source="semantic-out-1::components_upload_form_js" target="semantic-out-1::lib_supabase_config_js">
+      <data key="d15">references</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">components/upload-form.js</data>
+      <data key="d19" />
+      <data key="d20">1</data>
+    </edge>
+    <edge source="semantic-out-1::components_upload_form_js" target="semantic-out-1::docs_execution_report_v1_6_1_md">
+      <data key="d15">references</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d21">1</data>
+      <data key="d18">docs/EXECUTION_REPORT_v1.6.1.md</data>
+      <data key="d19" />
+      <data key="d20">1</data>
+    </edge>
+    <data key="d0">[{"id": "base-out::su2qc_production_browser_gate_20260817042636_d41813d3_hyperedge", "label": "SU2QC Production Browser Gate 20260817042636-d41813d3 Hyperedge", "nodes": ["base-out::su2qc_production_browser_gate_pass", "base-out::su2qc_production_browser_gate_fail"]}, {"id": "base-out::su2qc_production_browser_gate_20260817042740_28b08c33_hyperedge", "label": "SU2QC Production Browser Gate 20260817042740-28b08c33 Hyperedge", "nodes": ["base-out::su2qc_production_browser_gate_pass", "base-out::su2qc_production_browser_gate_fail"]}]</data>
+    <data key="d1">0.9.45</data>
+    <data key="d2">7af95d6140552c38f19a61714e95298cc081689b</data>
+  </graph>
+</graphml>

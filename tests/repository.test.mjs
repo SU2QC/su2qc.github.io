@@ -28,6 +28,26 @@ test("approved hero and investigator assets are wired to the matching people", a
   assert.match(people, /kwangmin-yu\.jpeg/);
 });
 
+test("investigator source portraits map one-to-one to emitted assets", async () => {
+  const mappings = [
+    ["Kwangmin Yu.jpeg", "public/images/investigators/kwangmin-yu.jpeg", ".jpeg"],
+    ["Paulo F. Bedaque.jpg", "public/images/investigators/paulo-f-bedaque.jpg", ".jpg"],
+    ["Raza Sabbir Sufian.png", "public/images/investigators/raza-sabbir-sufian.png", ".png"],
+    ["Taku Izubuchi.jpg", "public/images/investigators/taku-izubuchi.jpg", ".jpg"],
+  ];
+  const people = await text("data/people.js");
+  const emitted = mappings.map(([, asset]) => asset);
+  assert.equal(new Set(emitted).size, mappings.length);
+  for (const [source, asset, extension] of mappings) {
+    await access(new URL(`../source_image/${source}`, import.meta.url), constants.R_OK);
+    await access(new URL(`../${asset}`, import.meta.url), constants.R_OK);
+    assert.match(asset, new RegExp(`${extension.replace(".", "\\.")}$`));
+  }
+  assert.equal((people.match(/imageAlt:"[^"]+"/g) || []).length, mappings.length);
+  assert.equal((people.match(/image:"\/images\/investigators\/[^"]+"/g) || []).length, mappings.length);
+  assert.equal(new Set(people.match(/image:"(\/images\/investigators\/[^\"]+)"/g)).size, mappings.length);
+});
+
 test("favicon is a checked-in ICO and is referenced by root metadata", async () => {
   const favicon = await readFile(new URL("../app/favicon.ico", import.meta.url));
   const layout = await text("app/layout.js");

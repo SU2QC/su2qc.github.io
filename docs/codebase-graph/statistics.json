@@ -1,0 +1,34 @@
+{
+  "generated_by": "Graphify 0.9.45",
+  "source_commit": "7af95d6140552c38f19a61714e95298cc081689b",
+  "included_files": 62,
+  "nodes": 193,
+  "edges": 271,
+  "hyperedges": 2,
+  "communities": 28,
+  "node_types": {
+    "code": 164,
+    "concept": 13,
+    "document": 10,
+    "image": 6
+  },
+  "edge_types": {
+    "calls": 36,
+    "conceptually_related_to": 4,
+    "contains": 111,
+    "imports": 63,
+    "imports_from": 44,
+    "indirect_call": 4,
+    "method": 1,
+    "references": 5,
+    "shares_data_with": 3
+  },
+  "provenance": {
+    "EXTRACTED": 267,
+    "INFERRED": 4
+  },
+  "raw_nodes": 221,
+  "raw_edges": 296,
+  "discarded_nodes": 28,
+  "discarded_edges": 25
+}
