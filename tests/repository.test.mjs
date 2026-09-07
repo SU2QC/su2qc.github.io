@@ -113,6 +113,28 @@ test("v2 migration separates aliases, Library visibility, and member-only metada
   assert.match(sql, /public\.materials_member/);
 });
 
+test("alias RLS permits only authenticated self-resolution", async () => {
+  const sql = await text("supabase/migrations/007_v2_0_0_member_email_rls_fix.sql");
+  assert.match(sql, /for select to authenticated/);
+  assert.match(sql, /auth\.jwt\(\) ->> 'email'/);
+  assert.match(sql, /member_email/);
+});
+
+test("membership policy checks use a restricted security-definer helper", async () => {
+  const sql = await text("supabase/migrations/008_v2_0_0_member_email_security_definer.sql");
+  assert.match(sql, /security definer/);
+  assert.match(sql, /set row_security = off/);
+  assert.match(sql, /revoke all on function/);
+  assert.match(sql, /is_active_member_for_email\(member_id/);
+});
+
+test("storage MIME policy matches the v2 upload allowlist", async () => {
+  const sql = await text("supabase/migrations/009_v2_0_0_material_mime_allowlist.sql");
+  assert.match(sql, /text\/plain/);
+  assert.match(sql, /application\/x-ipynb\+json/);
+  assert.match(sql, /application\/zip/);
+});
+
 test("static export and download function preserve security boundaries", async () => {
   const download = await text("supabase/functions/_shared/download-handler.js");
   const config = await text("next.config.mjs");

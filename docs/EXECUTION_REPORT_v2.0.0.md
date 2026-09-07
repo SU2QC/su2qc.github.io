@@ -1,13 +1,14 @@
 # SU2QC v2.0.0 execution report
 
 Date: 2026-09-07
-Result: `BLOCKED`
+Result: `PARTIAL — live acceptance passed; publication pending`
 
 ## Completed
 
 - Added the new People entries, public profile links, safe Juan `JG` placeholder, and a 400x400 metadata-stripped supplied-portrait derivative.
 - Added OTP login UI, `/vault/`, `/my-materials/`, Vault/Library destination controls, explicit public acknowledgement, and owner/admin management actions.
 - Added migration `006_v2_0_0_people_vault_otp.sql` and applied it remotely as `20260907192755`.
+- Added forward-only migrations `007`–`009` to preserve private alias access, resolve membership through a restricted security-definer helper, and align the Storage MIME allowlist with server validation.
 - Provisioned/merged seven member identities, eight aliases, and eight Auth identities without recording private rows or sending collaborator invitations.
 - Kept the private `materials` bucket private and changed public metadata filtering to published Library material only.
 
@@ -23,18 +24,18 @@ Result: `BLOCKED`
 - Remote migration/schema/count audit: PASS; seven members, eight aliases, eight Auth users, zero materials; no private values recorded.
 - Remote bucket privacy: PASS, `materials.public = false`.
 - Remote Auth core configuration: signup disabled, six-digit OTP length, 600-second expiry.
+- Real OTP delivery and browser verification: PASS for the specified operator mailbox; no OTP value was recorded.
+- Authenticated browser acceptance: PASS for Vault isolation, upload, management metadata update, public Library rendering, signed download, and logout.
+- Temporary fixture cleanup: PASS; zero temporary material rows and zero temporary Storage objects remain. Two pre-existing orphaned Storage objects were not modified.
+- Unauthenticated denial: PASS; `/vault/` redirected to `/login/?next=/vault/`, and unauthenticated Vault metadata access was denied.
+- Edge Functions: PASS deployment active for `materials-upload`, `material-download`, and `materials-manage`.
 
 ## Blocking gate
 
-The authenticated Supabase Management API rejected the required Auth email-template update with the hosted free-tier default email provider. The project needs custom SMTP or an eligible email provider before the Magic Link template can be changed to include `{{ .Token }}`. Current live configuration therefore cannot yet prove real six-digit OTP delivery. No Edge Function deployment, source push, GitHub Pages publication, production browser fixture, or final release claim was made after this blocker was confirmed.
-
-Required operator action: configure Supabase Auth email delivery and set the Magic Link template to use `{{ .Token }}`; then send one real OTP to the established operator mailbox, enter it in the browser, and rerun the authenticated Vault/Library/manage/cleanup gates.
+The SMTP/OTP blocker is cleared. Publication remains gated on the final clean-tree checks, source push, exact static export publication, Pages verification, and private-backup restore check.
 
 ## Remaining gates
 
-1. OTP template/custom SMTP and real delivery.
-2. Deploy and verify `materials-upload`, `material-download`, and `materials-manage` from the clean tested source.
-3. Run fresh anonymous/member/admin browser checks, including no Vault metadata or signed URL before authorization and complete temporary fixture cleanup.
-4. Deploy and verify `materials-upload`, `material-download`, and `materials-manage` from the clean tested source.
-5. Run fresh anonymous/member/admin browser checks, including no Vault metadata or signed URL before authorization and complete temporary fixture cleanup.
-6. Commit/push `main`, publish exact `out/` plus `.nojekyll` to `gh-pages`, verify Pages, then update the private backup.
+1. Rerun final tests, lint, build, responsive layout, privacy, secret, Graphify, and Obsidian gates after the corrective migrations.
+2. Commit/push `main`, publish the exact tested `out/` plus `.nojekyll` to `gh-pages`, and verify every live route.
+3. Update and restore-check the established private backup.

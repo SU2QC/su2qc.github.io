@@ -1,6 +1,6 @@
 # SU2QC project context v2.0.0
 
-Status: `BLOCKED — OTP template/custom SMTP gate`
+Status: `PARTIAL — live acceptance passed; publication pending`
 Date: 2026-09-07
 
 ## Release boundary
@@ -21,9 +21,9 @@ The public Library is for published `visibility = 'library'` materials. The webs
 
 The browser calls `signInWithOtp({ options: { shouldCreateUser: false } })` and verifies with `verifyOtp({ type: 'email' })`. The UI has email and code steps, paste support, generic allowlist-safe messaging, cooldown, resend, change-email, redirect protection, and session-expiry recovery.
 
-Migration `006_v2_0_0_people_vault_otp.sql` was applied remotely as migration `20260907192755`. It creates the RLS-enabled `public.member_emails` alias table, backfills existing member emails, adds `materials.visibility` and `updated_at`, creates the safe public/member views, limits grants, and keeps the `materials` bucket private. Remote counts after provisioning are seven members, eight aliases, eight Auth users, and zero materials; no private row values are recorded here.
+Migration `006_v2_0_0_people_vault_otp.sql` was applied remotely as migration `20260907192755`; corrective migrations `007`, `008`, and `009` were then applied forward-only. They preserve private alias access through a restricted security-definer membership helper and align the Storage MIME allowlist with server validation. Remote counts are seven members, eight aliases, eight Auth users, and zero materials; no private row values are recorded here.
 
-The remote Auth project has public signup disabled, OTP length set to six, and OTP expiry set to 600 seconds. The hosted free-tier default email provider rejected the required Magic Link template update because OTP template customization requires custom SMTP or a paid/configured provider. The template still needs the dashboard/template value containing `{{ .Token }}` before real OTP delivery can be tested. Do not claim production readiness or deploy until this gate passes.
+The remote Auth project has custom SMTP configured, public signup disabled, a six-digit OTP, 600-second expiry, and a Magic Link template containing `{{ .Token }}`. One real OTP was delivered and verified in the browser without recording the code.
 
 ## Trusted backend
 
@@ -34,7 +34,7 @@ The remote Auth project has public signup disabled, OTP length set to six, and O
 
 ## Verification
 
-Passing local gates: `npm test` 30/30, `npm run lint`, and `NEXT_PUBLIC_SITE_URL=https://su2qc.github.io npm run build`. The layout script now covers eight routes at 390, 768, 1024, and 1440 pixels; a final local-browser run remains required after the clean build.
+Passing local gates include `npm test` 33/33, `npm run lint`, the production build, responsive layout, Graphify/Obsidian validation, and the live browser acceptance. The temporary fixture was removed; no temporary rows or objects remain.
 
 Remote migration, private bucket, RLS, Auth provisioning counts, and security/performance advisors were inspected. The pre-existing leaked-password-protection warning remains dashboard/plan dependent. The new `member_emails` table intentionally has RLS with no client policy or grant; trusted functions use the service client.
 
@@ -48,4 +48,4 @@ NEXT_PUBLIC_SITE_URL=https://su2qc.github.io npm run build
 SU2QC_BASE_URL=http://127.0.0.1:4173 npm run check:layout
 ```
 
-Before any deployment: configure custom SMTP or an eligible Supabase email provider, set the Auth Magic Link template to include `{{ .Token }}`, verify six-digit real delivery to one operator mailbox, deploy the three changed Edge Functions, run authenticated/anonymous browser denial and cleanup fixtures, refresh Graphify and the Obsidian notes, then commit/push source and publish only the clean tested `out/` tree.
+Before publication: rerun the final clean-tree gates, commit/push source, publish only the exact tested `out/` tree with `.nojekyll`, verify all live routes, and update/restore-check the private backup.

@@ -5,7 +5,7 @@
   "organization_source_commit": null,
   "organization_gh_pages_commit": "f8c65670bf6c75e6447903ff3307905334884ef7",
   "personal_backup_repository": "digonto10602/su2qc-website-backup",
-  "status": "blocked_before_source_push",
+  "status": "live_acceptance_passed_before_publication",
   "included": {
     "application_source": "app/, components/, data/, lib/, public/",
     "tests_and_scripts": "tests/, scripts/",
@@ -23,7 +23,7 @@
   },
   "remote": {
     "supabase_project_ref": "zvhachktcgnkxwtdxucj",
-    "migration": "20260907192755_v2_0_0_people_vault_otp",
+    "migration": "20260907192755_v2_0_0_people_vault_otp plus corrective 007-009",
     "member_count": 7,
     "alias_count": 8,
     "auth_identity_count": 8,
@@ -34,7 +34,9 @@
     "npm_test": "30/30 PASS",
     "lint": "PASS",
     "build": "PASS",
-    "otp_delivery": "BLOCKED: template change rejected without custom SMTP/eligible provider",
+    "otp_delivery": "PASS: custom SMTP, {{ .Token }} template, and six-digit browser verification",
+    "temporary_fixture_cleanup": "PASS: zero temporary rows and zero temporary objects",
+    "edge_functions": "PASS: materials-upload, material-download, materials-manage active",
     "source_push": "SKIPPED",
     "pages_publish": "SKIPPED",
     "backup_push": "SKIPPED"

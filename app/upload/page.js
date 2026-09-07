@@ -25,7 +25,7 @@ export default function UploadPage() {
           window.location.replace("/login/?next=/upload/");
           return;
         }
-        const { data: member, error: memberError } = await client.from("members").select("id,display_name,active").eq("email", user.email?.toLowerCase() || "").maybeSingle();
+        const { data: member, error: memberError } = await client.from("members").select("id,display_name,role,active").maybeSingle();
         if (memberError) {
           if (!cancelled) setState({ status: "error", title: "Access check unavailable", message: "Your sign-in succeeded, but member access could not be verified. Try again shortly." });
           return;
