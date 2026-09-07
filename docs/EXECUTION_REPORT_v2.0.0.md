@@ -1,7 +1,7 @@
 # SU2QC v2.0.0 execution report
 
 Date: 2026-09-07
-Result: `PARTIAL — live acceptance passed; publication pending`
+Result: `PASS — v2.0.0 verified and published`
 
 ## Completed
 
@@ -32,10 +32,12 @@ Result: `PARTIAL — live acceptance passed; publication pending`
 
 ## Blocking gate
 
-The SMTP/OTP blocker is cleared. Publication remains gated on the final clean-tree checks, source push, exact static export publication, Pages verification, and private-backup restore check.
+The SMTP/OTP blocker is cleared. Source, exact static export, live Pages routes, and the established private backup were verified.
 
 ## Remaining gates
 
 1. Rerun final tests, lint, build, responsive layout, privacy, secret, Graphify, and Obsidian gates after the corrective migrations.
 2. Commit/push `main`, publish the exact tested `out/` plus `.nojekyll` to `gh-pages`, and verify every live route.
-3. Update and restore-check the established private backup.
+3. Update and restore-check the established private backup. `PASS`.
+
+Final publication coordinates: source `e9f7863d8b2d6a2d0ce5f879d6380cbab0e68dfb`, Pages `6ffce1670209152666ae134afa74e3c29ff88c49`. Final backup verification is recorded in the operator handoff; no test fixtures remain.

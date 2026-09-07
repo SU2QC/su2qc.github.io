@@ -1,6 +1,6 @@
 # SU2QC project context v2.0.0
 
-Status: `PARTIAL — live acceptance passed; publication pending`
+Status: `PASS — v2.0.0 verified and published`
 Date: 2026-09-07
 
 ## Release boundary
@@ -48,4 +48,4 @@ NEXT_PUBLIC_SITE_URL=https://su2qc.github.io npm run build
 SU2QC_BASE_URL=http://127.0.0.1:4173 npm run check:layout
 ```
 
-Before publication: rerun the final clean-tree gates, commit/push source, publish only the exact tested `out/` tree with `.nojekyll`, verify all live routes, and update/restore-check the private backup.
+Publication complete: source `e9f7863d8b2d6a2d0ce5f879d6380cbab0e68dfb` is on organization `main`, exact tested `out/` is on Pages commit `6ffce1670209152666ae134afa74e3c29ff88c49`, live routes returned 200, and the private backup was updated and restore-checked.
