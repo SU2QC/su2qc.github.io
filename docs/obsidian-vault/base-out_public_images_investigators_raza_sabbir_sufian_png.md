@@ -12,7 +12,7 @@ Purpose: Graphify extracted this image from the repository.
 Graphify node ID: `base-out::public_images_investigators_raza_sabbir_sufian_png`
 Repository source: `public/images/investigators/raza-sabbir-sufian.png`
 Node type: `image`
-Source commit: `eb1053558992b4f82ad47c46fee35d6a2a17e225`
+Source commit: `5d48a473b47c3610bef39486373b03d237cfe5dd`
 
 ## Important symbols
 

@@ -12,7 +12,7 @@ Purpose: Graphify extracted this code from the repository.
 Graphify node ID: `base-out::supabase_functions_shared_material_max_bytes`
 Repository source: `supabase/functions/_shared/material.js`
 Node type: `code`
-Source commit: `eb1053558992b4f82ad47c46fee35d6a2a17e225`
+Source commit: `5d48a473b47c3610bef39486373b03d237cfe5dd`
 
 ## Important symbols
 

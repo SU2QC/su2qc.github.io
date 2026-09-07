@@ -12,7 +12,7 @@ Purpose: Graphify extracted this image from the repository.
 Graphify node ID: `base-out::public_images_investigators_paulo_f_bedaque_jpg`
 Repository source: `public/images/investigators/paulo-f-bedaque.jpg`
 Node type: `image`
-Source commit: `eb1053558992b4f82ad47c46fee35d6a2a17e225`
+Source commit: `5d48a473b47c3610bef39486373b03d237cfe5dd`
 
 ## Important symbols
 

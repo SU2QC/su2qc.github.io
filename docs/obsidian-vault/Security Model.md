@@ -1,7 +1,7 @@
 ---
 title: Security Model
 tags: [su2qc, subsystem]
-source_commit: eb1053558992b4f82ad47c46fee35d6a2a17e225
+source_commit: 5d48a473b47c3610bef39486373b03d237cfe5dd
 ---
 
 # Security Model

@@ -1,7 +1,7 @@
 ---
 title: SU2QC Codebase Map
 tags: [su2qc, graphify, map]
-source_commit: eb1053558992b4f82ad47c46fee35d6a2a17e225
+source_commit: 5d48a473b47c3610bef39486373b03d237cfe5dd
 ---
 
 # SU2QC Codebase Map
@@ -37,7 +37,7 @@ Graphify-derived navigation for the first-party SU2QC repository. Node IDs and r
 
 ## Graph coverage
 
-- Nodes: 324; edges: 448; source commit: `eb1053558992b4f82ad47c46fee35d6a2a17e225`.
+- Nodes: 324; edges: 448; source commit: `5d48a473b47c3610bef39486373b03d237cfe5dd`.
 - [[Graphify Coverage and Limitations]]
 
 ## Graph nodes

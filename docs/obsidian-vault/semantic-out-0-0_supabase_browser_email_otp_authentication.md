@@ -12,7 +12,7 @@ Purpose: Graphify extracted this concept from the repository.
 Graphify node ID: `semantic-out-0-0::supabase_browser_email_otp_authentication`
 Repository source: `README.md`
 Node type: `concept`
-Source commit: `eb1053558992b4f82ad47c46fee35d6a2a17e225`
+Source commit: `5d48a473b47c3610bef39486373b03d237cfe5dd`
 
 ## Important symbols
 

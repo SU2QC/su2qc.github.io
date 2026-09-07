@@ -7199,6 +7199,6 @@
     </edge>
     <data key="d0">[{"confidence": "EXTRACTED", "confidence_score": 0.75, "id": "semantic-out-0-0::deployment_steps", "label": "Deployment Steps", "nodes": ["semantic-out-0-0::github_pages", "semantic-out-0-0::supabase_migration_runner", "semantic-out-0-0::public_members_allowlist", "semantic-out-0-0::docs_upload_guide_md"], "relation": "participate_in", "source_file": "README.md"}, {"confidence": "EXTRACTED", "confidence_score": 0.75, "id": "semantic-out-0-0::supabase_components", "label": "Supabase Components", "nodes": ["semantic-out-0-0::supabase_browser_email_otp_authentication", "semantic-out-0-0::supabase_edge_functions", "semantic-out-0-0::private_supabase_storage_bucket", "semantic-out-0-0::row_level_security"], "relation": "participate_in", "source_file": "README.md"}]</data>
     <data key="d1">0.9.45</data>
-    <data key="d2">eb1053558992b4f82ad47c46fee35d6a2a17e225</data>
+    <data key="d2">5d48a473b47c3610bef39486373b03d237cfe5dd</data>
   </graph>
 </graphml>

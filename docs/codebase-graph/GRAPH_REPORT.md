@@ -2,7 +2,7 @@
 
 This report describes the authentic Graphify extraction and merge after validation. Graphify-native node IDs are preserved. Out-of-scope or malformed model records are counted in `unresolved-relationships.md` and are not repaired.
 
-- Source commit: `eb1053558992b4f82ad47c46fee35d6a2a17e225`
+- Source commit: `5d48a473b47c3610bef39486373b03d237cfe5dd`
 - Nodes: 324; edges: 448; hyperedges: 2; communities: 34.
 - Edge provenance: EXTRACTED=434, INFERRED=14.
 - Graphify input: 77 included files; 9 documented exclusions.
