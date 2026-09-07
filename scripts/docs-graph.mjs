@@ -24,6 +24,7 @@ const exclusions = {
   "app/globals.css": "Graphify 0.9.45 classifies this CSS file as unsupported; styling remains covered by the source audit and local tests.",
   "package-lock.json": "Dependency lockfile is intentionally excluded from the Graphify corpus; package.json and the installed dependency graph remain included.",
   "docs/BACKUP_MANIFEST_v1.8.2.json": "Machine-readable backup manifest is validated separately; Graphify 0.9.45 produces no source node for this JSON artifact.",
+  "docs/BACKUP_MANIFEST_v2.0.0.json": "Machine-readable backup manifest is validated separately; Graphify 0.9.45 produces no source node for this JSON artifact.",
   "docs/codebase-graph/": "Generated Graphify output is a result, not extraction input.",
   "docs/obsidian-vault/": "Generated Obsidian output is a result, not extraction input.",
 };
@@ -152,6 +153,7 @@ function writeGraphReport(graph) {
 }
 
 function generateVault(graph) {
+  fs.rmSync(vaultDir, { recursive: true, force: true });
   fs.mkdirSync(vaultDir, { recursive: true });
   const mapping = [];
   const noteById = new Map();
