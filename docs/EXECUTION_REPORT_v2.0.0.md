@@ -16,6 +16,9 @@ Result: `BLOCKED`
 - `npm test`: PASS, 30/30.
 - `npm run lint`: PASS.
 - Static build: PASS with Next.js 16.3.1; routes include `/vault/` and `/my-materials/`.
+- Static responsive check: PASS, 8 routes x 4 widths with zero failures.
+- Graphify/Obsidian validation: PASS, 324 mapped nodes, 448 valid edges, 349 notes.
+- Release-scope privacy scan: PASS; no institutional member-email strings, tokens, signed URLs, private bytes, or local paths in tracked release output.
 - Source headshot: present; emitted derivative: 400x400 WebP, 10,264 bytes, metadata stripped.
 - Remote migration/schema/count audit: PASS; seven members, eight aliases, eight Auth users, zero materials; no private values recorded.
 - Remote bucket privacy: PASS, `materials.public = false`.
@@ -32,6 +35,6 @@ Required operator action: configure Supabase Auth email delivery and set the Mag
 1. OTP template/custom SMTP and real delivery.
 2. Deploy and verify `materials-upload`, `material-download`, and `materials-manage` from the clean tested source.
 3. Run fresh anonymous/member/admin browser checks, including no Vault metadata or signed URL before authorization and complete temporary fixture cleanup.
-4. Run Graphify update and Obsidian/code-documentation validation on the committed source.
-5. Scan source/output/history for private email strings, tokens, signed URLs, private bytes, and local paths.
+4. Deploy and verify `materials-upload`, `material-download`, and `materials-manage` from the clean tested source.
+5. Run fresh anonymous/member/admin browser checks, including no Vault metadata or signed URL before authorization and complete temporary fixture cleanup.
 6. Commit/push `main`, publish exact `out/` plus `.nojekyll` to `gh-pages`, verify Pages, then update the private backup.
