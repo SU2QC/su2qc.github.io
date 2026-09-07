@@ -40,4 +40,4 @@ The SMTP/OTP blocker is cleared. Source, exact static export, live Pages routes,
 2. Commit/push `main`, publish the exact tested `out/` plus `.nojekyll` to `gh-pages`, and verify every live route.
 3. Update and restore-check the established private backup. `PASS`.
 
-Final publication coordinates: source `e9f7863d8b2d6a2d0ce5f879d6380cbab0e68dfb`, Pages `6ffce1670209152666ae134afa74e3c29ff88c49`. Final backup verification is recorded in the operator handoff; no test fixtures remain.
+Final publication coordinates: source `03581143b086b2fe11cfd284868aafe3cd8c68f5`, Pages `6ffce1670209152666ae134afa74e3c29ff88c49`. Final backup verification is recorded in the operator handoff; no test fixtures remain.

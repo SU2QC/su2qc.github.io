@@ -48,4 +48,4 @@ NEXT_PUBLIC_SITE_URL=https://su2qc.github.io npm run build
 SU2QC_BASE_URL=http://127.0.0.1:4173 npm run check:layout
 ```
 
-Publication complete: source `e9f7863d8b2d6a2d0ce5f879d6380cbab0e68dfb` is on organization `main`, exact tested `out/` is on Pages commit `6ffce1670209152666ae134afa74e3c29ff88c49`, live routes returned 200, and the private backup was updated and restore-checked.
+Publication complete: source `03581143b086b2fe11cfd284868aafe3cd8c68f5` is on organization `main`, exact tested `out/` is on Pages commit `6ffce1670209152666ae134afa74e3c29ff88c49`, live routes returned 200, and the private backup was updated and restore-checked.

@@ -2,7 +2,7 @@
   "schema": "su2qc-backup-manifest-v2",
   "generated_at_utc": "2026-09-07T00:00:00Z",
   "organization_source_repository": "SU2QC/su2qc.github.io",
-  "organization_source_commit": "e9f7863d8b2d6a2d0ce5f879d6380cbab0e68dfb",
+  "organization_source_commit": "03581143b086b2fe11cfd284868aafe3cd8c68f5",
   "organization_gh_pages_commit": "6ffce1670209152666ae134afa74e3c29ff88c49",
   "personal_backup_repository": "digonto10602/su2qc-website-backup",
   "status": "complete_verified_publication",
