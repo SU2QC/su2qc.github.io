@@ -12,7 +12,7 @@ Purpose: Graphify extracted this concept from the repository.
 Graphify node ID: `semantic-out-0-0::public_members_allowlist`
 Repository source: `README.md`
 Node type: `concept`
-Source commit: `5d48a473b47c3610bef39486373b03d237cfe5dd`
+Source commit: `05842ad04328b434f25b46e49d4eb28d7c0c8abe`
 
 ## Important symbols
 

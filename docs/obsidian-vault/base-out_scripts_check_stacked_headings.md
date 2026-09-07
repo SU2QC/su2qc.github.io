@@ -12,7 +12,7 @@ Purpose: Graphify extracted this code from the repository.
 Graphify node ID: `base-out::scripts_check_stacked_headings`
 Repository source: `scripts/check-stacked-headings.mjs`
 Node type: `code`
-Source commit: `5d48a473b47c3610bef39486373b03d237cfe5dd`
+Source commit: `05842ad04328b434f25b46e49d4eb28d7c0c8abe`
 
 ## Important symbols
 

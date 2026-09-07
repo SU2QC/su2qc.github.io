@@ -12,7 +12,7 @@ Purpose: Graphify extracted this image from the repository.
 Graphify node ID: `base-out::public_images_investigators_taku_izubuchi`
 Repository source: `public/images/investigators/taku-izubuchi.jpg`
 Node type: `image`
-Source commit: `5d48a473b47c3610bef39486373b03d237cfe5dd`
+Source commit: `05842ad04328b434f25b46e49d4eb28d7c0c8abe`
 
 ## Important symbols
 

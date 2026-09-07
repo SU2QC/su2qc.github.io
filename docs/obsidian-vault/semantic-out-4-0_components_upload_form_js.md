@@ -12,7 +12,7 @@ Purpose: Graphify extracted this code from the repository.
 Graphify node ID: `semantic-out-4-0::components_upload_form_js`
 Repository source: `components/upload-form.js`
 Node type: `code`
-Source commit: `5d48a473b47c3610bef39486373b03d237cfe5dd`
+Source commit: `05842ad04328b434f25b46e49d4eb28d7c0c8abe`
 
 ## Important symbols
 

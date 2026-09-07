@@ -634,186 +634,6 @@
       <data key="d9">base-out</data>
       <data key="d10">supabase_functions_materials_upload_index_userclient</data>
     </node>
-    <node id="base-out::scripts_docs_graph_build">
-      <data key="d3">build()</data>
-      <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L250</data>
-      <data key="d7">2</data>
-      <data key="d8">build()</data>
-      <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_build</data>
-    </node>
-    <node id="base-out::scripts_docs_graph_createsemanticretry">
-      <data key="d3">createSemanticRetry()</data>
-      <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L59</data>
-      <data key="d7">2</data>
-      <data key="d8">createsemanticretry()</data>
-      <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_createsemanticretry</data>
-    </node>
-    <node id="base-out::scripts_docs_graph_generatevault">
-      <data key="d3">generateVault()</data>
-      <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L155</data>
-      <data key="d7">2</data>
-      <data key="d8">generatevault()</data>
-      <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_generatevault</data>
-    </node>
-    <node id="base-out::scripts_docs_graph_graphsources">
-      <data key="d3">graphSources()</data>
-      <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L55</data>
-      <data key="d7">2</data>
-      <data key="d8">graphsources()</data>
-      <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_graphsources</data>
-    </node>
-    <node id="base-out::scripts_docs_graph_includedfiles">
-      <data key="d3">includedFiles()</data>
-      <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L42</data>
-      <data key="d7">2</data>
-      <data key="d8">includedfiles()</data>
-      <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_includedfiles</data>
-    </node>
-    <node id="base-out::scripts_docs_graph_isexcluded">
-      <data key="d3">isExcluded()</data>
-      <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L41</data>
-      <data key="d7">2</data>
-      <data key="d8">isexcluded()</data>
-      <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_isexcluded</data>
-    </node>
-    <node id="base-out::scripts_docs_graph_normalizeandfilter">
-      <data key="d3">normalizeAndFilter()</data>
-      <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L82</data>
-      <data key="d7">2</data>
-      <data key="d8">normalizeandfilter()</data>
-      <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_normalizeandfilter</data>
-    </node>
-    <node id="base-out::scripts_docs_graph_readjson">
-      <data key="d3">readJson()</data>
-      <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L33</data>
-      <data key="d7">2</data>
-      <data key="d8">readjson()</data>
-      <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_readjson</data>
-    </node>
-    <node id="base-out::scripts_docs_graph_run">
-      <data key="d3">run()</data>
-      <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L32</data>
-      <data key="d7">2</data>
-      <data key="d8">run()</data>
-      <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_run</data>
-    </node>
-    <node id="base-out::scripts_docs_graph_safename">
-      <data key="d3">safeName()</data>
-      <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L38</data>
-      <data key="d7">2</data>
-      <data key="d8">safename()</data>
-      <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_safename</data>
-    </node>
-    <node id="base-out::scripts_docs_graph_semanticfiles">
-      <data key="d3">semanticFiles()</data>
-      <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L43</data>
-      <data key="d7">2</data>
-      <data key="d8">semanticfiles()</data>
-      <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_semanticfiles</data>
-    </node>
-    <node id="base-out::scripts_docs_graph_stagehead">
-      <data key="d3">stageHead()</data>
-      <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L45</data>
-      <data key="d7">2</data>
-      <data key="d8">stagehead()</data>
-      <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_stagehead</data>
-    </node>
-    <node id="base-out::scripts_docs_graph_trackedfiles">
-      <data key="d3">trackedFiles()</data>
-      <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L40</data>
-      <data key="d7">2</data>
-      <data key="d8">trackedfiles()</data>
-      <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_trackedfiles</data>
-    </node>
-    <node id="base-out::scripts_docs_graph_validate">
-      <data key="d3">validate()</data>
-      <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L305</data>
-      <data key="d7">2</data>
-      <data key="d8">validate()</data>
-      <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_validate</data>
-    </node>
-    <node id="base-out::scripts_docs_graph_wiki">
-      <data key="d3">wiki()</data>
-      <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L39</data>
-      <data key="d7">2</data>
-      <data key="d8">wiki()</data>
-      <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_wiki</data>
-    </node>
-    <node id="base-out::scripts_docs_graph_writegraphreport">
-      <data key="d3">writeGraphReport()</data>
-      <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L145</data>
-      <data key="d7">2</data>
-      <data key="d8">writegraphreport()</data>
-      <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_writegraphreport</data>
-    </node>
-    <node id="base-out::scripts_docs_graph_writejson">
-      <data key="d3">writeJson()</data>
-      <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L34</data>
-      <data key="d7">2</data>
-      <data key="d8">writejson()</data>
-      <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_writejson</data>
-    </node>
-    <node id="base-out::scripts_docs_graph_writemanifests">
-      <data key="d3">writeManifests()</data>
-      <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L98</data>
-      <data key="d7">2</data>
-      <data key="d8">writemanifests()</data>
-      <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_writemanifests</data>
-    </node>
     <node id="base-out::lib_rate_limit_allowrequest">
       <data key="d3">allowRequest()</data>
       <data key="d4">code</data>
@@ -834,12 +654,192 @@
       <data key="d9">base-out</data>
       <data key="d10">tests_repository_test_text</data>
     </node>
+    <node id="base-out::scripts_docs_graph_build">
+      <data key="d3">build()</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L250</data>
+      <data key="d7">3</data>
+      <data key="d8">build()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_build</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_createsemanticretry">
+      <data key="d3">createSemanticRetry()</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L59</data>
+      <data key="d7">3</data>
+      <data key="d8">createsemanticretry()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_createsemanticretry</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_generatevault">
+      <data key="d3">generateVault()</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L155</data>
+      <data key="d7">3</data>
+      <data key="d8">generatevault()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_generatevault</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_graphsources">
+      <data key="d3">graphSources()</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L55</data>
+      <data key="d7">3</data>
+      <data key="d8">graphsources()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_graphsources</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_includedfiles">
+      <data key="d3">includedFiles()</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L42</data>
+      <data key="d7">3</data>
+      <data key="d8">includedfiles()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_includedfiles</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_isexcluded">
+      <data key="d3">isExcluded()</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L41</data>
+      <data key="d7">3</data>
+      <data key="d8">isexcluded()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_isexcluded</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_normalizeandfilter">
+      <data key="d3">normalizeAndFilter()</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L82</data>
+      <data key="d7">3</data>
+      <data key="d8">normalizeandfilter()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_normalizeandfilter</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_readjson">
+      <data key="d3">readJson()</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L33</data>
+      <data key="d7">3</data>
+      <data key="d8">readjson()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_readjson</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_run">
+      <data key="d3">run()</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L32</data>
+      <data key="d7">3</data>
+      <data key="d8">run()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_run</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_safename">
+      <data key="d3">safeName()</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L38</data>
+      <data key="d7">3</data>
+      <data key="d8">safename()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_safename</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_semanticfiles">
+      <data key="d3">semanticFiles()</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L43</data>
+      <data key="d7">3</data>
+      <data key="d8">semanticfiles()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_semanticfiles</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_stagehead">
+      <data key="d3">stageHead()</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L45</data>
+      <data key="d7">3</data>
+      <data key="d8">stagehead()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_stagehead</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_trackedfiles">
+      <data key="d3">trackedFiles()</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L40</data>
+      <data key="d7">3</data>
+      <data key="d8">trackedfiles()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_trackedfiles</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_validate">
+      <data key="d3">validate()</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L305</data>
+      <data key="d7">3</data>
+      <data key="d8">validate()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_validate</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_wiki">
+      <data key="d3">wiki()</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L39</data>
+      <data key="d7">3</data>
+      <data key="d8">wiki()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_wiki</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_writegraphreport">
+      <data key="d3">writeGraphReport()</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L145</data>
+      <data key="d7">3</data>
+      <data key="d8">writegraphreport()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_writegraphreport</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_writejson">
+      <data key="d3">writeJson()</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L34</data>
+      <data key="d7">3</data>
+      <data key="d8">writejson()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_writejson</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_writemanifests">
+      <data key="d3">writeManifests()</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L98</data>
+      <data key="d7">3</data>
+      <data key="d8">writemanifests()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_writemanifests</data>
+    </node>
     <node id="base-out::app_library_page_library">
       <data key="d3">Library()</data>
       <data key="d4">code</data>
       <data key="d5">app/library/page.js</data>
       <data key="d6">L6</data>
-      <data key="d7">3</data>
+      <data key="d7">4</data>
       <data key="d8">library()</data>
       <data key="d9">base-out</data>
       <data key="d10">app_library_page_library</data>
@@ -849,7 +849,7 @@
       <data key="d4">code</data>
       <data key="d5">app/my-materials/page.js</data>
       <data key="d6">L6</data>
-      <data key="d7">3</data>
+      <data key="d7">4</data>
       <data key="d8">mymaterials()</data>
       <data key="d9">base-out</data>
       <data key="d10">app_my_materials_page_mymaterials</data>
@@ -859,7 +859,7 @@
       <data key="d4">code</data>
       <data key="d5">app/page.js</data>
       <data key="d6">L14</data>
-      <data key="d7">3</data>
+      <data key="d7">4</data>
       <data key="d8">home()</data>
       <data key="d9">base-out</data>
       <data key="d10">app_page_home</data>
@@ -869,7 +869,7 @@
       <data key="d4">code</data>
       <data key="d5">app/people/page.js</data>
       <data key="d6">L7</data>
-      <data key="d7">3</data>
+      <data key="d7">4</data>
       <data key="d8">people()</data>
       <data key="d9">base-out</data>
       <data key="d10">app_people_page_people</data>
@@ -879,7 +879,7 @@
       <data key="d4">code</data>
       <data key="d5">app/research/page.js</data>
       <data key="d6">L12</data>
-      <data key="d7">3</data>
+      <data key="d7">4</data>
       <data key="d8">research()</data>
       <data key="d9">base-out</data>
       <data key="d10">app_research_page_research</data>
@@ -889,7 +889,7 @@
       <data key="d4">code</data>
       <data key="d5">app/vault/page.js</data>
       <data key="d6">L6</data>
-      <data key="d7">3</data>
+      <data key="d7">4</data>
       <data key="d8">vault()</data>
       <data key="d9">base-out</data>
       <data key="d10">app_vault_page_vault</data>
@@ -899,7 +899,7 @@
       <data key="d4">code</data>
       <data key="d5">components/section-intro.js</data>
       <data key="d6">L1</data>
-      <data key="d7">3</data>
+      <data key="d7">4</data>
       <data key="d8">sectionintro()</data>
       <data key="d9">base-out</data>
       <data key="d10">components_section_intro_sectionintro</data>
@@ -909,7 +909,7 @@
       <data key="d4">code</data>
       <data key="d5">lib/material-validation.mjs</data>
       <data key="d6">L38</data>
-      <data key="d7">7</data>
+      <data key="d7">6</data>
       <data key="d8">hassignature()</data>
       <data key="d9">base-out</data>
       <data key="d10">lib_material_validation_hassignature</data>
@@ -919,7 +919,7 @@
       <data key="d4">code</data>
       <data key="d5">lib/material-validation.mjs</data>
       <data key="d6">L33</data>
-      <data key="d7">7</data>
+      <data key="d7">6</data>
       <data key="d8">istext()</data>
       <data key="d9">base-out</data>
       <data key="d10">lib_material_validation_istext</data>
@@ -929,7 +929,7 @@
       <data key="d4">code</data>
       <data key="d5">lib/material-validation.mjs</data>
       <data key="d6">L50</data>
-      <data key="d7">7</data>
+      <data key="d7">6</data>
       <data key="d8">validatematerialfile()</data>
       <data key="d9">base-out</data>
       <data key="d10">lib_material_validation_validatematerialfile</data>
@@ -939,7 +939,7 @@
       <data key="d4">code</data>
       <data key="d5">tests/material-validation.test.mjs</data>
       <data key="d6">L5</data>
-      <data key="d7">7</data>
+      <data key="d7">6</data>
       <data key="d8">upload()</data>
       <data key="d9">base-out</data>
       <data key="d10">tests_material_validation_test_upload</data>
@@ -1329,7 +1329,7 @@
       <data key="d4">code</data>
       <data key="d5">supabase/migrations/006_v2_0_0_people_vault_otp.sql</data>
       <data key="d6" />
-      <data key="d7">12</data>
+      <data key="d7">11</data>
       <data key="d8">006_v2_0_0_people_vault_otp.sql</data>
       <data key="d9">base-out</data>
       <data key="d10">supabase_migrations_006_v2_0_0_people_vault_otp</data>
@@ -1339,7 +1339,7 @@
       <data key="d4">code</data>
       <data key="d5">supabase/migrations/006_v2_0_0_people_vault_otp.sql</data>
       <data key="d6">L43</data>
-      <data key="d7">12</data>
+      <data key="d7">11</data>
       <data key="d8">materials_set_updated_at</data>
       <data key="d9">base-out</data>
       <data key="d10">supabase_migrations_006_v2_0_0_people_vault_otp_materials_set_updated_at</data>
@@ -1349,7 +1349,7 @@
       <data key="d4">code</data>
       <data key="d5">supabase/migrations/006_v2_0_0_people_vault_otp.sql</data>
       <data key="d6">L86</data>
-      <data key="d7">12</data>
+      <data key="d7">11</data>
       <data key="d8">public.materials_member</data>
       <data key="d9">base-out</data>
       <data key="d10">supabase_migrations_006_v2_0_0_people_vault_otp_public_materials_member</data>
@@ -1359,7 +1359,7 @@
       <data key="d4">code</data>
       <data key="d5">supabase/migrations/006_v2_0_0_people_vault_otp.sql</data>
       <data key="d6">L78</data>
-      <data key="d7">12</data>
+      <data key="d7">11</data>
       <data key="d8">public.materials_public</data>
       <data key="d9">base-out</data>
       <data key="d10">supabase_migrations_006_v2_0_0_people_vault_otp_public_materials_public</data>
@@ -1369,7 +1369,7 @@
       <data key="d4">code</data>
       <data key="d5">supabase/migrations/006_v2_0_0_people_vault_otp.sql</data>
       <data key="d6">L32</data>
-      <data key="d7">12</data>
+      <data key="d7">11</data>
       <data key="d8">public.set_material_updated_at()</data>
       <data key="d9">base-out</data>
       <data key="d10">supabase_migrations_006_v2_0_0_people_vault_otp_public_set_material_updated_at</data>
@@ -1564,85 +1564,125 @@
       <data key="d9">base-out</data>
       <data key="d10">supabase_migrations_001_initial_public_members</data>
     </node>
-    <node id="base-out::scripts_docs_graph">
-      <data key="d3">docs-graph.mjs</data>
+    <node id="base-out::package_dependencies">
+      <data key="d3">dependencies</data>
       <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L1</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L17</data>
       <data key="d7">2</data>
-      <data key="d8">docs-graph.mjs</data>
+      <data key="d8">dependencies</data>
       <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph</data>
+      <data key="d10">package_dependencies</data>
     </node>
-    <node id="base-out::scripts_docs_graph_exclusions">
-      <data key="d3">exclusions</data>
+    <node id="base-out::package_dependencies_lucide_react">
+      <data key="d3">lucide-react</data>
       <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d5">package.json</data>
       <data key="d6">L20</data>
       <data key="d7">2</data>
-      <data key="d8">exclusions</data>
+      <data key="d8">lucide-react</data>
       <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_exclusions</data>
+      <data key="d10">package_dependencies_lucide_react</data>
     </node>
-    <node id="base-out::scripts_docs_graph_graphdir">
-      <data key="d3">graphDir</data>
+    <node id="base-out::package_dependencies_next">
+      <data key="d3">next</data>
       <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L7</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L21</data>
       <data key="d7">2</data>
-      <data key="d8">graphdir</data>
+      <data key="d8">next</data>
       <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_graphdir</data>
+      <data key="d10">package_dependencies_next</data>
     </node>
-    <node id="base-out::scripts_docs_graph_graphpath">
-      <data key="d3">graphPath</data>
+    <node id="base-out::package_dependencies_react">
+      <data key="d3">react</data>
       <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L9</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L22</data>
       <data key="d7">2</data>
-      <data key="d8">graphpath</data>
+      <data key="d8">react</data>
       <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_graphpath</data>
+      <data key="d10">package_dependencies_react</data>
     </node>
-    <node id="base-out::scripts_docs_graph_majornotes">
-      <data key="d3">majorNotes</data>
+    <node id="base-out::package_dependencies_react_dom">
+      <data key="d3">react-dom</data>
       <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L11</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L23</data>
       <data key="d7">2</data>
-      <data key="d8">majornotes</data>
+      <data key="d8">react-dom</data>
       <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_majornotes</data>
+      <data key="d10">package_dependencies_react_dom</data>
     </node>
-    <node id="base-out::scripts_docs_graph_root">
-      <data key="d3">root</data>
+    <node id="base-out::package_dependencies_supabase_ssr">
+      <data key="d3">@supabase/ssr</data>
       <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L5</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L18</data>
       <data key="d7">2</data>
-      <data key="d8">root</data>
+      <data key="d8">@supabase/ssr</data>
       <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_root</data>
+      <data key="d10">package_dependencies_supabase_ssr</data>
     </node>
-    <node id="base-out::scripts_docs_graph_tmp">
-      <data key="d3">tmp</data>
+    <node id="base-out::package_dependencies_supabase_supabase_js">
+      <data key="d3">@supabase/supabase-js</data>
       <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L6</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L19</data>
       <data key="d7">2</data>
-      <data key="d8">tmp</data>
+      <data key="d8">@supabase/supabase-js</data>
       <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_tmp</data>
+      <data key="d10">package_dependencies_supabase_supabase_js</data>
     </node>
-    <node id="base-out::scripts_docs_graph_vaultdir">
-      <data key="d3">vaultDir</data>
-      <data key="d4">code</data>
-      <data key="d5">scripts/docs-graph.mjs</data>
-      <data key="d6">L8</data>
+    <node id="base-out::lucide_react">
+      <data key="d3">lucide-react</data>
+      <data key="d4">concept</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L20</data>
       <data key="d7">2</data>
-      <data key="d8">vaultdir</data>
+      <data key="d8">lucide-react</data>
       <data key="d9">base-out</data>
-      <data key="d10">scripts_docs_graph_vaultdir</data>
+      <data key="d10">lucide_react</data>
+    </node>
+    <node id="base-out::package_json_next">
+      <data key="d3">next</data>
+      <data key="d4">concept</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L21</data>
+      <data key="d7">2</data>
+      <data key="d8">next</data>
+      <data key="d9">base-out</data>
+      <data key="d10">package_json_next</data>
+    </node>
+    <node id="base-out::react_dom">
+      <data key="d3">react-dom</data>
+      <data key="d4">concept</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L23</data>
+      <data key="d7">2</data>
+      <data key="d8">react-dom</data>
+      <data key="d9">base-out</data>
+      <data key="d10">react_dom</data>
+    </node>
+    <node id="base-out::supabase_ssr">
+      <data key="d3">@supabase/ssr</data>
+      <data key="d4">concept</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L18</data>
+      <data key="d7">2</data>
+      <data key="d8">@supabase/ssr</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_ssr</data>
+    </node>
+    <node id="base-out::supabase_supabase_js">
+      <data key="d3">@supabase/supabase-js</data>
+      <data key="d4">concept</data>
+      <data key="d5">package.json</data>
+      <data key="d6">L19</data>
+      <data key="d7">2</data>
+      <data key="d8">@supabase/supabase-js</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_supabase_js</data>
     </node>
     <node id="base-out::lib_rate_limit">
       <data key="d3">rate-limit.mjs</data>
@@ -1689,7 +1729,7 @@
       <data key="d4">code</data>
       <data key="d5">next.config.mjs</data>
       <data key="d6">L1</data>
-      <data key="d7">24</data>
+      <data key="d7">23</data>
       <data key="d8">next.config.mjs</data>
       <data key="d9">base-out</data>
       <data key="d10">next_config</data>
@@ -1699,10 +1739,30 @@
       <data key="d4">code</data>
       <data key="d5">next.config.mjs</data>
       <data key="d6">L2</data>
-      <data key="d7">24</data>
+      <data key="d7">23</data>
       <data key="d8">nextconfig</data>
       <data key="d9">base-out</data>
       <data key="d10">next_config_nextconfig</data>
+    </node>
+    <node id="base-out::supabase_migrations_008_v2_0_0_member_email_security_definer">
+      <data key="d3">008_v2_0_0_member_email_security_definer.sql</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/migrations/008_v2_0_0_member_email_security_definer.sql</data>
+      <data key="d6" />
+      <data key="d7">24</data>
+      <data key="d8">008_v2_0_0_member_email_security_definer.sql</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_migrations_008_v2_0_0_member_email_security_definer</data>
+    </node>
+    <node id="base-out::supabase_migrations_008_v2_0_0_member_email_security_definer_public_is_active_member_for_email">
+      <data key="d3">public.is_active_member_for_email()</data>
+      <data key="d4">code</data>
+      <data key="d5">supabase/migrations/008_v2_0_0_member_email_security_definer.sql</data>
+      <data key="d6">L5</data>
+      <data key="d7">24</data>
+      <data key="d8">public.is_active_member_for_email()</data>
+      <data key="d9">base-out</data>
+      <data key="d10">supabase_migrations_008_v2_0_0_member_email_security_definer_public_is_active_member_for_email</data>
     </node>
     <node id="base-out::tests_repository_test">
       <data key="d3">repository.test.mjs</data>
@@ -1714,12 +1774,102 @@
       <data key="d9">base-out</data>
       <data key="d10">tests_repository_test</data>
     </node>
+    <node id="base-out::scripts_docs_graph">
+      <data key="d3">docs-graph.mjs</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L1</data>
+      <data key="d7">3</data>
+      <data key="d8">docs-graph.mjs</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_exclusions">
+      <data key="d3">exclusions</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L20</data>
+      <data key="d7">3</data>
+      <data key="d8">exclusions</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_exclusions</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_graphdir">
+      <data key="d3">graphDir</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L7</data>
+      <data key="d7">3</data>
+      <data key="d8">graphdir</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_graphdir</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_graphpath">
+      <data key="d3">graphPath</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L9</data>
+      <data key="d7">3</data>
+      <data key="d8">graphpath</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_graphpath</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_majornotes">
+      <data key="d3">majorNotes</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L11</data>
+      <data key="d7">3</data>
+      <data key="d8">majornotes</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_majornotes</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_root">
+      <data key="d3">root</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L5</data>
+      <data key="d7">3</data>
+      <data key="d8">root</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_root</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_tmp">
+      <data key="d3">tmp</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L6</data>
+      <data key="d7">3</data>
+      <data key="d8">tmp</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_tmp</data>
+    </node>
+    <node id="base-out::scripts_docs_graph_vaultdir">
+      <data key="d3">vaultDir</data>
+      <data key="d4">code</data>
+      <data key="d5">scripts/docs-graph.mjs</data>
+      <data key="d6">L8</data>
+      <data key="d7">3</data>
+      <data key="d8">vaultdir</data>
+      <data key="d9">base-out</data>
+      <data key="d10">scripts_docs_graph_vaultdir</data>
+    </node>
+    <node id="base-out::eslint_config">
+      <data key="d3">eslint.config.mjs</data>
+      <data key="d4">code</data>
+      <data key="d5">eslint.config.mjs</data>
+      <data key="d6">L1</data>
+      <data key="d7">39</data>
+      <data key="d8">eslint.config.mjs</data>
+      <data key="d9">base-out</data>
+      <data key="d10">eslint_config</data>
+    </node>
     <node id="base-out::app_library_page">
       <data key="d3">library/page.js</data>
       <data key="d4">code</data>
       <data key="d5">app/library/page.js</data>
       <data key="d6">L1</data>
-      <data key="d7">3</data>
+      <data key="d7">4</data>
       <data key="d8">library/page.js</data>
       <data key="d9">base-out</data>
       <data key="d10">app_library_page</data>
@@ -1729,7 +1879,7 @@
       <data key="d4">code</data>
       <data key="d5">app/library/page.js</data>
       <data key="d6">L4</data>
-      <data key="d7">3</data>
+      <data key="d7">4</data>
       <data key="d8">metadata</data>
       <data key="d9">base-out</data>
       <data key="d10">app_library_page_metadata</data>
@@ -1739,7 +1889,7 @@
       <data key="d4">code</data>
       <data key="d5">app/my-materials/page.js</data>
       <data key="d6">L1</data>
-      <data key="d7">3</data>
+      <data key="d7">4</data>
       <data key="d8">my-materials/page.js</data>
       <data key="d9">base-out</data>
       <data key="d10">app_my_materials_page</data>
@@ -1749,7 +1899,7 @@
       <data key="d4">code</data>
       <data key="d5">app/my-materials/page.js</data>
       <data key="d6">L4</data>
-      <data key="d7">3</data>
+      <data key="d7">4</data>
       <data key="d8">metadata</data>
       <data key="d9">base-out</data>
       <data key="d10">app_my_materials_page_metadata</data>
@@ -1759,7 +1909,7 @@
       <data key="d4">code</data>
       <data key="d5">app/page.js</data>
       <data key="d6">L1</data>
-      <data key="d7">3</data>
+      <data key="d7">4</data>
       <data key="d8">app/page.js</data>
       <data key="d9">base-out</data>
       <data key="d10">app_page</data>
@@ -1769,7 +1919,7 @@
       <data key="d4">code</data>
       <data key="d5">app/page.js</data>
       <data key="d6">L7</data>
-      <data key="d7">3</data>
+      <data key="d7">4</data>
       <data key="d8">themes</data>
       <data key="d9">base-out</data>
       <data key="d10">app_page_themes</data>
@@ -1779,7 +1929,7 @@
       <data key="d4">code</data>
       <data key="d5">app/people/page.js</data>
       <data key="d6">L1</data>
-      <data key="d7">3</data>
+      <data key="d7">4</data>
       <data key="d8">people/page.js</data>
       <data key="d9">base-out</data>
       <data key="d10">app_people_page</data>
@@ -1789,7 +1939,7 @@
       <data key="d4">code</data>
       <data key="d5">app/people/page.js</data>
       <data key="d6">L6</data>
-      <data key="d7">3</data>
+      <data key="d7">4</data>
       <data key="d8">metadata</data>
       <data key="d9">base-out</data>
       <data key="d10">app_people_page_metadata</data>
@@ -1799,7 +1949,7 @@
       <data key="d4">code</data>
       <data key="d5">app/research/page.js</data>
       <data key="d6">L1</data>
-      <data key="d7">3</data>
+      <data key="d7">4</data>
       <data key="d8">research/page.js</data>
       <data key="d9">base-out</data>
       <data key="d10">app_research_page</data>
@@ -1809,7 +1959,7 @@
       <data key="d4">code</data>
       <data key="d5">app/research/page.js</data>
       <data key="d6">L11</data>
-      <data key="d7">3</data>
+      <data key="d7">4</data>
       <data key="d8">metadata</data>
       <data key="d9">base-out</data>
       <data key="d10">app_research_page_metadata</data>
@@ -1819,7 +1969,7 @@
       <data key="d4">code</data>
       <data key="d5">app/research/page.js</data>
       <data key="d6">L4</data>
-      <data key="d7">3</data>
+      <data key="d7">4</data>
       <data key="d8">pillars</data>
       <data key="d9">base-out</data>
       <data key="d10">app_research_page_pillars</data>
@@ -1829,7 +1979,7 @@
       <data key="d4">code</data>
       <data key="d5">app/vault/page.js</data>
       <data key="d6">L1</data>
-      <data key="d7">3</data>
+      <data key="d7">4</data>
       <data key="d8">vault/page.js</data>
       <data key="d9">base-out</data>
       <data key="d10">app_vault_page</data>
@@ -1839,7 +1989,7 @@
       <data key="d4">code</data>
       <data key="d5">app/vault/page.js</data>
       <data key="d6">L4</data>
-      <data key="d7">3</data>
+      <data key="d7">4</data>
       <data key="d8">metadata</data>
       <data key="d9">base-out</data>
       <data key="d10">app_vault_page_metadata</data>
@@ -1849,7 +1999,7 @@
       <data key="d4">code</data>
       <data key="d5">components/section-intro.js</data>
       <data key="d6">L1</data>
-      <data key="d7">3</data>
+      <data key="d7">4</data>
       <data key="d8">section-intro.js</data>
       <data key="d9">base-out</data>
       <data key="d10">components_section_intro</data>
@@ -1859,7 +2009,7 @@
       <data key="d4">code</data>
       <data key="d5">data/people.js</data>
       <data key="d6">L1</data>
-      <data key="d7">3</data>
+      <data key="d7">4</data>
       <data key="d8">people.js</data>
       <data key="d9">base-out</data>
       <data key="d10">data_people</data>
@@ -1869,27 +2019,17 @@
       <data key="d4">code</data>
       <data key="d5">data/people.js</data>
       <data key="d6">L1</data>
-      <data key="d7">3</data>
+      <data key="d7">4</data>
       <data key="d8">people</data>
       <data key="d9">base-out</data>
       <data key="d10">data_people_people</data>
-    </node>
-    <node id="base-out::eslint_config">
-      <data key="d3">eslint.config.mjs</data>
-      <data key="d4">code</data>
-      <data key="d5">eslint.config.mjs</data>
-      <data key="d6">L1</data>
-      <data key="d7">37</data>
-      <data key="d8">eslint.config.mjs</data>
-      <data key="d9">base-out</data>
-      <data key="d10">eslint_config</data>
     </node>
     <node id="base-out::package">
       <data key="d3">package.json</data>
       <data key="d4">code</data>
       <data key="d5">package.json</data>
       <data key="d6">L1</data>
-      <data key="d7">4</data>
+      <data key="d7">5</data>
       <data key="d8">package.json</data>
       <data key="d9">base-out</data>
       <data key="d10">package</data>
@@ -1899,7 +2039,7 @@
       <data key="d4">code</data>
       <data key="d5">package.json</data>
       <data key="d6">L25</data>
-      <data key="d7">4</data>
+      <data key="d7">5</data>
       <data key="d8">devdependencies</data>
       <data key="d9">base-out</data>
       <data key="d10">package_devdependencies</data>
@@ -1909,7 +2049,7 @@
       <data key="d4">code</data>
       <data key="d5">package.json</data>
       <data key="d6">L26</data>
-      <data key="d7">4</data>
+      <data key="d7">5</data>
       <data key="d8">eslint</data>
       <data key="d9">base-out</data>
       <data key="d10">package_devdependencies_eslint</data>
@@ -1919,7 +2059,7 @@
       <data key="d4">code</data>
       <data key="d5">package.json</data>
       <data key="d6">L27</data>
-      <data key="d7">4</data>
+      <data key="d7">5</data>
       <data key="d8">eslint-config-next</data>
       <data key="d9">base-out</data>
       <data key="d10">package_devdependencies_eslint_config_next</data>
@@ -1929,7 +2069,7 @@
       <data key="d4">code</data>
       <data key="d5">package.json</data>
       <data key="d6">L2</data>
-      <data key="d7">4</data>
+      <data key="d7">5</data>
       <data key="d8">name</data>
       <data key="d9">base-out</data>
       <data key="d10">package_name</data>
@@ -1939,7 +2079,7 @@
       <data key="d4">code</data>
       <data key="d5">package.json</data>
       <data key="d6">L4</data>
-      <data key="d7">4</data>
+      <data key="d7">5</data>
       <data key="d8">private</data>
       <data key="d9">base-out</data>
       <data key="d10">package_private</data>
@@ -1949,7 +2089,7 @@
       <data key="d4">code</data>
       <data key="d5">package.json</data>
       <data key="d6">L5</data>
-      <data key="d7">4</data>
+      <data key="d7">5</data>
       <data key="d8">scripts</data>
       <data key="d9">base-out</data>
       <data key="d10">package_scripts</data>
@@ -1959,7 +2099,7 @@
       <data key="d4">code</data>
       <data key="d5">package.json</data>
       <data key="d6">L7</data>
-      <data key="d7">4</data>
+      <data key="d7">5</data>
       <data key="d8">build</data>
       <data key="d9">base-out</data>
       <data key="d10">package_scripts_build</data>
@@ -1969,7 +2109,7 @@
       <data key="d4">code</data>
       <data key="d5">package.json</data>
       <data key="d6">L12</data>
-      <data key="d7">4</data>
+      <data key="d7">5</data>
       <data key="d8">check:layout</data>
       <data key="d9">base-out</data>
       <data key="d10">package_scripts_check_layout</data>
@@ -1979,7 +2119,7 @@
       <data key="d4">code</data>
       <data key="d5">package.json</data>
       <data key="d6">L6</data>
-      <data key="d7">4</data>
+      <data key="d7">5</data>
       <data key="d8">dev</data>
       <data key="d9">base-out</data>
       <data key="d10">package_scripts_dev</data>
@@ -1989,7 +2129,7 @@
       <data key="d4">code</data>
       <data key="d5">package.json</data>
       <data key="d6">L13</data>
-      <data key="d7">4</data>
+      <data key="d7">5</data>
       <data key="d8">docs:graph</data>
       <data key="d9">base-out</data>
       <data key="d10">package_scripts_docs_graph</data>
@@ -1999,7 +2139,7 @@
       <data key="d4">code</data>
       <data key="d5">package.json</data>
       <data key="d6">L14</data>
-      <data key="d7">4</data>
+      <data key="d7">5</data>
       <data key="d8">docs:graph:validate</data>
       <data key="d9">base-out</data>
       <data key="d10">package_scripts_docs_graph_validate</data>
@@ -2009,7 +2149,7 @@
       <data key="d4">code</data>
       <data key="d5">package.json</data>
       <data key="d6">L15</data>
-      <data key="d7">4</data>
+      <data key="d7">5</data>
       <data key="d8">docs:obsidian:validate</data>
       <data key="d9">base-out</data>
       <data key="d10">package_scripts_docs_obsidian_validate</data>
@@ -2019,7 +2159,7 @@
       <data key="d4">code</data>
       <data key="d5">package.json</data>
       <data key="d6">L9</data>
-      <data key="d7">4</data>
+      <data key="d7">5</data>
       <data key="d8">lint</data>
       <data key="d9">base-out</data>
       <data key="d10">package_scripts_lint</data>
@@ -2029,7 +2169,7 @@
       <data key="d4">code</data>
       <data key="d5">package.json</data>
       <data key="d6">L8</data>
-      <data key="d7">4</data>
+      <data key="d7">5</data>
       <data key="d8">start</data>
       <data key="d9">base-out</data>
       <data key="d10">package_scripts_start</data>
@@ -2039,7 +2179,7 @@
       <data key="d4">code</data>
       <data key="d5">package.json</data>
       <data key="d6">L10</data>
-      <data key="d7">4</data>
+      <data key="d7">5</data>
       <data key="d8">test</data>
       <data key="d9">base-out</data>
       <data key="d10">package_scripts_test</data>
@@ -2049,7 +2189,7 @@
       <data key="d4">code</data>
       <data key="d5">package.json</data>
       <data key="d6">L11</data>
-      <data key="d7">4</data>
+      <data key="d7">5</data>
       <data key="d8">verify</data>
       <data key="d9">base-out</data>
       <data key="d10">package_scripts_verify</data>
@@ -2059,7 +2199,7 @@
       <data key="d4">code</data>
       <data key="d5">package.json</data>
       <data key="d6">L3</data>
-      <data key="d7">4</data>
+      <data key="d7">5</data>
       <data key="d8">version</data>
       <data key="d9">base-out</data>
       <data key="d10">package_version</data>
@@ -2069,7 +2209,7 @@
       <data key="d4">concept</data>
       <data key="d5">package.json</data>
       <data key="d6">L26</data>
-      <data key="d7">4</data>
+      <data key="d7">5</data>
       <data key="d8">eslint</data>
       <data key="d9">base-out</data>
       <data key="d10">eslint</data>
@@ -2079,7 +2219,7 @@
       <data key="d4">concept</data>
       <data key="d5">package.json</data>
       <data key="d6">L27</data>
-      <data key="d7">4</data>
+      <data key="d7">5</data>
       <data key="d8">eslint-config-next</data>
       <data key="d9">base-out</data>
       <data key="d10">eslint_config_next</data>
@@ -2089,7 +2229,7 @@
       <data key="d4">code</data>
       <data key="d5">supabase/migrations/003_v1_4_0_live_supabase_grant_hardening.sql</data>
       <data key="d6" />
-      <data key="d7">46</data>
+      <data key="d7">52</data>
       <data key="d8">003_v1_4_0_live_supabase_grant_hardening.sql</data>
       <data key="d9">base-out</data>
       <data key="d10">supabase_migrations_003_v1_4_0_live_supabase_grant_hardening</data>
@@ -2099,7 +2239,7 @@
       <data key="d4">code</data>
       <data key="d5">supabase/migrations/004_v1_4_0_live_supabase_fk_hardening.sql</data>
       <data key="d6" />
-      <data key="d7">47</data>
+      <data key="d7">53</data>
       <data key="d8">004_v1_4_0_live_supabase_fk_hardening.sql</data>
       <data key="d9">base-out</data>
       <data key="d10">supabase_migrations_004_v1_4_0_live_supabase_fk_hardening</data>
@@ -2109,137 +2249,37 @@
       <data key="d4">code</data>
       <data key="d5">supabase/migrations/005_v1_6_0_security_hardening.sql</data>
       <data key="d6" />
-      <data key="d7">48</data>
+      <data key="d7">54</data>
       <data key="d8">005_v1_6_0_security_hardening.sql</data>
       <data key="d9">base-out</data>
       <data key="d10">supabase_migrations_005_v1_6_0_security_hardening</data>
     </node>
-    <node id="base-out::package_dependencies">
-      <data key="d3">dependencies</data>
+    <node id="base-out::supabase_migrations_007_v2_0_0_member_email_rls_fix">
+      <data key="d3">007_v2_0_0_member_email_rls_fix.sql</data>
       <data key="d4">code</data>
-      <data key="d5">package.json</data>
-      <data key="d6">L17</data>
-      <data key="d7">5</data>
-      <data key="d8">dependencies</data>
+      <data key="d5">supabase/migrations/007_v2_0_0_member_email_rls_fix.sql</data>
+      <data key="d6" />
+      <data key="d7">55</data>
+      <data key="d8">007_v2_0_0_member_email_rls_fix.sql</data>
       <data key="d9">base-out</data>
-      <data key="d10">package_dependencies</data>
+      <data key="d10">supabase_migrations_007_v2_0_0_member_email_rls_fix</data>
     </node>
-    <node id="base-out::package_dependencies_lucide_react">
-      <data key="d3">lucide-react</data>
+    <node id="base-out::supabase_migrations_009_v2_0_0_material_mime_allowlist">
+      <data key="d3">009_v2_0_0_material_mime_allowlist.sql</data>
       <data key="d4">code</data>
-      <data key="d5">package.json</data>
-      <data key="d6">L20</data>
-      <data key="d7">5</data>
-      <data key="d8">lucide-react</data>
+      <data key="d5">supabase/migrations/009_v2_0_0_material_mime_allowlist.sql</data>
+      <data key="d6" />
+      <data key="d7">56</data>
+      <data key="d8">009_v2_0_0_material_mime_allowlist.sql</data>
       <data key="d9">base-out</data>
-      <data key="d10">package_dependencies_lucide_react</data>
-    </node>
-    <node id="base-out::package_dependencies_next">
-      <data key="d3">next</data>
-      <data key="d4">code</data>
-      <data key="d5">package.json</data>
-      <data key="d6">L21</data>
-      <data key="d7">5</data>
-      <data key="d8">next</data>
-      <data key="d9">base-out</data>
-      <data key="d10">package_dependencies_next</data>
-    </node>
-    <node id="base-out::package_dependencies_react">
-      <data key="d3">react</data>
-      <data key="d4">code</data>
-      <data key="d5">package.json</data>
-      <data key="d6">L22</data>
-      <data key="d7">5</data>
-      <data key="d8">react</data>
-      <data key="d9">base-out</data>
-      <data key="d10">package_dependencies_react</data>
-    </node>
-    <node id="base-out::package_dependencies_react_dom">
-      <data key="d3">react-dom</data>
-      <data key="d4">code</data>
-      <data key="d5">package.json</data>
-      <data key="d6">L23</data>
-      <data key="d7">5</data>
-      <data key="d8">react-dom</data>
-      <data key="d9">base-out</data>
-      <data key="d10">package_dependencies_react_dom</data>
-    </node>
-    <node id="base-out::package_dependencies_supabase_ssr">
-      <data key="d3">@supabase/ssr</data>
-      <data key="d4">code</data>
-      <data key="d5">package.json</data>
-      <data key="d6">L18</data>
-      <data key="d7">5</data>
-      <data key="d8">@supabase/ssr</data>
-      <data key="d9">base-out</data>
-      <data key="d10">package_dependencies_supabase_ssr</data>
-    </node>
-    <node id="base-out::package_dependencies_supabase_supabase_js">
-      <data key="d3">@supabase/supabase-js</data>
-      <data key="d4">code</data>
-      <data key="d5">package.json</data>
-      <data key="d6">L19</data>
-      <data key="d7">5</data>
-      <data key="d8">@supabase/supabase-js</data>
-      <data key="d9">base-out</data>
-      <data key="d10">package_dependencies_supabase_supabase_js</data>
-    </node>
-    <node id="base-out::lucide_react">
-      <data key="d3">lucide-react</data>
-      <data key="d4">concept</data>
-      <data key="d5">package.json</data>
-      <data key="d6">L20</data>
-      <data key="d7">5</data>
-      <data key="d8">lucide-react</data>
-      <data key="d9">base-out</data>
-      <data key="d10">lucide_react</data>
-    </node>
-    <node id="base-out::package_json_next">
-      <data key="d3">next</data>
-      <data key="d4">concept</data>
-      <data key="d5">package.json</data>
-      <data key="d6">L21</data>
-      <data key="d7">5</data>
-      <data key="d8">next</data>
-      <data key="d9">base-out</data>
-      <data key="d10">package_json_next</data>
-    </node>
-    <node id="base-out::react_dom">
-      <data key="d3">react-dom</data>
-      <data key="d4">concept</data>
-      <data key="d5">package.json</data>
-      <data key="d6">L23</data>
-      <data key="d7">5</data>
-      <data key="d8">react-dom</data>
-      <data key="d9">base-out</data>
-      <data key="d10">react_dom</data>
-    </node>
-    <node id="base-out::supabase_ssr">
-      <data key="d3">@supabase/ssr</data>
-      <data key="d4">concept</data>
-      <data key="d5">package.json</data>
-      <data key="d6">L18</data>
-      <data key="d7">5</data>
-      <data key="d8">@supabase/ssr</data>
-      <data key="d9">base-out</data>
-      <data key="d10">supabase_ssr</data>
-    </node>
-    <node id="base-out::supabase_supabase_js">
-      <data key="d3">@supabase/supabase-js</data>
-      <data key="d4">concept</data>
-      <data key="d5">package.json</data>
-      <data key="d6">L19</data>
-      <data key="d7">5</data>
-      <data key="d8">@supabase/supabase-js</data>
-      <data key="d9">base-out</data>
-      <data key="d10">supabase_supabase_js</data>
+      <data key="d10">supabase_migrations_009_v2_0_0_material_mime_allowlist</data>
     </node>
     <node id="base-out::lib_material_validation">
       <data key="d3">material-validation.mjs</data>
       <data key="d4">code</data>
       <data key="d5">lib/material-validation.mjs</data>
       <data key="d6">L1</data>
-      <data key="d7">7</data>
+      <data key="d7">6</data>
       <data key="d8">material-validation.mjs</data>
       <data key="d9">base-out</data>
       <data key="d10">lib_material_validation</data>
@@ -2249,7 +2289,7 @@
       <data key="d4">code</data>
       <data key="d5">lib/material-validation.mjs</data>
       <data key="d6">L3</data>
-      <data key="d7">7</data>
+      <data key="d7">6</data>
       <data key="d8">allowed_types</data>
       <data key="d9">base-out</data>
       <data key="d10">lib_material_validation_allowed_types</data>
@@ -2259,7 +2299,7 @@
       <data key="d4">code</data>
       <data key="d5">lib/material-validation.mjs</data>
       <data key="d6">L30</data>
-      <data key="d7">7</data>
+      <data key="d7">6</data>
       <data key="d8">container_types</data>
       <data key="d9">base-out</data>
       <data key="d10">lib_material_validation_container_types</data>
@@ -2269,7 +2309,7 @@
       <data key="d4">code</data>
       <data key="d5">lib/material-validation.mjs</data>
       <data key="d6">L29</data>
-      <data key="d7">7</data>
+      <data key="d7">6</data>
       <data key="d8">extension_types</data>
       <data key="d9">base-out</data>
       <data key="d10">lib_material_validation_extension_types</data>
@@ -2279,7 +2319,7 @@
       <data key="d4">code</data>
       <data key="d5">lib/material-validation.mjs</data>
       <data key="d6">L28</data>
-      <data key="d7">7</data>
+      <data key="d7">6</data>
       <data key="d8">extensions</data>
       <data key="d9">base-out</data>
       <data key="d10">lib_material_validation_extensions</data>
@@ -2289,7 +2329,7 @@
       <data key="d4">code</data>
       <data key="d5">lib/material-validation.mjs</data>
       <data key="d6">L1</data>
-      <data key="d7">7</data>
+      <data key="d7">6</data>
       <data key="d8">max_bytes</data>
       <data key="d9">base-out</data>
       <data key="d10">lib_material_validation_max_bytes</data>
@@ -2299,7 +2339,7 @@
       <data key="d4">code</data>
       <data key="d5">lib/material-validation.mjs</data>
       <data key="d6">L31</data>
-      <data key="d7">7</data>
+      <data key="d7">6</data>
       <data key="d8">text_types</data>
       <data key="d9">base-out</data>
       <data key="d10">lib_material_validation_text_types</data>
@@ -2309,7 +2349,7 @@
       <data key="d4">code</data>
       <data key="d5">tests/material-validation.test.mjs</data>
       <data key="d6">L1</data>
-      <data key="d7">7</data>
+      <data key="d7">6</data>
       <data key="d8">material-validation.test.mjs</data>
       <data key="d9">base-out</data>
       <data key="d10">tests_material_validation_test</data>
@@ -2445,7 +2485,7 @@
       <data key="d10">components_site_header_links</data>
     </node>
     <node id="base-out::docs_PROJECT_CONTEXT_v2_0_0_md">
-      <data key="d3">SU2QC project context v2.0.0</data>
+      <data key="d3">SU2QC Project Context v2.0.0</data>
       <data key="d4">document</data>
       <data key="d5">docs/PROJECT_CONTEXT_v2.0.0.md</data>
       <data key="d6" />
@@ -2453,10 +2493,28 @@
       <data key="d12" />
       <data key="d13" />
       <data key="d14" />
-      <data key="d7">11</data>
+      <data key="d7">12</data>
       <data key="d8">su2qc project context v2.0.0</data>
       <data key="d9">base-out</data>
       <data key="d10">docs_PROJECT_CONTEXT_v2_0_0_md</data>
+    </node>
+    <node id="base-out::design_md">
+      <data key="d3">Design System: SU2QC</data>
+      <data key="d4">document</data>
+      <data key="d5">DESIGN.md</data>
+      <data key="d7">2</data>
+      <data key="d8">design system: su2qc</data>
+      <data key="d9">base-out</data>
+      <data key="d10">design_md</data>
+    </node>
+    <node id="base-out::product_md">
+      <data key="d3">Product</data>
+      <data key="d4">document</data>
+      <data key="d5">PRODUCT.md</data>
+      <data key="d7">2</data>
+      <data key="d8">product</data>
+      <data key="d9">base-out</data>
+      <data key="d10">product_md</data>
     </node>
     <node id="base-out::docs_qa_checklist">
       <data key="d3">QA Checklist</data>
@@ -2489,7 +2547,7 @@
       <data key="d3">Kwangmin Yu Investigator Photo</data>
       <data key="d4">image</data>
       <data key="d5">public/images/investigators/kwangmin-yu.jpeg</data>
-      <data key="d7">39</data>
+      <data key="d7">45</data>
       <data key="d8">kwangmin yu investigator photo</data>
       <data key="d9">base-out</data>
       <data key="d10">public_images_investigators_kwangmin_yu_jpeg</data>
@@ -2498,7 +2556,7 @@
       <data key="d3">Paulo F Bedaque Investigator Photo</data>
       <data key="d4">image</data>
       <data key="d5">public/images/investigators/paulo-f-bedaque.jpg</data>
-      <data key="d7">40</data>
+      <data key="d7">46</data>
       <data key="d8">paulo f bedaque investigator photo</data>
       <data key="d9">base-out</data>
       <data key="d10">public_images_investigators_paulo_f_bedaque_jpg</data>
@@ -2507,7 +2565,7 @@
       <data key="d3">Raza Sabbir Sufian Investigator Photo</data>
       <data key="d4">image</data>
       <data key="d5">public/images/investigators/raza-sabbir-sufian.png</data>
-      <data key="d7">41</data>
+      <data key="d7">47</data>
       <data key="d8">raza sabbir sufian investigator photo</data>
       <data key="d9">base-out</data>
       <data key="d10">public_images_investigators_raza_sabbir_sufian_png</data>
@@ -2516,7 +2574,7 @@
       <data key="d3">Taku Izubuchi Investigator Image</data>
       <data key="d4">image</data>
       <data key="d5">public/images/investigators/taku-izubuchi.jpg</data>
-      <data key="d7">42</data>
+      <data key="d7">48</data>
       <data key="d8">taku izubuchi investigator image</data>
       <data key="d9">base-out</data>
       <data key="d10">public_images_investigators_taku_izubuchi</data>
@@ -2525,7 +2583,7 @@
       <data key="d3">Md Habib E Islam Digonto Person Image</data>
       <data key="d4">image</data>
       <data key="d5">public/images/people/md-habib-e-islam-digonto.webp</data>
-      <data key="d7">43</data>
+      <data key="d7">49</data>
       <data key="d8">md habib e islam digonto person image</data>
       <data key="d9">base-out</data>
       <data key="d10">public_images_people_md_habib_e_islam_digonto</data>
@@ -2534,7 +2592,7 @@
       <data key="d3">SU2QC Hero Image</data>
       <data key="d4">image</data>
       <data key="d5">public/images/su2qc-hero.png</data>
-      <data key="d7">44</data>
+      <data key="d7">50</data>
       <data key="d8">su2qc hero image</data>
       <data key="d9">base-out</data>
       <data key="d10">public_images_su2qc_hero_png</data>
@@ -2543,28 +2601,10 @@
       <data key="d3">SU2QC Logo</data>
       <data key="d4">image</data>
       <data key="d5">public/images/su2qc-logo.png</data>
-      <data key="d7">45</data>
+      <data key="d7">51</data>
       <data key="d8">su2qc logo</data>
       <data key="d9">base-out</data>
       <data key="d10">public_images_su2qc_logo_png</data>
-    </node>
-    <node id="base-out::design_md">
-      <data key="d3">Design System: SU2QC</data>
-      <data key="d4">document</data>
-      <data key="d5">DESIGN.md</data>
-      <data key="d7">6</data>
-      <data key="d8">design system: su2qc</data>
-      <data key="d9">base-out</data>
-      <data key="d10">design_md</data>
-    </node>
-    <node id="base-out::product_md">
-      <data key="d3">Product</data>
-      <data key="d4">document</data>
-      <data key="d5">PRODUCT.md</data>
-      <data key="d7">6</data>
-      <data key="d8">product</data>
-      <data key="d9">base-out</data>
-      <data key="d10">product_md</data>
     </node>
     <node id="semantic-out-0-0::edge_side_bibtex_parsing">
       <data key="d3">Edge-Side BibTeX Parsing</data>
@@ -3383,15 +3423,6 @@
       <data key="d8">next_public_supabase_url</data>
       <data key="d9">semantic-out-9-1</data>
       <data key="d10">next_public_supabase_url</data>
-    </node>
-    <node id="semantic-out-9-2::docs_EXECUTION_REPORT_v1_8_2_md">
-      <data key="d3">EXECUTION_REPORT_v1.8.2.md</data>
-      <data key="d4">document</data>
-      <data key="d5">docs/EXECUTION_REPORT_v1.8.2.md</data>
-      <data key="d7">0</data>
-      <data key="d8">execution_report_v1.8.2.md</data>
-      <data key="d9">semantic-out-9-2</data>
-      <data key="d10">docs_EXECUTION_REPORT_v1_8_2_md</data>
     </node>
     <node id="semantic-out-9-2::docs_PROJECT_CONTEXT_v1_8_2_md">
       <data key="d3">PROJECT_CONTEXT_v1.8.2.md</data>
@@ -5047,6 +5078,22 @@
       <data key="d16">collection</data>
       <data key="d22">0.5</data>
     </edge>
+    <edge source="base-out::lib_rate_limit_allowrequest" target="base-out::lib_rate_limit">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/rate-limit.mjs</data>
+      <data key="d19">L3</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::tests_repository_test_text" target="base-out::tests_repository_test">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">tests/repository.test.mjs</data>
+      <data key="d19">L6</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
     <edge source="base-out::scripts_docs_graph_build" target="base-out::scripts_docs_graph_includedfiles">
       <data key="d15">calls</data>
       <data key="d16">call</data>
@@ -5395,22 +5442,6 @@
       <data key="d17">EXTRACTED</data>
       <data key="d18">scripts/docs-graph.mjs</data>
       <data key="d19">L98</data>
-      <data key="d20">1</data>
-      <data key="d21">1</data>
-    </edge>
-    <edge source="base-out::lib_rate_limit_allowrequest" target="base-out::lib_rate_limit">
-      <data key="d15">contains</data>
-      <data key="d17">EXTRACTED</data>
-      <data key="d18">lib/rate-limit.mjs</data>
-      <data key="d19">L3</data>
-      <data key="d20">1</data>
-      <data key="d21">1</data>
-    </edge>
-    <edge source="base-out::tests_repository_test_text" target="base-out::tests_repository_test">
-      <data key="d15">contains</data>
-      <data key="d17">EXTRACTED</data>
-      <data key="d18">tests/repository.test.mjs</data>
-      <data key="d19">L6</data>
       <data key="d20">1</data>
       <data key="d21">1</data>
     </edge>
@@ -6348,6 +6379,139 @@
       <data key="d20">1</data>
       <data key="d21">1</data>
     </edge>
+    <edge source="base-out::package_dependencies" target="base-out::package">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L17</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies" target="base-out::package_dependencies_supabase_ssr">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L18</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies" target="base-out::package_dependencies_supabase_supabase_js">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L19</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies" target="base-out::package_dependencies_lucide_react">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L20</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies" target="base-out::package_dependencies_next">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L21</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies" target="base-out::package_dependencies_react">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L22</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies" target="base-out::package_dependencies_react_dom">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L23</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies_lucide_react" target="base-out::lucide_react">
+      <data key="d15">imports</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L20</data>
+      <data key="d20">1</data>
+      <data key="d16">import</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies_next" target="base-out::package_json_next">
+      <data key="d15">imports</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L21</data>
+      <data key="d20">1</data>
+      <data key="d16">import</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies_react_dom" target="base-out::react_dom">
+      <data key="d15">imports</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L23</data>
+      <data key="d20">1</data>
+      <data key="d16">import</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies_supabase_ssr" target="base-out::supabase_ssr">
+      <data key="d15">imports</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L18</data>
+      <data key="d20">1</data>
+      <data key="d16">import</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::package_dependencies_supabase_supabase_js" target="base-out::supabase_supabase_js">
+      <data key="d15">imports</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">package.json</data>
+      <data key="d19">L19</data>
+      <data key="d20">1</data>
+      <data key="d16">import</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::lib_rate_limit" target="base-out::lib_rate_limit_buckets">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">lib/rate-limit.mjs</data>
+      <data key="d19">L1</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_migrations_002_live_supabase_bootstrap" target="base-out::supabase_migrations_002_live_supabase_bootstrap_public_materials">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/migrations/002_live_supabase_bootstrap.sql</data>
+      <data key="d19">L41</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::next_config" target="base-out::next_config_nextconfig">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">next.config.mjs</data>
+      <data key="d19">L2</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
+    <edge source="base-out::supabase_migrations_008_v2_0_0_member_email_security_definer" target="base-out::supabase_migrations_008_v2_0_0_member_email_security_definer_public_is_active_member_for_email">
+      <data key="d15">contains</data>
+      <data key="d17">EXTRACTED</data>
+      <data key="d18">supabase/migrations/008_v2_0_0_member_email_security_definer.sql</data>
+      <data key="d19">L5</data>
+      <data key="d20">1</data>
+      <data key="d21">1</data>
+    </edge>
     <edge source="base-out::scripts_docs_graph" target="base-out::scripts_docs_graph_majornotes">
       <data key="d15">contains</data>
       <data key="d17">EXTRACTED</data>
@@ -6401,30 +6565,6 @@
       <data key="d17">EXTRACTED</data>
       <data key="d18">scripts/docs-graph.mjs</data>
       <data key="d19">L9</data>
-      <data key="d20">1</data>
-      <data key="d21">1</data>
-    </edge>
-    <edge source="base-out::lib_rate_limit" target="base-out::lib_rate_limit_buckets">
-      <data key="d15">contains</data>
-      <data key="d17">EXTRACTED</data>
-      <data key="d18">lib/rate-limit.mjs</data>
-      <data key="d19">L1</data>
-      <data key="d20">1</data>
-      <data key="d21">1</data>
-    </edge>
-    <edge source="base-out::supabase_migrations_002_live_supabase_bootstrap" target="base-out::supabase_migrations_002_live_supabase_bootstrap_public_materials">
-      <data key="d15">contains</data>
-      <data key="d17">EXTRACTED</data>
-      <data key="d18">supabase/migrations/002_live_supabase_bootstrap.sql</data>
-      <data key="d19">L41</data>
-      <data key="d20">1</data>
-      <data key="d21">1</data>
-    </edge>
-    <edge source="base-out::next_config" target="base-out::next_config_nextconfig">
-      <data key="d15">contains</data>
-      <data key="d17">EXTRACTED</data>
-      <data key="d18">next.config.mjs</data>
-      <data key="d19">L2</data>
       <data key="d20">1</data>
       <data key="d21">1</data>
     </edge>
@@ -6591,14 +6731,6 @@
       <data key="d20">1</data>
       <data key="d21">1</data>
     </edge>
-    <edge source="base-out::package" target="base-out::package_dependencies">
-      <data key="d15">contains</data>
-      <data key="d17">EXTRACTED</data>
-      <data key="d18">package.json</data>
-      <data key="d19">L17</data>
-      <data key="d20">1</data>
-      <data key="d21">1</data>
-    </edge>
     <edge source="base-out::package" target="base-out::package_name">
       <data key="d15">contains</data>
       <data key="d17">EXTRACTED</data>
@@ -6751,99 +6883,6 @@
       <data key="d18">package.json</data>
       <data key="d19">L9</data>
       <data key="d20">1</data>
-      <data key="d21">1</data>
-    </edge>
-    <edge source="base-out::package_dependencies" target="base-out::package_dependencies_supabase_ssr">
-      <data key="d15">contains</data>
-      <data key="d17">EXTRACTED</data>
-      <data key="d18">package.json</data>
-      <data key="d19">L18</data>
-      <data key="d20">1</data>
-      <data key="d21">1</data>
-    </edge>
-    <edge source="base-out::package_dependencies" target="base-out::package_dependencies_supabase_supabase_js">
-      <data key="d15">contains</data>
-      <data key="d17">EXTRACTED</data>
-      <data key="d18">package.json</data>
-      <data key="d19">L19</data>
-      <data key="d20">1</data>
-      <data key="d21">1</data>
-    </edge>
-    <edge source="base-out::package_dependencies" target="base-out::package_dependencies_lucide_react">
-      <data key="d15">contains</data>
-      <data key="d17">EXTRACTED</data>
-      <data key="d18">package.json</data>
-      <data key="d19">L20</data>
-      <data key="d20">1</data>
-      <data key="d21">1</data>
-    </edge>
-    <edge source="base-out::package_dependencies" target="base-out::package_dependencies_next">
-      <data key="d15">contains</data>
-      <data key="d17">EXTRACTED</data>
-      <data key="d18">package.json</data>
-      <data key="d19">L21</data>
-      <data key="d20">1</data>
-      <data key="d21">1</data>
-    </edge>
-    <edge source="base-out::package_dependencies" target="base-out::package_dependencies_react">
-      <data key="d15">contains</data>
-      <data key="d17">EXTRACTED</data>
-      <data key="d18">package.json</data>
-      <data key="d19">L22</data>
-      <data key="d20">1</data>
-      <data key="d21">1</data>
-    </edge>
-    <edge source="base-out::package_dependencies" target="base-out::package_dependencies_react_dom">
-      <data key="d15">contains</data>
-      <data key="d17">EXTRACTED</data>
-      <data key="d18">package.json</data>
-      <data key="d19">L23</data>
-      <data key="d20">1</data>
-      <data key="d21">1</data>
-    </edge>
-    <edge source="base-out::package_dependencies_lucide_react" target="base-out::lucide_react">
-      <data key="d15">imports</data>
-      <data key="d17">EXTRACTED</data>
-      <data key="d18">package.json</data>
-      <data key="d19">L20</data>
-      <data key="d20">1</data>
-      <data key="d16">import</data>
-      <data key="d21">1</data>
-    </edge>
-    <edge source="base-out::package_dependencies_next" target="base-out::package_json_next">
-      <data key="d15">imports</data>
-      <data key="d17">EXTRACTED</data>
-      <data key="d18">package.json</data>
-      <data key="d19">L21</data>
-      <data key="d20">1</data>
-      <data key="d16">import</data>
-      <data key="d21">1</data>
-    </edge>
-    <edge source="base-out::package_dependencies_react_dom" target="base-out::react_dom">
-      <data key="d15">imports</data>
-      <data key="d17">EXTRACTED</data>
-      <data key="d18">package.json</data>
-      <data key="d19">L23</data>
-      <data key="d20">1</data>
-      <data key="d16">import</data>
-      <data key="d21">1</data>
-    </edge>
-    <edge source="base-out::package_dependencies_supabase_ssr" target="base-out::supabase_ssr">
-      <data key="d15">imports</data>
-      <data key="d17">EXTRACTED</data>
-      <data key="d18">package.json</data>
-      <data key="d19">L18</data>
-      <data key="d20">1</data>
-      <data key="d16">import</data>
-      <data key="d21">1</data>
-    </edge>
-    <edge source="base-out::package_dependencies_supabase_supabase_js" target="base-out::supabase_supabase_js">
-      <data key="d15">imports</data>
-      <data key="d17">EXTRACTED</data>
-      <data key="d18">package.json</data>
-      <data key="d19">L19</data>
-      <data key="d20">1</data>
-      <data key="d16">import</data>
       <data key="d21">1</data>
     </edge>
     <edge source="base-out::lib_material_validation" target="base-out::tests_material_validation_test">
@@ -7191,14 +7230,8 @@
       <data key="d21">1</data>
       <data key="d18">docs/PROJECT_CONTEXT_v1.8.2.md</data>
     </edge>
-    <edge source="semantic-out-9-2::docs_EXECUTION_REPORT_v1_8_2_md" target="semantic-out-9-2::docs_PROJECT_CONTEXT_v1_8_2_md">
-      <data key="d15">references</data>
-      <data key="d17">EXTRACTED</data>
-      <data key="d21">1</data>
-      <data key="d18">docs/PROJECT_CONTEXT_v1.8.2.md</data>
-    </edge>
     <data key="d0">[{"confidence": "EXTRACTED", "confidence_score": 0.75, "id": "semantic-out-0-0::deployment_steps", "label": "Deployment Steps", "nodes": ["semantic-out-0-0::github_pages", "semantic-out-0-0::supabase_migration_runner", "semantic-out-0-0::public_members_allowlist", "semantic-out-0-0::docs_upload_guide_md"], "relation": "participate_in", "source_file": "README.md"}, {"confidence": "EXTRACTED", "confidence_score": 0.75, "id": "semantic-out-0-0::supabase_components", "label": "Supabase Components", "nodes": ["semantic-out-0-0::supabase_browser_email_otp_authentication", "semantic-out-0-0::supabase_edge_functions", "semantic-out-0-0::private_supabase_storage_bucket", "semantic-out-0-0::row_level_security"], "relation": "participate_in", "source_file": "README.md"}]</data>
     <data key="d1">0.9.45</data>
-    <data key="d2">5d48a473b47c3610bef39486373b03d237cfe5dd</data>
+    <data key="d2">05842ad04328b434f25b46e49d4eb28d7c0c8abe</data>
   </graph>
 </graphml>

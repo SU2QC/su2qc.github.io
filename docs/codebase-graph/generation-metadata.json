@@ -4,7 +4,7 @@
   "semantic_model": "qwen2.5-coder:7b",
   "max_concurrency": 1,
   "api_timeout_seconds": 120,
-  "source_commit": "5d48a473b47c3610bef39486373b03d237cfe5dd",
+  "source_commit": "05842ad04328b434f25b46e49d4eb28d7c0c8abe",
   "input_stage": "git archive HEAD",
   "missing_semantic_retries": [
     "README.md",
@@ -20,5 +20,5 @@
   ],
   "failed_semantic_retries": [],
   "raw_graph": "Graphify merge of full extraction plus per-file Graphify retries",
-  "generated_at_utc": "2026-09-07T19:55:12.477Z"
+  "generated_at_utc": "2026-09-07T20:44:05.231Z"
 }

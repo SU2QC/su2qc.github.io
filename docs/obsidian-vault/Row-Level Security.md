@@ -1,7 +1,7 @@
 ---
 title: Row-Level Security
 tags: [su2qc, subsystem]
-source_commit: 5d48a473b47c3610bef39486373b03d237cfe5dd
+source_commit: 05842ad04328b434f25b46e49d4eb28d7c0c8abe
 ---
 
 # Row-Level Security

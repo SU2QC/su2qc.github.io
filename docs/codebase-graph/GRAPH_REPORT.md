@@ -2,29 +2,29 @@
 
 This report describes the authentic Graphify extraction and merge after validation. Graphify-native node IDs are preserved. Out-of-scope or malformed model records are counted in `unresolved-relationships.md` and are not repaired.
 
-- Source commit: `5d48a473b47c3610bef39486373b03d237cfe5dd`
-- Nodes: 324; edges: 448; hyperedges: 2; communities: 34.
+- Source commit: `05842ad04328b434f25b46e49d4eb28d7c0c8abe`
+- Nodes: 327; edges: 448; hyperedges: 2; communities: 36.
 - Edge provenance: EXTRACTED=434, INFERRED=14.
-- Graphify input: 77 included files; 9 documented exclusions.
+- Graphify input: 80 included files; 9 documented exclusions.
 
 ## Node types
 
-- code: 247
+- code: 251
 - concept: 26
-- document: 44
+- document: 43
 - image: 7
 
 ## Edge types
 
 - calls: 91
-- contains: 174
+- contains: 175
 - hosts: 1
 - imports: 85
 - imports_from: 60
 - indirect_call: 7
 - method: 1
 - reads_from: 2
-- references: 16
+- references: 15
 - uses: 9
 - writes_to: 2
 
@@ -59,7 +59,7 @@ This report describes the authentic Graphify extraction and merge after validati
 | `docs/EXECUTION_REPORT_v1.7.0.md` | 2 |
 | `docs/EXECUTION_REPORT_v1.8.0.md` | 2 |
 | `docs/EXECUTION_REPORT_v1.8.1.md` | 3 |
-| `docs/EXECUTION_REPORT_v1.8.2.md` | 21 |
+| `docs/EXECUTION_REPORT_v1.8.2.md` | 20 |
 | `docs/EXECUTION_REPORT_v2.0.0.md` | 1 |
 | `docs/PROJECT_CONTEXT_v1.8.2.md` | 14 |
 | `docs/PROJECT_CONTEXT_v2.0.0.md` | 1 |
@@ -102,6 +102,9 @@ This report describes the authentic Graphify extraction and merge after validati
 | `supabase/migrations/004_v1_4_0_live_supabase_fk_hardening.sql` | 1 |
 | `supabase/migrations/005_v1_6_0_security_hardening.sql` | 1 |
 | `supabase/migrations/006_v2_0_0_people_vault_otp.sql` | 5 |
+| `supabase/migrations/007_v2_0_0_member_email_rls_fix.sql` | 1 |
+| `supabase/migrations/008_v2_0_0_member_email_security_definer.sql` | 2 |
+| `supabase/migrations/009_v2_0_0_material_mime_allowlist.sql` | 1 |
 | `tests/bibtex.test.mjs` | 1 |
 | `tests/edge-functions.test.mjs` | 5 |
 | `tests/material-validation.test.mjs` | 2 |

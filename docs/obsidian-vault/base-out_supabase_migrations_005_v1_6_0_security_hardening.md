@@ -12,7 +12,7 @@ Purpose: Graphify extracted this code from the repository.
 Graphify node ID: `base-out::supabase_migrations_005_v1_6_0_security_hardening`
 Repository source: `supabase/migrations/005_v1_6_0_security_hardening.sql`
 Node type: `code`
-Source commit: `5d48a473b47c3610bef39486373b03d237cfe5dd`
+Source commit: `05842ad04328b434f25b46e49d4eb28d7c0c8abe`
 
 ## Important symbols
 

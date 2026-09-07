@@ -1,7 +1,7 @@
 ---
 title: SU2QC Codebase Map
 tags: [su2qc, graphify, map]
-source_commit: 5d48a473b47c3610bef39486373b03d237cfe5dd
+source_commit: 05842ad04328b434f25b46e49d4eb28d7c0c8abe
 ---
 
 # SU2QC Codebase Map
@@ -37,7 +37,7 @@ Graphify-derived navigation for the first-party SU2QC repository. Node IDs and r
 
 ## Graph coverage
 
-- Nodes: 324; edges: 448; source commit: `5d48a473b47c3610bef39486373b03d237cfe5dd`.
+- Nodes: 327; edges: 448; source commit: `05842ad04328b434f25b46e49d4eb28d7c0c8abe`.
 - [[Graphify Coverage and Limitations]]
 
 ## Graph nodes
@@ -103,6 +103,8 @@ Graphify-derived navigation for the first-party SU2QC repository. Node IDs and r
 - [[base-out_supabase_functions_materials_manage_index_userclient]]
 - [[base-out_supabase_functions_materials_upload_index_adminclient]]
 - [[base-out_supabase_functions_materials_upload_index_userclient]]
+- [[base-out_lib_rate_limit_allowrequest]]
+- [[base-out_tests_repository_test_text]]
 - [[base-out_scripts_docs_graph_build]]
 - [[base-out_scripts_docs_graph_createsemanticretry]]
 - [[base-out_scripts_docs_graph_generatevault]]
@@ -121,8 +123,6 @@ Graphify-derived navigation for the first-party SU2QC repository. Node IDs and r
 - [[base-out_scripts_docs_graph_writegraphreport]]
 - [[base-out_scripts_docs_graph_writejson]]
 - [[base-out_scripts_docs_graph_writemanifests]]
-- [[base-out_lib_rate_limit_allowrequest]]
-- [[base-out_tests_repository_test_text]]
 - [[base-out_app_library_page_library]]
 - [[base-out_app_my_materials_page_mymaterials]]
 - [[base-out_app_page_home]]

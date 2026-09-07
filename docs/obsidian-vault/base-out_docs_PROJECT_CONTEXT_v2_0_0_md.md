@@ -5,18 +5,18 @@ node_type: document
 tags: [su2qc, graphify]
 ---
 
-# SU2QC project context v2.0.0
+# SU2QC Project Context v2.0.0
 
 Purpose: Graphify extracted this document from the repository.
 
 Graphify node ID: `base-out::docs_PROJECT_CONTEXT_v2_0_0_md`
 Repository source: `docs/PROJECT_CONTEXT_v2.0.0.md`
 Node type: `document`
-Source commit: `5d48a473b47c3610bef39486373b03d237cfe5dd`
+Source commit: `05842ad04328b434f25b46e49d4eb28d7c0c8abe`
 
 ## Important symbols
 
-- SU2QC project context v2.0.0
+- SU2QC Project Context v2.0.0
 
 ## Incoming dependencies
 
