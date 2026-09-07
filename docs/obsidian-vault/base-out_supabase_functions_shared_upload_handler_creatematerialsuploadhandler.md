@@ -12,7 +12,7 @@ Purpose: Graphify extracted this code from the repository.
 Graphify node ID: `base-out::supabase_functions_shared_upload_handler_creatematerialsuploadhandler`
 Repository source: `supabase/functions/_shared/upload-handler.js`
 Node type: `code`
-Source commit: `44845fd7b50baf7f794edcb89ba908c4dd0ae8dd`
+Source commit: `eb1053558992b4f82ad47c46fee35d6a2a17e225`
 
 ## Important symbols
 
@@ -26,6 +26,7 @@ Source commit: `44845fd7b50baf7f794edcb89ba908c4dd0ae8dd`
 
 ## Outgoing dependencies
 
+- [[base-out_supabase_functions_shared_authorization_resolveactivemember]]
 - [[base-out_supabase_functions_shared_bibtex_parsebibtex]]
 - [[base-out_supabase_functions_shared_http_bearertoken]]
 - [[base-out_supabase_functions_shared_http_corsheaders]]
@@ -33,7 +34,6 @@ Source commit: `44845fd7b50baf7f794edcb89ba908c4dd0ae8dd`
 - [[base-out_supabase_functions_shared_http_requestorigin]]
 - [[base-out_supabase_functions_shared_material_safefilename]]
 - [[base-out_supabase_functions_shared_material_validatematerialfile]]
-- [[base-out_supabase_functions_shared_upload_handler_findactivemember]]
 - [[base-out_supabase_functions_shared_upload_handler_removeobject]]
 
 ## Responsibilities and security relevance

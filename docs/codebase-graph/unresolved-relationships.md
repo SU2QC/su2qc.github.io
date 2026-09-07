@@ -2,14 +2,29 @@
 
 The raw Graphify merge contained model output outside the declared corpus and malformed records. The final graph keeps only records with an allowed repository-relative source, valid node IDs/labels, valid endpoints, relation, confidence, and provenance. No edges were invented.
 
-- Raw nodes: 309; retained nodes: 265; discarded nodes: 44.
-- Raw edges: 393; retained edges: 348; discarded edges: 45.
+- Raw nodes: 409; retained nodes: 324; discarded nodes: 85.
+- Raw edges: 551; retained edges: 448; discarded edges: 103.
 - Dynamic relationships and omitted model relationships remain unresolved rather than being inferred here.
 
 ## Discarded node samples
 
 ```json
 [
+  {
+    "id": "base-out::public_materials",
+    "source_file": null,
+    "label": "public.materials"
+  },
+  {
+    "id": "base-out::public_members",
+    "source_file": null,
+    "label": "public.members"
+  },
+  {
+    "id": "base-out::public_set_material_updated_at",
+    "source_file": null,
+    "label": "public.set_material_updated_at"
+  },
   {
     "id": "base-out::supabase_migrations_001_initial_sql_public",
     "source_file": null,
@@ -26,64 +41,39 @@ The raw Graphify merge contained model output outside the declared corpus and ma
     "label": "next"
   },
   {
-    "id": "base-out::uv_tool_install_command",
-    "source_file": null,
-    "label": "UV Tool Install Command"
+    "id": "base-out::src_auth_migration_js",
+    "source_file": "src/auth/migration.js",
+    "label": "Auth migration"
   },
   {
-    "id": "base-out::ollama_backend",
-    "source_file": null,
-    "label": "Ollama Backend"
+    "id": "base-out::src_auth_otp_js",
+    "source_file": "src/auth/otp.js",
+    "label": "Auth OTP"
   },
   {
-    "id": "base-out::openai_package",
-    "source_file": null,
-    "label": "OpenAI Package"
+    "id": "base-out::src_auth_session_js",
+    "source_file": "src/auth/session.js",
+    "label": "Auth session"
   },
   {
-    "id": "base-out::tree_sitter_sql",
-    "source_file": null,
-    "label": "Tree Sitter SQL"
+    "id": "base-out::src_materials_download_js",
+    "source_file": "src/materials/download.js",
+    "label": "Materials download"
   },
   {
-    "id": "base-out::nextjs_16_3_1",
-    "source_file": "docs/EXECUTION_REPORT_v1.8.2_md",
-    "label": "Next.js 16.3.1"
+    "id": "base-out::src_materials_manage_js",
+    "source_file": "src/materials/manage.js",
+    "label": "Materials manage"
   },
   {
-    "id": "base-out::ollama_0_30_10",
-    "source_file": "docs/EXECUTION_REPORT_v1.8.2_md",
-    "label": "Ollama 0.30.10"
+    "id": "base-out::src_materials_upload_js",
+    "source_file": "src/materials/upload.js",
+    "label": "Materials upload"
   },
   {
-    "id": "base-out::openai",
-    "source_file": "docs/EXECUTION_REPORT_v1.8.2_md",
-    "label": "OpenAI"
-  },
-  {
-    "id": "base-out::qwen2_5_coder_7b",
-    "source_file": "docs/EXECUTION_REPORT_v1.8.2_md",
-    "label": "Qwen2.5-coder:7b"
-  },
-  {
-    "id": "base-out::next_js_app_router",
-    "source_file": "next.config.js",
-    "label": "Next.js App Router"
-  },
-  {
-    "id": "base-out::setup_py",
-    "source_file": "setup.py",
-    "label": "Setup"
-  },
-  {
-    "id": "base-out::supabase_authentication_database_storage",
-    "source_file": "supabase/config.js",
-    "label": "Supabase Authentication/Database/Storage"
-  },
-  {
-    "id": "base-out::supabase_edge_functions",
-    "source_file": "supabase/edge-functions/upload.js",
-    "label": "Supabase Edge Functions"
+    "id": "base-out::src_materials_validation_js",
+    "source_file": "src/materials/validation.js",
+    "label": "Materials validation"
   },
   {
     "id": "base-out::1",
@@ -126,109 +116,299 @@ The raw Graphify merge contained model output outside the declared corpus and ma
     "label": null
   },
   {
-    "id": "semantic-out-1-0::edge_function_unavailability_error",
+    "id": "base-out::9",
     "source_file": null,
-    "label": "Edge Function unavailability error"
+    "label": null
   },
   {
-    "id": "semantic-out-1-0::expired_sessions_error",
-    "source_file": null,
-    "label": "Expired sessions error"
+    "id": "base-out::normalized_member_alias_table",
+    "source_file": "PRODUCT.md#Capabilities and Constraints",
+    "label": "Normalized Member-Alias Table"
   },
   {
-    "id": "semantic-out-1-0::inactive_members_error",
-    "source_file": null,
-    "label": "Inactive members error"
+    "id": "base-out::supabase_authentication_database_storage",
+    "source_file": "PRODUCT.md#Stack",
+    "label": "Supabase Authentication/Database/Storage"
   },
   {
-    "id": "semantic-out-1-0::invalid_service_response_error",
-    "source_file": null,
-    "label": "Invalid service response error"
+    "id": "base-out::supabase_edge_functions",
+    "source_file": "PRODUCT.md#Stack",
+    "label": "Supabase Edge Functions"
   },
   {
-    "id": "semantic-out-1-0::network_cors_failure_error",
-    "source_file": null,
-    "label": "Network/CORS failure error"
+    "id": "base-out::supabase_service_role_credentials",
+    "source_file": "PRODUCT.md#Capabilities and Constraints",
+    "label": "Supabase Service-Role Credentials"
   },
   {
-    "id": "semantic-out-1-0::validation_upload_error",
-    "source_file": null,
-    "label": "Validation/upload error"
+    "id": "base-out::upload_edge_function",
+    "source_file": "PRODUCT.md#Capabilities and Constraints",
+    "label": "Upload Edge Function"
   },
   {
-    "id": "semantic-out-1-0::built_in_github_pages_run_31990210789",
+    "id": "base-out::EXECUTION_REPORT_v1_8_2",
     "source_file": null,
-    "label": "Built-in GitHub Pages run"
+    "label": null
   },
   {
-    "id": "semantic-out-1-0::gh_pages_deployment_commit_d36c2a0",
+    "id": "base-out::EXECUTION_REPORT_v2_0_0",
     "source_file": null,
-    "label": "Publish v1.6.1 upload remediation commit"
+    "label": null
   },
   {
-    "id": "semantic-out-1-0::main_remediation_commit_37b2631",
+    "id": "base-out::10",
     "source_file": null,
-    "label": "Fix production upload availability states commit"
+    "label": null
   },
   {
-    "id": "semantic-out-1-0::materials_upload_endpoint",
+    "id": "base-out::11",
     "source_file": null,
-    "label": "materials-upload endpoint"
+    "label": null
   },
   {
-    "id": "semantic-out-1-0::supabase_project_ref_zvhachktcgnkxwtdxucj",
+    "id": "base-out::12",
     "source_file": null,
-    "label": "Supabase project ref zvhachktcgnkxwtdxucj"
+    "label": null
   },
   {
-    "id": "semantic-out-1-0::material_download_endpoint",
+    "id": "base-out::13",
     "source_file": null,
-    "label": "material-download endpoint"
+    "label": null
   },
   {
-    "id": "semantic-out-2-1::graphify_cli",
+    "id": "base-out::14",
+    "source_file": null,
+    "label": null
+  },
+  {
+    "id": "base-out::15",
+    "source_file": null,
+    "label": null
+  },
+  {
+    "id": "base-out::16",
+    "source_file": null,
+    "label": null
+  },
+  {
+    "id": "base-out::17",
+    "source_file": null,
+    "label": null
+  },
+  {
+    "id": "base-out::18",
+    "source_file": null,
+    "label": null
+  },
+  {
+    "id": "base-out::19",
+    "source_file": null,
+    "label": null
+  },
+  {
+    "id": "base-out::20",
+    "source_file": null,
+    "label": null
+  },
+  {
+    "id": "base-out::next_js_app_router",
+    "source_file": "PRODUCT.md#Stack",
+    "label": "Next.js App Router"
+  },
+  {
+    "id": "base-out::react",
+    "source_file": "PRODUCT.md#Stack",
+    "label": "React"
+  },
+  {
+    "id": "base-out::member_routes",
+    "source_file": "PRODUCT.md#Capabilities and Constraints",
+    "label": "Member Routes"
+  },
+  {
+    "id": "base-out::public_routes",
+    "source_file": "PRODUCT.md#Capabilities and Constraints",
+    "label": "Public Routes"
+  },
+  {
+    "id": "base-out::existing_public_member_route_implementation",
+    "source_file": "PRODUCT.md#Evidence on Hand",
+    "label": "Existing Public/Member Route Implementation"
+  },
+  {
+    "id": "base-out::labeled_controls",
+    "source_file": "PRODUCT.md#Accessibility & Inclusion",
+    "label": "Labeled Controls"
+  },
+  {
+    "id": "base-out::minimum_44px_interactive_targets",
+    "source_file": "PRODUCT.md#Accessibility & Inclusion",
+    "label": "Minimum 44px Interactive Targets"
+  },
+  {
+    "id": "base-out::named_investigator_data_and_official_profile_links",
+    "source_file": "PRODUCT.md#Evidence on Hand",
+    "label": "Named Investigator Data and Official Profile Links"
+  },
+  {
+    "id": "base-out::production_supabase_project",
+    "source_file": "PRODUCT.md#Evidence on Hand",
+    "label": "Production Supabase Project"
+  },
+  {
+    "id": "base-out::readable_contrast",
+    "source_file": "PRODUCT.md#Accessibility & Inclusion",
+    "label": "Readable Contrast"
+  },
+  {
+    "id": "base-out::reduced_motion_support",
+    "source_file": "PRODUCT.md#Accessibility & Inclusion",
+    "label": "Reduced Motion Support"
+  },
+  {
+    "id": "base-out::semantic_headings",
+    "source_file": "PRODUCT.md#Accessibility & Inclusion",
+    "label": "Semantic Headings"
+  },
+  {
+    "id": "base-out::skip_link",
+    "source_file": "PRODUCT.md#Accessibility & Inclusion",
+    "label": "Skip Link"
+  },
+  {
+    "id": "base-out::supabase_schema_and_policies",
+    "source_file": "PRODUCT.md#Evidence on Hand",
+    "label": "Supabase Schema and Policies"
+  },
+  {
+    "id": "base-out::visible_keyboard_focus",
+    "source_file": "PRODUCT.md#Accessibility & Inclusion",
+    "label": "Visible Keyboard Focus"
+  },
+  {
+    "id": "base-out::public_source_register",
+    "source_file": "PRODUCT.md#Evidence on Hand",
+    "label": "Public Source Register"
+  },
+  {
+    "id": "semantic-out-2-0::gh_pages_deployment_commit_d36c2a0",
+    "source_file": "gh-pages",
+    "label": "Publish v1.6.1 upload remediation"
+  },
+  {
+    "id": "semantic-out-2-0::main_remediation_commit_37b2631",
+    "source_file": "main",
+    "label": "Fix production upload availability states"
+  },
+  {
+    "id": "semantic-out-2-0::built_in_github_pages_run_31990210789",
+    "source_file": "github-pages",
+    "label": "GitHub Pages publication"
+  },
+  {
+    "id": "semantic-out-4-0::app_favicon_ico",
+    "source_file": "app/favicon.ico",
+    "label": "Favicon ICO"
+  },
+  {
+    "id": "semantic-out-5-0::graphify_0_9_30_tool",
+    "source_file": null,
+    "label": "Graphify 0.9.30 Tool"
+  },
+  {
+    "id": "semantic-out-5-0::ollama_backend",
+    "source_file": null,
+    "label": "Ollama Backend"
+  },
+  {
+    "id": "semantic-out-5-0::qwen2_5_coder_7b_model",
+    "source_file": null,
+    "label": "Qwen2.5-coder:7b Model"
+  },
+  {
+    "id": "semantic-out-5-0::supabase_project_zvhachktcgnkxwtdxucj",
+    "source_file": null,
+    "label": "Supabase Project zvhachktcgnkxwtdxucj"
+  },
+  {
+    "id": "semantic-out-5-1::npm_run_lint",
+    "source_file": null,
+    "label": "npm run lint"
+  },
+  {
+    "id": "semantic-out-5-1::npm_test",
+    "source_file": null,
+    "label": "npm test"
+  },
+  {
+    "id": "semantic-out-5-1::impeccable_detect_json_app_components",
+    "source_file": null,
+    "label": "npx impeccable detect --json app components"
+  },
+  {
+    "id": "semantic-out-5-1::impeccable_doctor",
+    "source_file": null,
+    "label": "impeccable doctor"
+  },
+  {
+    "id": "semantic-out-5-1::next_public_site_url_build",
+    "source_file": null,
+    "label": "NEXT_PUBLIC_SITE_URL=https://su2qc.github.io npm run build"
+  },
+  {
+    "id": "semantic-out-5-1::out_favicon_ico",
+    "source_file": null,
+    "label": "out/favicon.ico"
+  },
+  {
+    "id": "semantic-out-5-1::openai_package",
+    "source_file": null,
+    "label": "OpenAI Package"
+  },
+  {
+    "id": "semantic-out-5-1::tree_sitter_sql",
+    "source_file": null,
+    "label": "Tree-sitter SQL"
+  },
+  {
+    "id": "semantic-out-6-1::graphify_cli",
     "source_file": null,
     "label": "Graphify CLI"
   },
   {
-    "id": "semantic-out-2-1::ollama_backend",
+    "id": "semantic-out-6-1::ollama_backend",
     "source_file": null,
     "label": "Ollama backend"
   },
   {
-    "id": "semantic-out-2-1::qwen2_5_coder_7b",
+    "id": "semantic-out-6-1::qwen2_5_coder_7b",
     "source_file": null,
     "label": "qwen2.5-coder:7b"
   },
   {
-    "id": "semantic-out-3-0::app_index_js",
-    "source_file": "app/index.js",
-    "label": "App Index"
-  },
-  {
-    "id": "semantic-out-3-0::components_header_js",
-    "source_file": "components/header.js",
-    "label": "Header Component"
-  },
-  {
-    "id": "semantic-out-3-0::scripts_layout_qa_js",
-    "source_file": "scripts/layout-qa.js",
-    "label": "Layout QA Script"
-  },
-  {
-    "id": "semantic-out-3-0::supabase_functions_upload_js",
-    "source_file": "supabase/functions/upload.js",
-    "label": "Upload Function"
-  },
-  {
-    "id": "semantic-out-3-0::tests_index_js",
-    "source_file": "tests/index.js",
-    "label": "Test Index"
-  },
-  {
-    "id": "semantic-out-3-2::setup_py",
+    "id": "semantic-out-7-1::setup_py",
     "source_file": "setup.py",
-    "label": "setup.py"
+    "label": "Setup Script"
+  },
+  {
+    "id": "semantic-out-7-1::digonto10602_su2qc_website_backup",
+    "source_file": "personal backup",
+    "label": "Personal Backup"
+  },
+  {
+    "id": "semantic-out-7-1::docs_BACKUP_MANIFEST_v1_8_2_json",
+    "source_file": "docs/BACKUP_MANIFEST_v1.8.2.json",
+    "label": "Backup Manifest v1.8.2"
+  },
+  {
+    "id": "semantic-out-9-0::app_index_js",
+    "source_file": "app/index.js",
+    "label": "App Index JS"
+  },
+  {
+    "id": "semantic-out-9-0::components_header_js",
+    "source_file": "components/header.js",
+    "label": "Header JS"
   }
 ]
 ```

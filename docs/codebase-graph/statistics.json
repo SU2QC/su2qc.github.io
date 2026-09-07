@@ -1,34 +1,36 @@
 {
   "generated_by": "Graphify 0.9.45",
-  "source_commit": "44845fd7b50baf7f794edcb89ba908c4dd0ae8dd",
-  "included_files": 66,
-  "nodes": 265,
-  "edges": 348,
+  "source_commit": "eb1053558992b4f82ad47c46fee35d6a2a17e225",
+  "included_files": 77,
+  "nodes": 324,
+  "edges": 448,
   "hyperedges": 2,
-  "communities": 32,
+  "communities": 34,
   "node_types": {
-    "code": 201,
-    "concept": 23,
-    "document": 31,
-    "image": 6,
-    "paper": 4
+    "code": 247,
+    "concept": 26,
+    "document": 44,
+    "image": 7
   },
   "edge_types": {
-    "calls": 59,
-    "conceptually_related_to": 4,
-    "contains": 140,
-    "imports": 63,
-    "imports_from": 44,
-    "indirect_call": 4,
+    "calls": 91,
+    "contains": 174,
+    "hosts": 1,
+    "imports": 85,
+    "imports_from": 60,
+    "indirect_call": 7,
     "method": 1,
-    "references": 33
+    "reads_from": 2,
+    "references": 16,
+    "uses": 9,
+    "writes_to": 2
   },
   "provenance": {
-    "EXTRACTED": 344,
-    "INFERRED": 4
+    "EXTRACTED": 434,
+    "INFERRED": 14
   },
-  "raw_nodes": 309,
-  "raw_edges": 393,
-  "discarded_nodes": 44,
-  "discarded_edges": 45
+  "raw_nodes": 409,
+  "raw_edges": 551,
+  "discarded_nodes": 85,
+  "discarded_edges": 103
 }

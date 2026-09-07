@@ -12,7 +12,7 @@ Purpose: Graphify extracted this document from the repository.
 Graphify node ID: `base-out::docs_qa_checklist`
 Repository source: `docs/QA_CHECKLIST.md`
 Node type: `document`
-Source commit: `7af95d6140552c38f19a61714e95298cc081689b`
+Source commit: `eb1053558992b4f82ad47c46fee35d6a2a17e225`
 
 ## Important symbols
 
@@ -24,7 +24,7 @@ Source commit: `7af95d6140552c38f19a61714e95298cc081689b`
 
 ## Outgoing dependencies
 
-- [[base-out_docs_sources]]
+- [[base-out_docs_upload_guide]]
 
 ## Responsibilities and security relevance
 

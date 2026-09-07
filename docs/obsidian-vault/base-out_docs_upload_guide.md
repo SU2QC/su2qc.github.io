@@ -12,7 +12,7 @@ Purpose: Graphify extracted this document from the repository.
 Graphify node ID: `base-out::docs_upload_guide`
 Repository source: `docs/UPLOAD_GUIDE.md`
 Node type: `document`
-Source commit: `7af95d6140552c38f19a61714e95298cc081689b`
+Source commit: `eb1053558992b4f82ad47c46fee35d6a2a17e225`
 
 ## Important symbols
 
@@ -20,9 +20,7 @@ Source commit: `7af95d6140552c38f19a61714e95298cc081689b`
 
 ## Incoming dependencies
 
-- [[base-out_public_images_investigators_kwangmin_yu_jpeg]]
-- [[base-out_public_images_su2qc_hero_png]]
-- [[base-out_public_images_su2qc_logo_png]]
+- [[base-out_docs_qa_checklist]]
 
 ## Outgoing dependencies
 

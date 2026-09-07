@@ -12,7 +12,7 @@ Purpose: Graphify extracted this code from the repository.
 Graphify node ID: `base-out::lib_bibtex_formatcitation`
 Repository source: `lib/bibtex.mjs`
 Node type: `code`
-Source commit: `44845fd7b50baf7f794edcb89ba908c4dd0ae8dd`
+Source commit: `eb1053558992b4f82ad47c46fee35d6a2a17e225`
 
 ## Important symbols
 
@@ -21,7 +21,9 @@ Source commit: `44845fd7b50baf7f794edcb89ba908c4dd0ae8dd`
 ## Incoming dependencies
 
 - [[base-out_components_library_list_librarylist]]
+- [[base-out_components_vault_list_vaultlist]]
 - [[base-out_components_library_list]]
+- [[base-out_components_vault_list]]
 - [[base-out_tests_bibtex_test]]
 - [[base-out_lib_bibtex]]
 

@@ -5,18 +5,18 @@ node_type: image
 tags: [su2qc, graphify]
 ---
 
-# Paulo F. Bedaque Investigator Photo
+# Paulo F Bedaque Investigator Photo
 
 Purpose: Graphify extracted this image from the repository.
 
 Graphify node ID: `base-out::public_images_investigators_paulo_f_bedaque_jpg`
 Repository source: `public/images/investigators/paulo-f-bedaque.jpg`
 Node type: `image`
-Source commit: `44845fd7b50baf7f794edcb89ba908c4dd0ae8dd`
+Source commit: `eb1053558992b4f82ad47c46fee35d6a2a17e225`
 
 ## Important symbols
 
-- Paulo F. Bedaque Investigator Photo
+- Paulo F Bedaque Investigator Photo
 
 ## Incoming dependencies
 

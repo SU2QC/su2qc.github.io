@@ -12,7 +12,7 @@ Purpose: Graphify extracted this code from the repository.
 Graphify node ID: `base-out::components_section_intro_sectionintro`
 Repository source: `components/section-intro.js`
 Node type: `code`
-Source commit: `44845fd7b50baf7f794edcb89ba908c4dd0ae8dd`
+Source commit: `eb1053558992b4f82ad47c46fee35d6a2a17e225`
 
 ## Important symbols
 
@@ -22,10 +22,12 @@ Source commit: `44845fd7b50baf7f794edcb89ba908c4dd0ae8dd`
 
 - [[base-out_app_library_page]]
 - [[base-out_app_login_page]]
+- [[base-out_app_my_materials_page]]
 - [[base-out_app_page]]
 - [[base-out_app_people_page]]
 - [[base-out_app_research_page]]
 - [[base-out_app_upload_page]]
+- [[base-out_app_vault_page]]
 - [[base-out_components_section_intro]]
 
 ## Outgoing dependencies

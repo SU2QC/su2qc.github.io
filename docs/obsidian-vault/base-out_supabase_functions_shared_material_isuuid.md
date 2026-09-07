@@ -12,7 +12,7 @@ Purpose: Graphify extracted this code from the repository.
 Graphify node ID: `base-out::supabase_functions_shared_material_isuuid`
 Repository source: `supabase/functions/_shared/material.js`
 Node type: `code`
-Source commit: `44845fd7b50baf7f794edcb89ba908c4dd0ae8dd`
+Source commit: `eb1053558992b4f82ad47c46fee35d6a2a17e225`
 
 ## Important symbols
 
@@ -21,7 +21,9 @@ Source commit: `44845fd7b50baf7f794edcb89ba908c4dd0ae8dd`
 ## Incoming dependencies
 
 - [[base-out_supabase_functions_shared_download_handler_creatematerialdownloadhandler]]
+- [[base-out_supabase_functions_shared_manage_handler_creatematerialsmanagehandler]]
 - [[base-out_supabase_functions_shared_download_handler]]
+- [[base-out_supabase_functions_shared_manage_handler]]
 - [[base-out_supabase_functions_shared_material]]
 
 ## Outgoing dependencies

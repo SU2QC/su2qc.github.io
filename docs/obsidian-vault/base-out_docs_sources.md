@@ -12,7 +12,7 @@ Purpose: Graphify extracted this document from the repository.
 Graphify node ID: `base-out::docs_sources`
 Repository source: `docs/SOURCES.md`
 Node type: `document`
-Source commit: `7af95d6140552c38f19a61714e95298cc081689b`
+Source commit: `eb1053558992b4f82ad47c46fee35d6a2a17e225`
 
 ## Important symbols
 
@@ -20,7 +20,6 @@ Source commit: `7af95d6140552c38f19a61714e95298cc081689b`
 
 ## Incoming dependencies
 
-- [[base-out_docs_qa_checklist]]
 - [[base-out_docs_upload_guide]]
 
 ## Outgoing dependencies

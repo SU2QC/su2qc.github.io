@@ -12,7 +12,7 @@ Purpose: Graphify extracted this code from the repository.
 Graphify node ID: `base-out::lib_supabase_config_getpublicconfig`
 Repository source: `lib/supabase/config.js`
 Node type: `code`
-Source commit: `44845fd7b50baf7f794edcb89ba908c4dd0ae8dd`
+Source commit: `eb1053558992b4f82ad47c46fee35d6a2a17e225`
 
 ## Important symbols
 
@@ -22,9 +22,13 @@ Source commit: `44845fd7b50baf7f794edcb89ba908c4dd0ae8dd`
 
 - [[base-out_components_library_list_librarylist]]
 - [[base-out_components_upload_form_uploadform_submit]]
+- [[base-out_components_vault_list_vaultlist_download]]
 - [[base-out_lib_supabase_client_createclient]]
+- [[base-out_components_manage_materials_managementrequest]]
 - [[base-out_components_library_list]]
+- [[base-out_components_manage_materials]]
 - [[base-out_components_upload_form]]
+- [[base-out_components_vault_list]]
 - [[base-out_lib_supabase_client]]
 - [[base-out_tests_supabase_config_test]]
 - [[base-out_lib_supabase_config]]
