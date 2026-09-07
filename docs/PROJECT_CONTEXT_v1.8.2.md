@@ -71,7 +71,7 @@ Remote migration identity is:
 
 The application tables are `public.members` and `public.materials`. Members use lowercase email, display name, role (`admin` or `member`), active status, and timestamps. Materials reference a member, title/description/citation metadata, private storage path, filename, MIME type, bounded size, status, and timestamp. RLS is enabled. The `materials` Storage bucket is private.
 
-The approved operator identity is the active member `misla004@odu.edu` with display name `Md Habib E Islam Digonto`; production checks expose only safe status/count evidence. Unauthenticated users must not upload, insert, update, delete, or download private objects. The Edge Functions are active: `materials-upload` and `material-download`; both are JWT-verifying in application code because the deployed function metadata reports `verify_jwt: false`.
+The approved operator identity is an active member with display name `Md Habib E Islam Digonto`; production checks expose only safe status/count evidence. Unauthenticated users must not upload, insert, update, delete, or download private objects. The Edge Functions are active: `materials-upload` and `material-download`; both are JWT-verifying in application code because the deployed function metadata reports `verify_jwt: false`.
 
 The only current security-advisor warning is `auth_leaked_password_protection`, classified `ACCEPTED — PLAN-GATED` because the dashboard/plan setting is not independently readable through the available read-only project tools. Performance advisories previously recorded four RLS initialization-plan warnings and one informational unused index; no remote change is authorized merely to silence those notices.
 

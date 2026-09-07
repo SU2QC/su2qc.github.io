@@ -82,6 +82,9 @@ button, input, textarea { font: inherit; }
 .tags { display: flex; flex-wrap: wrap; gap: 7px; margin: 20px 0; }
 .tags span { padding: 4px 9px; background: var(--soft); font-size: 12px; }
 .person-card a { display: inline-flex; align-items: center; gap: 6px; }
+.profile-links { display: flex; flex-wrap: wrap; gap: 14px 20px; }
+.monogram { display: grid; place-items: center; color: var(--ink); background: var(--soft); font: 600 31px/1 var(--serif); }
+.monogram.large { width: 120px; height: 150px; }
 .future-team { margin-top: 24px; padding: 28px; border: 1px dashed #aab1bd; }
 .future-team span { font-weight: 800; }
 .future-team p { margin: 4px 0; color: var(--muted); }
@@ -102,8 +105,21 @@ button, input, textarea { font: inherit; }
 .stack label, .upload-card label { display: grid; gap: 7px; font-weight: 750; }
 .stack input, .upload-card input, .upload-card textarea { width: 100%; min-height: 44px; padding: 12px; border: 1px solid #b8bec8; outline: none; background: var(--white); }
 .stack input:focus, .upload-card input:focus, .upload-card textarea:focus { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(49, 87, 213, .14); }
+.stack button:disabled, .upload-card button:disabled { cursor: not-allowed; opacity: .55; }
+.auth-actions { display: flex; flex-wrap: wrap; gap: 10px; }
 .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
 .upload-card label span { color: var(--muted); font-weight: 500; }
+.upload-card select, .vault-tools select { min-height: 44px; padding: 10px; border: 1px solid #b8bec8; background: var(--white); color: var(--ink); }
+.consent { grid-template-columns: auto 1fr !important; align-items: start; font-weight: 500 !important; }
+.consent input { width: 20px !important; min-height: 20px !important; margin-top: 2px; }
+.vault-tools { display: flex; flex-wrap: wrap; align-items: end; gap: 18px; margin-bottom: 28px; }
+.vault-tools > label:not(.search) { display: grid; gap: 7px; font-weight: 750; }
+.management-list { display: grid; gap: 24px; }
+.management-card { padding: 28px; border: 1px solid var(--line); background: var(--white); }
+.management-card h2 { margin: 6px 0 0; font: 600 28px/1.1 var(--serif); }
+.management-card .upload-card { margin-top: 20px; }
+.replace-form { display: flex; flex-wrap: wrap; align-items: end; gap: 14px; margin-top: 20px; padding-top: 20px; border-top: 1px solid var(--line); }
+.replace-form label { display: grid; gap: 7px; font-weight: 750; }
 .form-note, .status { color: var(--muted); font-size: 13px; }
 .upload-card .button { justify-self: start; }
 footer { padding: 58px 0 24px; background: #091529; color: white; }
@@ -136,6 +152,7 @@ footer { padding: 58px 0 24px; background: #091529; color: white; }
   .person-mini { grid-template-columns: 80px 1fr; }
   .person-card { grid-template-columns: 1fr; }
   .person-image { width: 80px; height: 100px; }
+  .monogram.large { width: 80px; height: 100px; }
   .monogram.large { width: 80px; height: 80px; }
   .two-col { grid-template-columns: 1fr; }
   .upload-card, .auth-card { padding: 24px; }

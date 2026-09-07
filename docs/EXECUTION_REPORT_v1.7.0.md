@@ -87,7 +87,7 @@ Read-only MCP evidence for project `zvhachktcgnkxwtdxucj`:
 - `materials-upload` and `material-download` are both ACTIVE, version 1, with custom authorization inside the functions (`verify_jwt: false`).
 - Remote function source confirms exact production CORS origin `https://su2qc.github.io` plus the retained local development origins.
 - No service-role key is used by the static client; service-role access appears only inside the Edge Functions.
-- The approved-member query returned exactly one active row for `misla004@odu.edu`, role `member`, with display name `Md Habib E Islam Digonto`.
+- The approved-member query returned exactly one active operator row, role `member`, with display name `Md Habib E Islam Digonto`.
 
 The leaked-password advisor warning is not suppressed or falsified. Its final classification is blocked pending the plan confirmation in the dashboard checklist above.
 

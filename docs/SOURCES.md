@@ -1,6 +1,6 @@
 # Public content sources
 
-Accessed 2026-08-16.
+Accessed 2026-09-07.
 
 - U.S. Department of Energy, Genesis Mission awards list: https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf
 - NMSU News, “NMSU-led team among those selected for $800 million DOE Genesis Mission”: https://newsroom.nmsu.edu/news/nmsu-led-team-among-those-selected-for--800-million-doe-genesis-mission/s/16c85a82-19d1-45ea-922e-6aba73e11383
@@ -8,6 +8,16 @@ Accessed 2026-08-16.
 - UMD Physics, Paulo Bedaque: https://www.umdphysics.umd.edu/people/faculty/current/item/41-bedaque.html
 - Brookhaven National Laboratory, Taku Izubuchi: https://www.bnl.gov/staff/izubuchi
 - Brookhaven National Laboratory, Kwangmin Yu: https://www.bnl.gov/staff/kyu
+- New Mexico State University, Graduate Student Directory (Juan Gil Fraile is listed as Gil, Juan in Nuclear & Particle Physics Theory): https://phys.nmsu.edu/facultydirectory/grad-student-directory.html
+- Md Habib E Islam Digonto, ORCID: https://orcid.org/0000-0003-2163-2026
+- Md Habib E Islam Digonto, Google Scholar: https://scholar.google.com/citations?hl=en&user=IV7M3egAAAAJ
+- Md Habib E Islam Digonto, INSPIRE-HEP: https://inspirehep.net/authors/1884370
+- Md Habib E Islam Digonto, LinkedIn: https://www.linkedin.com/in/md-habib-e-islam-digonto
+
+People asset provenance:
+
+- Md Habib E Islam Digonto: operator-supplied portrait derivative, stripped of metadata and resized/cropped to 400x400 at `public/images/people/md-habib-e-islam-digonto.webp`.
+- Juan Gil Fraile: no reliably attributable official portrait was found in the NMSU directory or the searched public identity sources; the site uses a `JG` initials placeholder and does not publish an ambiguous photograph.
 
 Biographies in the website are concise paraphrases. Unconfirmed students and postdoctoral researchers are not named.
 

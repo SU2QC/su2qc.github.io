@@ -32,7 +32,7 @@ The local `.env.local` had `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_
 - `get_project_url`: exact project ref `zvhachktcgnkxwtdxucj`.
 - `materials-upload`: `ACTIVE`, version `1`.
 - `material-download`: `ACTIVE`, version `1`.
-- Active approved member lookup for `misla004@odu.edu`: present.
+- Active approved member lookup for the established operator identity: present.
 - Intended member RLS policy: authenticated `SELECT` by lowercased JWT email; anonymous table select is not granted.
 - Production `OPTIONS`: `204`, exact `Access-Control-Allow-Origin: https://su2qc.github.io`, and allowed headers include `authorization`, `apikey`, and `content-type`.
 - Production POST without JWT: `401 Authentication required.` with the exact production origin allowed.

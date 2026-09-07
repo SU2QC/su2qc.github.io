@@ -22,7 +22,7 @@ export default function UploadPage() {
         }
         const user = data?.user;
         if (!user) {
-          window.location.replace("/login?next=/upload");
+          window.location.replace("/login/?next=/upload/");
           return;
         }
         const { data: member, error: memberError } = await client.from("members").select("id,display_name,active").eq("email", user.email?.toLowerCase() || "").maybeSingle();
@@ -34,7 +34,7 @@ export default function UploadPage() {
           if (!cancelled) setState({ status: "denied" });
           return;
         }
-        if (!cancelled) setState({ status: "ready", email: user.email });
+        if (!cancelled) setState({ status: "ready", email: user.email, role: member.role });
       } catch (error) {
         if (!cancelled) setState(error instanceof SupabaseConfigurationError
           ? { status: "error", title: "Configuration required", message: "Set the public Supabase URL and publishable key in .env.local, then restart the static server." }
@@ -49,5 +49,5 @@ export default function UploadPage() {
   if (state.status === "error") return <section className="page-hero shell"><SectionIntro title={state.title} as="h1" className="page-intro">{state.message}</SectionIntro></section>;
   if (state.status === "denied") return <section className="page-hero shell"><SectionIntro title="Member approval required" as="h1" className="page-intro">Authentication alone does not grant upload access. Ask a SU2QC administrator to activate your institutional email.</SectionIntro></section>;
   async function signOut() { await createClient().auth.signOut(); window.location.replace("/login/"); }
-  return <section className="page-hero shell"><SectionIntro title="Share a research artifact." as="h1" className="page-intro">Signed in as {state.email}. Files are published only after a successful, policy-checked upload.</SectionIntro><div className="actions"><button className="button quiet" type="button" onClick={signOut}>Sign out</button></div><UploadForm /></section>;
+  return <section className="page-hero shell"><SectionIntro title="Share a research artifact." as="h1" className="page-intro">Signed in as {state.email}. Choose the private Vault by default, or explicitly acknowledge that Library materials are public.</SectionIntro><div className="actions"><button className="button quiet" type="button" onClick={signOut}>Sign out</button><a className="button quiet" href="/my-materials/">Manage my materials</a></div><UploadForm /></section>;
 }

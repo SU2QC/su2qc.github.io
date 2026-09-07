@@ -28,9 +28,9 @@ All required functional, denial, cleanup, and local regression gates passed. No 
 - `material-download`: `ACTIVE`, version 1.
 - Applied no migration and made no schema, policy, grant, password, Auth, role, active-status, email, ID, or ownership change.
 - Inspected public table RLS, storage RLS, grants, the private `materials` bucket, and the existing migrations. The bucket remained private, with the existing 50 MiB limit and supported MIME types.
-- Before correction, `misla004@odu.edu` matched exactly one active `member` row with display name `Md Habib E Islam`.
+- Before correction, the established operator identity matched exactly one active `member` row with display name `Md Habib E Islam`.
 - Applied the guarded update requested by the gate, changing only `display_name` to `Md Habib E Islam Digonto`.
-- Final verification: exactly one matching row; email `misla004@odu.edu`, role `member`, active `true`, and required display name all passed.
+- Final verification: exactly one matching row; role `member`, active `true`, and required display name all passed.
 - Current source/configuration search found the old name only in historical v1.4 prompt/generated evidence, not in current seed/configuration content; no historical migration or prompt was edited.
 - Supabase security advisor returned the pre-existing warning that leaked-password protection is disabled; it was not changed during this gate.
 

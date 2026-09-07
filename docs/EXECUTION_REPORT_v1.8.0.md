@@ -66,7 +66,7 @@ Read-only MCP results:
 - Migration history: the three v1.4 migrations plus `20260816205504 v1_6_0_security_hardening`; no migration was applied or re-applied.
 - `materials-upload`: `ACTIVE`, version 1.
 - `material-download`: `ACTIVE`, version 1.
-- Active approved member aggregate for `misla004@odu.edu`: `1`.
+- Active approved member aggregate for the established operator identity: `1`.
 - Materials aggregate: `3` rows; private materials storage aggregate: `3` objects; bucket remains private.
 - Anonymous and authenticated execution of `public.rls_auto_enable()` remains disabled.
 - Security advisor: only `auth_leaked_password_protection` remains at `WARN`; classified `ACCEPTED — PLAN-GATED` from operator-confirmed Free plan evidence.

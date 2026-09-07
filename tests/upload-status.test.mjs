@@ -11,8 +11,8 @@ test("upload errors keep configuration, session, network, and response failures 
 });
 
 test("upload responses distinguish denial, unavailability, and validation", () => {
-  assert.match(messageForUploadResponse(403, { error: "This email is not approved for uploads." }), /not approved/);
+  assert.match(messageForUploadResponse(403, { error: "member@example.invalid" }), /access was denied/);
   assert.match(messageForUploadResponse(503), /temporarily unavailable/);
   assert.match(messageForUploadResponse(400, { error: "Use a matching PDF" }), /matching PDF/);
-  assert.match(messageForUploadResponse(201), /Published successfully/);
+  assert.match(messageForUploadResponse(201), /Saved successfully/);
 });

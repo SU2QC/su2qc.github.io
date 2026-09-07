@@ -3,7 +3,7 @@ import { mkdtemp, rm } from "node:fs/promises";
 import net from "node:net";
 
 const base = process.env.SU2QC_BASE_URL || "http://127.0.0.1:3000";
-const routes = ["/", "/research", "/people", "/library", "/login", "/upload"];
+const routes = ["/", "/research", "/people", "/library", "/login", "/upload", "/vault", "/my-materials"];
 const widths = [390, 768, 1024, 1440];
 async function availablePort() {
   const server = net.createServer();

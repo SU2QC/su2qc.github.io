@@ -5,9 +5,9 @@ Academic collaboration website for AI-accelerated quantum simulation of non-Abel
 ## Architecture
 
 - Next.js App Router exported as static HTML for GitHub Pages
-- Supabase browser authentication and RLS-protected public library reads
+- Supabase browser email OTP authentication and RLS-protected public library reads
 - Supabase Edge Functions for authenticated upload validation and signed downloads
-- Private Supabase Storage bucket for PDF, PowerPoint, and Keynote uploads
+- Private Supabase Storage bucket for validated research materials, including documents, source files, notebooks, and code archives
 - Row-level security with the explicit `public.members` allowlist
 - Edge-side BibTeX parsing and conventional formatted references
 
@@ -18,7 +18,7 @@ GitHub Pages hosts only the public static site. Supabase retains authentication,
 1. Create a Supabase project and apply the migrations in `supabase/migrations/` in order, or use the project-scoped Supabase migration runner.
 2. Add approved users to `public.members`, always using lowercase email addresses; authentication alone does not grant upload access.
 3. Copy `.env.example` to `.env.local` and fill in only the public project URL, publishable key, and local site URL. Never put a secret or service-role key in a `NEXT_PUBLIC_*` variable.
-4. Use the repository-local cache, password sign-in, and static preview command in [docs/UPLOAD_GUIDE.md](docs/UPLOAD_GUIDE.md).
+4. Use the repository-local cache, email OTP sign-in, and static preview command in [docs/UPLOAD_GUIDE.md](docs/UPLOAD_GUIDE.md).
 5. In Supabase Auth URL configuration, allow both `http://localhost:3000/**` and `http://127.0.0.1:3000/**` if both local origins are used.
 
 ## Verification

@@ -24,12 +24,13 @@ The site connects field-theory structure, quantum computing, machine learning, a
 
 ## Operating Context
 
-Visitors read the research, people, and library pages on the web. Approved members use institutional-email password authentication to upload PDF, PowerPoint, or Keynote materials with optional BibTeX metadata. Public downloads use short-lived signed URLs from private storage.
+Visitors read the research, people, and public Library pages on the web. Approved members use institutional-email OTP authentication to publish either public Library materials or private Vault materials with optional BibTeX metadata. Public and member downloads use short-lived signed URLs from private storage.
 
 ## Capabilities and Constraints
 
 - Public routes cover the home, research, people, and library experiences.
-- Member routes cover password login, upload, and authenticated material publishing.
+- Member routes cover email OTP login, the private Vault, upload, and owner/admin material management.
+- A normalized member-alias table maps multiple verified emails to one stable member identity without exposing aliases to anonymous users.
 - The upload Edge Function must enforce membership, ownership, file size, extension, MIME type, and file-signature checks.
 - Supabase service-role credentials remain server-only; storage remains private and protected by row-level security.
 - Public claims about people, institutions, and the collaboration use the official sources listed in `docs/SOURCES.md`.
