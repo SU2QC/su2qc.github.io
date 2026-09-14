@@ -136,6 +136,10 @@ test("Vault read RLS separates shared reads from owner management", async () => 
   assert.doesNotMatch(sql, /approved member deletes/);
   assert.match(await text("supabase/migrations/011_v2_1_0_vault_member_read_helper_grant.sql"), /grant execute.*authenticated/s);
   assert.match(await text("supabase/migrations/012_v2_1_0_vault_member_display_name_read.sql"), /active members may view member display names/);
+  const repair = await text("supabase/migrations/013_v2_1_1_restore_single_member_resolution.sql");
+  assert.match(repair, /drop policy if exists "active members may view member display names"/);
+  assert.match(repair, /active_member_display_name/);
+  assert.match(repair, /security_invoker = true/);
 });
 
 test("storage MIME policy matches the v2 upload allowlist", async () => {
@@ -186,9 +190,14 @@ test("public Supabase configuration uses only the modern browser key", async () 
 
 test("Vault and management shells contain no private material at build time", async () => {
   const vault = await text("app/vault/page.js");
+  const vaultClient = await text("components/vault-list.js");
   const manage = await text("app/my-materials/page.js");
   assert.match(vault, /static page contains no private content/);
   assert.match(manage, /Manage materials/);
   assert.doesNotMatch(vault, /storage_path|member_emails|citation_json/);
   assert.doesNotMatch(manage, /storage_path|member_emails/);
+  assert.match(vaultClient, /auth\.getSession/);
+  assert.match(vaultClient, /isMissingAuthSession/);
+  assert.match(vaultClient, /status: "denied"/);
+  assert.match(vaultClient, /status: "error"/);
 });

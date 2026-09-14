@@ -5,6 +5,7 @@ import { Download, FileText, Search } from "lucide-react";
 import { formatCitation } from "../lib/bibtex.mjs";
 import { createClient } from "../lib/supabase/client";
 import { getPublicConfig } from "../lib/supabase/config";
+import { isMissingAuthSession } from "../lib/supabase/auth";
 
 export function VaultList() {
   const [state, setState] = useState({ status: "loading" });
@@ -17,8 +18,12 @@ export function VaultList() {
     async function load() {
       try {
         const client = createClient();
+        const { data: sessionData, error: sessionError } = await client.auth.getSession();
+        if (sessionError && !isMissingAuthSession(sessionError)) throw sessionError;
+        if (!sessionData?.session) { window.location.replace("/login/?next=/vault/"); return; }
         const { data: userData, error: userError } = await client.auth.getUser();
-        if (userError || !userData?.user) { window.location.replace("/login/?next=/vault/"); return; }
+        if (userError && !isMissingAuthSession(userError)) throw userError;
+        if (!userData?.user) { window.location.replace("/login/?next=/vault/"); return; }
         const { data: member, error: memberError } = await client.from("members").select("id,active").maybeSingle();
         if (memberError) throw memberError;
         if (!member?.active) { if (!cancelled) setState({ status: "denied" }); return; }

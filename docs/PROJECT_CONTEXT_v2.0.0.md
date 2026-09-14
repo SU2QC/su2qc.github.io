@@ -62,3 +62,14 @@ Status: `PASS — v2.1.0 verified and published`
 - Release source commit: `8e01b741d2ff738aa8fecb42f39d0455d091bcb4`, tag `v2.1.0`; Pages commit: `5df666d73d97843f21d02af3896711117817e38e`.
 - Current public routes returned HTTP 200. Responsive Chrome automation was attempted twice but remains environment-blocked because Chrome DevTools did not start; the static layout checker itself reports no code-level failures when a browser is available.
 - Personal backup `digonto10602/su2qc-website-backup` was updated to commit `5861795fb48c39b9a5e90a816e8bbf7965b1aa1b` and contains no private Vault data, credentials, proposals, or prompts.
+
+## v2.1.1 production-regression handoff — 2026-09-14
+
+Status: `PARTIAL — production policy and public-client acceptance pass; affected-member browser confirmation required`
+
+- Root cause: migration 012 allowed an approved identity to select all eight active `members` rows so `components/vault-list.js` and `app/upload/page.js` failed at `.maybeSingle()` with PostgREST `PGRST116` before rendering Vault metadata.
+- Migration `013_v2_1_1_restore_single_member_resolution.sql` removes the broad authenticated `members` policy and recreates `materials_member` with a restricted security-definer display-name lookup. Materials RLS remains security-invoker; ownership/admin mutation rules are unchanged.
+- Before repair, two fresh real-member public sessions each had a valid session/user, one active alias-to-member mapping, successful membership RPC, five visible Vault rows, and a successful signed download, but the member query returned eight rows and `PGRST116`.
+- After repair, the same two fresh real-member public sessions each resolve one member row, list all five Vault items, and download an existing item with HTTP 200. Direct private Storage listing remains empty by policy; downloads remain short-lived signed responses.
+- Live browser execution is still required before declaring final PASS: this managed environment denied Chrome network sockets, and the attempted browser reached only Chrome's offline page. No browser success is inferred from the passing public-client test.
+- `tests/vault-public-client.test.mjs` exercises production through browser-role clients and is enabled explicitly with `SU2QC_LIVE_RLS_TEST=1`; its temporary Auth users, member rows, aliases, and material rows are exact-marker cleaned.
