@@ -2,6 +2,13 @@
 
 Accessed 2026-09-07.
 
+Research page sources checked 2026-09-14:
+
+- Alexandru et al., “Gluon Field Digitization for Quantum Computers”: https://arxiv.org/abs/1906.11213
+- Alexandru et al., “Qubitization Strategies for Bosonic Field Theories”: https://arxiv.org/abs/2209.00098
+- Alexandru et al., “Fuzzy Gauge Theory for Quantum Computers”: https://arxiv.org/abs/2308.05253
+- Cataldi, Orlando, and Halimeh, “Real-Time String Dynamics in a 2+1D Non-Abelian Lattice Gauge Theory”: https://arxiv.org/abs/2509.08868
+
 - U.S. Department of Energy, Genesis Mission awards list: https://www.energy.gov/sites/default/files/2026-07/GM-RFA-Awards-List.pdf
 - NMSU News, “NMSU-led team among those selected for $800 million DOE Genesis Mission”: https://newsroom.nmsu.edu/news/nmsu-led-team-among-those-selected-for--800-million-doe-genesis-mission/s/16c85a82-19d1-45ea-922e-6aba73e11383
 - NMSU Physics, Raza Sufian: https://phys.nmsu.edu/facultydirectory/sufian-raza.html

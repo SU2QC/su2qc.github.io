@@ -128,6 +128,16 @@ test("membership policy checks use a restricted security-definer helper", async 
   assert.match(sql, /is_active_member_for_email\(member_id/);
 });
 
+test("Vault read RLS separates shared reads from owner management", async () => {
+  const sql = await text("supabase/migrations/010_v2_1_0_vault_member_read_rls.sql");
+  assert.match(sql, /is_active_member_email/);
+  assert.match(sql, /active members read all materials/);
+  assert.match(sql, /revoke all on function/);
+  assert.doesNotMatch(sql, /approved member deletes/);
+  assert.match(await text("supabase/migrations/011_v2_1_0_vault_member_read_helper_grant.sql"), /grant execute.*authenticated/s);
+  assert.match(await text("supabase/migrations/012_v2_1_0_vault_member_display_name_read.sql"), /active members may view member display names/);
+});
+
 test("storage MIME policy matches the v2 upload allowlist", async () => {
   const sql = await text("supabase/migrations/009_v2_0_0_material_mime_allowlist.sql");
   assert.match(sql, /text\/plain/);

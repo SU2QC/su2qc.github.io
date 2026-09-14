@@ -49,3 +49,13 @@ SU2QC_BASE_URL=http://127.0.0.1:4173 npm run check:layout
 ```
 
 Publication complete: source `03581143b086b2fe11cfd284868aafe3cd8c68f5` is on organization `main`, exact tested `out/` is on Pages commit `6ffce1670209152666ae134afa74e3c29ff88c49`, live routes returned 200, and the private backup was updated and restore-checked.
+
+## Current task handoff — 2026-09-14
+
+Status: `PASS — v2.1.0 member/RLS repair and acceptance complete; publication pending final release gates`
+
+- Applied production migrations `v2_1_0_vault_member_read_rls`, `v2_1_0_vault_member_read_helper_grant`, and `v2_1_0_vault_member_display_name_read`: approved-member reads now use a membership-wide helper and shared display-name join policy; owner/admin update/delete authorization remains unchanged.
+- Paulo privacy check: two Vault metadata rows, both with matching private Storage objects; no contents opened. This detail is intentionally not published elsewhere.
+- New member provisioning completed idempotently through the server-side admin path: exactly one Auth identity, one active normal member, and one active alias; no admin role, public People entry, or email literal was added to committed public files.
+- Research page was rewritten with original publication-safe copy and public sources added to `docs/SOURCES.md`; no private proposal material was used as a source.
+- Two-member acceptance passed: cross-list, cross-download, anonymous/unapproved/revoked denial, and cross-member update/delete denial. Temporary identities, rows, aliases, and objects were removed.
