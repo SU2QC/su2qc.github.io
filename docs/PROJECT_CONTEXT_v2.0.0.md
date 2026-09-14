@@ -67,7 +67,7 @@ Status: `PASS — v2.1.0 verified and published`
 
 Status: `PARTIAL — production policy and public-client acceptance pass; affected-member browser confirmation required`
 
-- Root cause: migration 012 allowed an approved identity to select all eight active `members` rows so `components/vault-list.js` and `app/upload/page.js` failed at `.maybeSingle()` with PostgREST `PGRST116` before rendering Vault metadata.
+- Root cause: migration 012 allowed an approved identity to select all eight active `members` rows so `components/vault-list.js` and `app/upload/page.js` failed at `.maybeSingle()` with HTTP 406 / PostgREST `PGRST116` before rendering Vault metadata.
 - Migration `013_v2_1_1_restore_single_member_resolution.sql` removes the broad authenticated `members` policy and recreates `materials_member` with a restricted security-definer display-name lookup. Materials RLS remains security-invoker; ownership/admin mutation rules are unchanged.
 - Before repair, two fresh real-member public sessions each had a valid session/user, one active alias-to-member mapping, successful membership RPC, five visible Vault rows, and a successful signed download, but the member query returned eight rows and `PGRST116`.
 - After repair, the same two fresh real-member public sessions each resolve one member row, list all five Vault items, and download an existing item with HTTP 200. Direct private Storage listing remains empty by policy; downloads remain short-lived signed responses.
