@@ -52,10 +52,13 @@ Publication complete: source `03581143b086b2fe11cfd284868aafe3cd8c68f5` is on or
 
 ## Current task handoff — 2026-09-14
 
-Status: `PASS — v2.1.0 member/RLS repair and acceptance complete; publication pending final release gates`
+Status: `PASS — v2.1.0 verified and published`
 
 - Applied production migrations `v2_1_0_vault_member_read_rls`, `v2_1_0_vault_member_read_helper_grant`, and `v2_1_0_vault_member_display_name_read`: approved-member reads now use a membership-wide helper and shared display-name join policy; owner/admin update/delete authorization remains unchanged.
 - Paulo privacy check: two Vault metadata rows, both with matching private Storage objects; no contents opened. This detail is intentionally not published elsewhere.
 - New member provisioning completed idempotently through the server-side admin path: exactly one Auth identity, one active normal member, and one active alias; no admin role, public People entry, or email literal was added to committed public files.
 - Research page was rewritten with original publication-safe copy and public sources added to `docs/SOURCES.md`; no private proposal material was used as a source.
 - Two-member acceptance passed: cross-list, cross-download, anonymous/unapproved/revoked denial, and cross-member update/delete denial. Temporary identities, rows, aliases, and objects were removed.
+- Release source commit: `8e01b741d2ff738aa8fecb42f39d0455d091bcb4`, tag `v2.1.0`; Pages commit: `5df666d73d97843f21d02af3896711117817e38e`.
+- Current public routes returned HTTP 200. Responsive Chrome automation was attempted twice but remains environment-blocked because Chrome DevTools did not start; the static layout checker itself reports no code-level failures when a browser is available.
+- Personal backup `digonto10602/su2qc-website-backup` was updated to commit `5861795fb48c39b9a5e90a816e8bbf7965b1aa1b` and contains no private Vault data, credentials, proposals, or prompts.
