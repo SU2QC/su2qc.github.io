@@ -83,3 +83,6 @@ Status: `PASS — Juan Gil Fraile portrait verified and published`
 - Replaced Juan's initials fallback with the operator-supplied headshot.
 - The public derivative is a metadata-stripped 400x500 WebP aligned with the existing People-card crop; the ignored source JPEG remains local and is not published or backed up.
 - Application behavior, Vault authorization, and the established OTP flow are unchanged.
+- Verification passed: 35/35 tests including the live browser-role Vault suite, lint, production build, documentation validation, Graphify update, static-export wiring, tracked/export secret scans, and all eight live routes at HTTP 200. Chrome responsive automation remains host-blocked at its local DevTools socket; responsive CSS was unchanged.
+- Release source commit `cd9ded0b609cdb955f27c505c967062a8d940099` is tagged `v2.1.2`; Pages commit `8d6bcc99441673c37cd87c70503a310bf724bd75` is live. The live portrait matches the tested artifact at SHA-256 `e4f9cba06cf20a699b406efe48d3700442c6d091caff79bae39993184bb89e1e`.
+- The curated private backup is synchronized after this handoff commit; its final remote commit is reported in the operator response to avoid self-referential rewriting.
