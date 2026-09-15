@@ -24,7 +24,7 @@ Research page sources checked 2026-09-14:
 People asset provenance:
 
 - Md Habib E Islam Digonto: operator-supplied portrait derivative, stripped of metadata and resized/cropped to 400x400 at `public/images/people/md-habib-e-islam-digonto.webp`.
-- Juan Gil Fraile: no reliably attributable official portrait was found in the NMSU directory or the searched public identity sources; the site uses a `JG` initials placeholder and does not publish an ambiguous photograph.
+- Juan Gil Fraile: operator-supplied portrait derivative, stripped of metadata and resized/cropped to 400x500 at `public/images/people/juan-gil-fraile.webp`.
 
 Biographies in the website are concise paraphrases. Unconfirmed students and postdoctoral researchers are not named.
 

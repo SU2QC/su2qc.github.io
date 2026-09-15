@@ -18,6 +18,7 @@ test("approved hero and investigator assets are wired to the matching people", a
     "public/images/investigators/taku-izubuchi.jpg",
     "public/images/investigators/kwangmin-yu.jpeg",
     "public/images/people/md-habib-e-islam-digonto.webp",
+    "public/images/people/juan-gil-fraile.webp",
   ]) await access(new URL(`../${asset}`, import.meta.url), constants.R_OK);
   const home = await text("app/page.js");
   const people = await text("data/people.js");
@@ -28,7 +29,7 @@ test("approved hero and investigator assets are wired to the matching people", a
   assert.match(people, /taku-izubuchi\.jpg/);
   assert.match(people, /kwangmin-yu\.jpeg/);
   assert.match(people, /md-habib-e-islam-digonto\.webp/);
-  assert.match(people, /juan-gil-fraile/);
+  assert.match(people, /juan-gil-fraile\.webp/);
 });
 
 test("investigator source portraits map one-to-one to emitted assets", async () => {
@@ -49,7 +50,7 @@ test("investigator source portraits map one-to-one to emitted assets", async () 
   assert.equal((people.match(/imageAlt:"[^"]+"/g) || []).length, mappings.length + 2);
   assert.equal((people.match(/image:"\/images\/investigators\/[^"]+"/g) || []).length, mappings.length);
   assert.equal(new Set(people.match(/image:"(\/images\/investigators\/[^\"]+)"/g)).size, mappings.length);
-  assert.match(people, /imageAlt:"Initials placeholder for Juan Gil Fraile"/);
+  assert.match(people, /imageAlt:"Portrait of Juan Gil Fraile"/);
 });
 
 test("favicon is a checked-in ICO and is referenced by root metadata", async () => {

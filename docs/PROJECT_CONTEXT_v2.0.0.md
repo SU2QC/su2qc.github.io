@@ -15,7 +15,7 @@ The public Library is for published `visibility = 'library'` materials. The webs
 - Member shells: `/login/`, `/upload/`, `/vault/`, `/my-materials/`.
 - Vault and management shells are static and contain no private metadata at build time. Runtime requests require a Supabase Auth session and active membership.
 - Md Habib E Islam Digonto is represented with the supplied 400x400 metadata-stripped WebP derivative at `public/images/people/md-habib-e-islam-digonto.webp`, plus four source-backed profile links.
-- Juan Gil Fraile is represented with a `JG` initials placeholder because no reliably attributable official portrait was found; the NMSU directory link is recorded in `docs/SOURCES.md`.
+- Juan Gil Fraile is represented with the supplied 400x500 metadata-stripped WebP derivative at `public/images/people/juan-gil-fraile.webp`; the NMSU directory link and asset provenance are recorded in `docs/SOURCES.md`.
 
 ## Auth and membership
 
@@ -65,13 +65,21 @@ Status: `PASS — v2.1.0 verified and published`
 
 ## v2.1.1 production-regression handoff — 2026-09-14
 
-Status: `PARTIAL — production policy and public-client acceptance pass; affected-member browser confirmation required`
+Status: `PASS — production policy, public-client acceptance, and affected-member browser path verified`
 
 - Root cause: migration 012 allowed an approved identity to select all eight active `members` rows so `components/vault-list.js` and `app/upload/page.js` failed at `.maybeSingle()` with HTTP 406 / PostgREST `PGRST116` before rendering Vault metadata.
 - Migration `013_v2_1_1_restore_single_member_resolution.sql` removes the broad authenticated `members` policy and recreates `materials_member` with a restricted security-definer display-name lookup. Materials RLS remains security-invoker; ownership/admin mutation rules are unchanged.
 - Before repair, two fresh real-member public sessions each had a valid session/user, one active alias-to-member mapping, successful membership RPC, five visible Vault rows, and a successful signed download, but the member query returned eight rows and `PGRST116`.
 - After repair, the same two fresh real-member public sessions each resolve one member row, list all five Vault items, and download an existing item with HTTP 200. Direct private Storage listing remains empty by policy; downloads remain short-lived signed responses.
-- Live browser execution is still required before declaring final PASS: this managed environment denied Chrome network sockets, and the attempted browser reached only Chrome's offline page. No browser success is inferred from the passing public-client test.
+- The affected real member subsequently confirmed that the production browser path works. This operator confirmation closes the browser-only acceptance gate that the managed environment could not execute.
 - `tests/vault-public-client.test.mjs` exercises production through browser-role clients and is enabled explicitly with `SU2QC_LIVE_RLS_TEST=1`; its temporary Auth users, member rows, aliases, and material rows are exact-marker cleaned.
 - Release code commit `f2bc139610243f4ec4d25440d41af36d47e6c4a0` is tagged `v2.1.1`; Pages commit `37b5d4a29914c8775d2737dea483ea6b9eb2a5c5` is live and all eight routes return HTTP 200.
 - The curated private backup is synchronized after this handoff commit; its final remote commit is reported in the operator response to avoid self-referential rewriting.
+
+## v2.1.2 portrait update — 2026-09-14
+
+Status: `PASS — Juan Gil Fraile portrait verified and published`
+
+- Replaced Juan's initials fallback with the operator-supplied headshot.
+- The public derivative is a metadata-stripped 400x500 WebP aligned with the existing People-card crop; the ignored source JPEG remains local and is not published or backed up.
+- Application behavior, Vault authorization, and the established OTP flow are unchanged.
